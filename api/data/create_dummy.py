@@ -372,12 +372,12 @@ for i in range(100):
 coupons = []
 for i in range(100):
     coupons.append(
-        create_coupon(random.randint(1, 100_000), random.randint(1, 100_000))
+        create_coupon(random.choice(users).user_id, random.randint(1, 100_000))
     )
 
 # run in root of project with `python -m api.tools.create_dummy`
 # Write data to file
-with open("./api/tools/dummy.json", "w") as f:
+with open("./api/data/dummy.json", "w") as f:
     json.dump(
         {
             "users": [user.dict() for user in users],
