@@ -9,15 +9,15 @@ from ..main import app
 client = TestClient(app)
 
 
-def test_read_main():
-    response = client.get("/user/1")
+def test_user_random():
+    response = client.get("/user/random")
 
     assert response.status_code == 200
-    assert response.json() == {
-        "birth_year": 1990,
-        "country": "US",
-        "currency": "USD",
-        "gender": "Male",
-        "registration_date": "2021-01-01T12:08:54",
-        "user_id": 1,
-    }
+    assert User(**response.json())
+
+
+def test_user():
+    response = client.get("/user/12197")
+
+    assert response.status_code == 200
+    assert User(**response.json())
