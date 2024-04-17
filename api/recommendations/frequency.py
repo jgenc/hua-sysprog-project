@@ -12,22 +12,20 @@ def most_bet_sport_recommenedation(user_id: int) -> list[Event]:
     if len(user_events) == 0:
         return random_recommendation()
 
-    all_events = get_all_events()
-    user_sports = [event["sport"] for event in user_events]
-    sport_frequency = {sport: user_sports.count(sport) for sport in user_sports}
-
-    selected_sport = max(sport_frequency, key=sport_frequency.get)
+    # NOTE
+    # What happens if there are multiple sports with the same frequency?
+    sport_frequency = user_events["sport"].value_counts()
+    selected_sport = user_events["sport"].value_counts().idxmax()
 
     # TODO: Make this configurable
     num_of_recommendations = 3
 
-    eligable_events = [
-        event
-        for event in all_events
-        if event["sport"] == selected_sport and event not in user_events
-    ]
+    all_events = get_all_events()
 
-    recommendations = random.sample(eligable_events, num_of_recommendations)
+    eligable_events = all_events[all_events["sport"] == selected_sport]
+    recommendations = eligable_events.sample(num_of_recommendations).to_dict(
+        orient="records"
+    )
 
     # TODO: Add debug mode
     print("User Sports Frequency Report")
