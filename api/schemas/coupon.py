@@ -1,6 +1,5 @@
-from typing import Annotated
-
 from pydantic import BaseModel
+from .StringDatetime import StringDatetime
 
 
 class Selection(BaseModel):
@@ -12,5 +11,5 @@ class Coupon(BaseModel):
     coupon_id: int
     selections: list[Selection]
     stake: float
-    timestamp: str
+    timestamp: StringDatetime
     user_id: int
