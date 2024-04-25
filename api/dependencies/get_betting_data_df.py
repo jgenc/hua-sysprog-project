@@ -1,5 +1,5 @@
-from api.data.betting import BettingData
+from api.data.dataframe import BettingDataDataframe
 
 
 async def get_df():
-    return BettingData("./api/data/dummy.json")
+    return BettingDataDataframe("./api/data/dummy.json")

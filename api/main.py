@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI
 
 from .routers import users, events, coupons, recommendations
-from .data.betting import BettingData
+from .data.dataframe import BettingDataDataframe
 
 logger = logging.getLogger("api")
 # logger.disabled = True
@@ -14,7 +14,7 @@ app.include_router(events.router)
 app.include_router(coupons.router)
 app.include_router(recommendations.router)
 
-df = BettingData("./api/data/dummy.json")
+df = BettingDataDataframe("./api/data/dummy.json")
 
 
 @app.get("/")
