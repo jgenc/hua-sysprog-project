@@ -1,1 +1,4064 @@
-{"users": [{"birth_year": 1995, "country": "HRV", "currency": "USD", "gender": "Female", "registration_date": "2023-06-05T14:38:13.653572", "user_id": 2106}, {"birth_year": 1970, "country": "SGP", "currency": "EUR", "gender": "Male", "registration_date": "2023-08-09T14:38:13.653579", "user_id": 82406}, {"birth_year": 1981, "country": "MHL", "currency": "EUR", "gender": "Female", "registration_date": "2024-01-10T14:38:13.653583", "user_id": 69026}, {"birth_year": 1960, "country": "AZE", "currency": "EUR", "gender": "Male", "registration_date": "2024-03-12T14:38:13.653587", "user_id": 97777}, {"birth_year": 1995, "country": "URY", "currency": "YEN", "gender": "Male", "registration_date": "2023-09-22T14:38:13.653589", "user_id": 25726}, {"birth_year": 1999, "country": "LCA", "currency": "USD", "gender": "Male", "registration_date": "2024-01-15T14:38:13.653592", "user_id": 7364}, {"birth_year": 1961, "country": "NLD", "currency": "YEN", "gender": "Female", "registration_date": "2023-04-27T14:38:13.653595", "user_id": 29857}, {"birth_year": 1978, "country": "UMI", "currency": "YEN", "gender": "Female", "registration_date": "2023-10-12T14:38:13.653598", "user_id": 54113}, {"birth_year": 1979, "country": "COD", "currency": "YEN", "gender": "Male", "registration_date": "2023-05-31T14:38:13.653601", "user_id": 35281}, {"birth_year": 1959, "country": "NZL", "currency": "YEN", "gender": "Male", "registration_date": "2023-12-17T14:38:13.653604", "user_id": 47959}, {"birth_year": 1956, "country": "MTQ", "currency": "YEN", "gender": "Female", "registration_date": "2023-11-16T14:38:13.653607", "user_id": 55107}, {"birth_year": 2000, "country": "GNB", "currency": "YEN", "gender": "Male", "registration_date": "2023-09-14T14:38:13.653610", "user_id": 7442}, {"birth_year": 1973, "country": "URY", "currency": "EUR", "gender": "Male", "registration_date": "2024-01-20T14:38:13.653613", "user_id": 68943}, {"birth_year": 1999, "country": "IOT", "currency": "EUR", "gender": "Female", "registration_date": "2024-04-04T14:38:13.653616", "user_id": 31652}, {"birth_year": 1953, "country": "COM", "currency": "EUR", "gender": "Male", "registration_date": "2023-07-06T14:38:13.653618", "user_id": 21048}, {"birth_year": 1960, "country": "BRN", "currency": "YEN", "gender": "Male", "registration_date": "2023-07-30T14:38:13.653621", "user_id": 52617}, {"birth_year": 1974, "country": "CUW", "currency": "EUR", "gender": "Female", "registration_date": "2023-05-07T14:38:13.653624", "user_id": 50059}, {"birth_year": 1973, "country": "ESH", "currency": "EUR", "gender": "Female", "registration_date": "2023-12-30T14:38:13.653627", "user_id": 12699}, {"birth_year": 1991, "country": "MAF", "currency": "USD", "gender": "Female", "registration_date": "2023-11-09T14:38:13.653630", "user_id": 53689}, {"birth_year": 1988, "country": "PCN", "currency": "EUR", "gender": "Female", "registration_date": "2023-08-31T14:38:13.653632", "user_id": 24276}, {"birth_year": 1986, "country": "KOR", "currency": "USD", "gender": "Male", "registration_date": "2023-06-18T14:38:13.653635", "user_id": 11909}, {"birth_year": 1985, "country": "MHL", "currency": "USD", "gender": "Male", "registration_date": "2024-03-11T14:38:13.653638", "user_id": 62006}, {"birth_year": 1986, "country": "LCA", "currency": "YEN", "gender": "Female", "registration_date": "2023-07-20T14:38:13.653641", "user_id": 26878}, {"birth_year": 1999, "country": "BFA", "currency": "EUR", "gender": "Female", "registration_date": "2023-05-19T14:38:13.653644", "user_id": 10756}, {"birth_year": 1989, "country": "MRT", "currency": "EUR", "gender": "Female", "registration_date": "2024-02-02T14:38:13.653647", "user_id": 88070}, {"birth_year": 2002, "country": "SGP", "currency": "EUR", "gender": "Male", "registration_date": "2024-03-20T14:38:13.653650", "user_id": 42857}, {"birth_year": 1964, "country": "VNM", "currency": "EUR", "gender": "Female", "registration_date": "2023-11-29T14:38:13.653653", "user_id": 3098}, {"birth_year": 1972, "country": "BLR", "currency": "USD", "gender": "Male", "registration_date": "2023-08-21T14:38:13.653655", "user_id": 9467}, {"birth_year": 1969, "country": "VCT", "currency": "USD", "gender": "Male", "registration_date": "2023-07-21T14:38:13.653658", "user_id": 88272}, {"birth_year": 1954, "country": "TKL", "currency": "YEN", "gender": "Male", "registration_date": "2023-08-24T14:38:13.653661", "user_id": 29363}, {"birth_year": 1963, "country": "SPM", "currency": "EUR", "gender": "Male", "registration_date": "2024-01-18T14:38:13.653664", "user_id": 45983}, {"birth_year": 1987, "country": "KAZ", "currency": "USD", "gender": "Male", "registration_date": "2023-10-08T14:38:13.653667", "user_id": 81263}, {"birth_year": 1976, "country": "JOR", "currency": "EUR", "gender": "Female", "registration_date": "2023-08-28T14:38:13.653669", "user_id": 93144}, {"birth_year": 1980, "country": "GRC", "currency": "USD", "gender": "Male", "registration_date": "2024-03-31T14:38:13.653672", "user_id": 35640}, {"birth_year": 1982, "country": "SLE", "currency": "EUR", "gender": "Female", "registration_date": "2023-11-02T14:38:13.653675", "user_id": 75917}, {"birth_year": 1998, "country": "CCK", "currency": "EUR", "gender": "Male", "registration_date": "2024-01-10T14:38:13.653678", "user_id": 66624}, {"birth_year": 1986, "country": "JPN", "currency": "USD", "gender": "Male", "registration_date": "2023-12-30T14:38:13.653680", "user_id": 81094}, {"birth_year": 1997, "country": "KGZ", "currency": "EUR", "gender": "Male", "registration_date": "2023-06-25T14:38:13.653683", "user_id": 7991}, {"birth_year": 1961, "country": "CAF", "currency": "YEN", "gender": "Female", "registration_date": "2024-03-05T14:38:13.653686", "user_id": 63795}, {"birth_year": 2001, "country": "HRV", "currency": "YEN", "gender": "Female", "registration_date": "2024-01-11T14:38:13.653689", "user_id": 23943}, {"birth_year": 1962, "country": "MNG", "currency": "USD", "gender": "Male", "registration_date": "2023-04-30T14:38:13.653691", "user_id": 93931}, {"birth_year": 1970, "country": "HKG", "currency": "YEN", "gender": "Female", "registration_date": "2024-03-07T14:38:13.653694", "user_id": 95191}, {"birth_year": 1998, "country": "BFA", "currency": "USD", "gender": "Male", "registration_date": "2023-11-24T14:38:13.653697", "user_id": 70216}, {"birth_year": 1954, "country": "AUT", "currency": "USD", "gender": "Female", "registration_date": "2023-12-14T14:38:13.653699", "user_id": 68244}, {"birth_year": 1999, "country": "VGB", "currency": "USD", "gender": "Female", "registration_date": "2023-05-31T14:38:13.653702", "user_id": 11657}, {"birth_year": 1952, "country": "SGP", "currency": "USD", "gender": "Male", "registration_date": "2023-09-24T14:38:13.653705", "user_id": 14654}, {"birth_year": 1990, "country": "LAO", "currency": "EUR", "gender": "Male", "registration_date": "2023-07-28T14:38:13.653708", "user_id": 39302}, {"birth_year": 1997, "country": "AUS", "currency": "YEN", "gender": "Female", "registration_date": "2023-04-21T14:38:13.653710", "user_id": 59122}, {"birth_year": 1967, "country": "TTO", "currency": "USD", "gender": "Female", "registration_date": "2024-04-07T14:38:13.653713", "user_id": 37923}, {"birth_year": 1989, "country": "SAU", "currency": "EUR", "gender": "Female", "registration_date": "2024-02-23T14:38:13.653716", "user_id": 53014}, {"birth_year": 1990, "country": "RUS", "currency": "EUR", "gender": "Male", "registration_date": "2024-03-04T14:38:13.653719", "user_id": 22575}, {"birth_year": 1990, "country": "AND", "currency": "EUR", "gender": "Female", "registration_date": "2023-04-25T14:38:13.653721", "user_id": 52832}, {"birth_year": 1981, "country": "BLZ", "currency": "EUR", "gender": "Male", "registration_date": "2023-09-07T14:38:13.653725", "user_id": 28494}, {"birth_year": 1959, "country": "LVA", "currency": "YEN", "gender": "Female", "registration_date": "2024-01-14T14:38:13.653728", "user_id": 42624}, {"birth_year": 1992, "country": "IND", "currency": "EUR", "gender": "Male", "registration_date": "2024-04-07T14:38:13.653731", "user_id": 69870}, {"birth_year": 1992, "country": "PER", "currency": "EUR", "gender": "Male", "registration_date": "2023-12-25T14:38:13.653733", "user_id": 51396}, {"birth_year": 1996, "country": "KAZ", "currency": "YEN", "gender": "Male", "registration_date": "2024-01-13T14:38:13.653736", "user_id": 3281}, {"birth_year": 1955, "country": "PRT", "currency": "USD", "gender": "Female", "registration_date": "2024-03-15T14:38:13.653739", "user_id": 85194}, {"birth_year": 1989, "country": "BWA", "currency": "USD", "gender": "Male", "registration_date": "2023-12-04T14:38:13.653742", "user_id": 93870}, {"birth_year": 1998, "country": "GBR", "currency": "USD", "gender": "Female", "registration_date": "2023-06-28T14:38:13.653745", "user_id": 21530}, {"birth_year": 1979, "country": "GNQ", "currency": "USD", "gender": "Female", "registration_date": "2024-03-18T14:38:13.653747", "user_id": 27632}, {"birth_year": 2000, "country": "MDV", "currency": "EUR", "gender": "Male", "registration_date": "2023-05-05T14:38:13.653750", "user_id": 9233}, {"birth_year": 1961, "country": "ESP", "currency": "EUR", "gender": "Male", "registration_date": "2023-04-25T14:38:13.653753", "user_id": 75725}, {"birth_year": 1971, "country": "YEM", "currency": "USD", "gender": "Female", "registration_date": "2023-12-11T14:38:13.653756", "user_id": 73850}, {"birth_year": 2002, "country": "CIV", "currency": "USD", "gender": "Female", "registration_date": "2023-09-21T14:38:13.653758", "user_id": 35045}, {"birth_year": 1963, "country": "MOZ", "currency": "YEN", "gender": "Male", "registration_date": "2023-06-06T14:38:13.653761", "user_id": 19065}, {"birth_year": 1995, "country": "MNP", "currency": "EUR", "gender": "Male", "registration_date": "2023-07-16T14:38:13.653764", "user_id": 47104}, {"birth_year": 1966, "country": "MHL", "currency": "YEN", "gender": "Male", "registration_date": "2023-06-14T14:38:13.653767", "user_id": 85952}, {"birth_year": 1956, "country": "KAZ", "currency": "YEN", "gender": "Female", "registration_date": "2023-12-01T14:38:13.653769", "user_id": 18283}, {"birth_year": 1966, "country": "BOL", "currency": "USD", "gender": "Male", "registration_date": "2023-07-01T14:38:13.653772", "user_id": 52336}, {"birth_year": 1956, "country": "SWE", "currency": "YEN", "gender": "Male", "registration_date": "2023-12-11T14:38:13.653775", "user_id": 99951}, {"birth_year": 1983, "country": "SWZ", "currency": "USD", "gender": "Female", "registration_date": "2024-02-18T14:38:13.653778", "user_id": 25877}, {"birth_year": 2003, "country": "LTU", "currency": "USD", "gender": "Male", "registration_date": "2024-03-07T14:38:13.653780", "user_id": 78794}, {"birth_year": 1987, "country": "SYR", "currency": "YEN", "gender": "Male", "registration_date": "2024-01-25T14:38:13.653783", "user_id": 47800}, {"birth_year": 2001, "country": "PRY", "currency": "EUR", "gender": "Female", "registration_date": "2023-05-25T14:38:13.653786", "user_id": 12107}, {"birth_year": 1964, "country": "MHL", "currency": "USD", "gender": "Male", "registration_date": "2023-08-04T14:38:13.653789", "user_id": 55100}, {"birth_year": 1962, "country": "USA", "currency": "YEN", "gender": "Male", "registration_date": "2023-04-23T14:38:13.653791", "user_id": 47474}, {"birth_year": 1976, "country": "GRC", "currency": "EUR", "gender": "Female", "registration_date": "2024-02-15T14:38:13.653794", "user_id": 47375}, {"birth_year": 1971, "country": "BIH", "currency": "USD", "gender": "Female", "registration_date": "2024-03-15T14:38:13.653797", "user_id": 39946}, {"birth_year": 1987, "country": "PER", "currency": "EUR", "gender": "Male", "registration_date": "2023-10-12T14:38:13.653800", "user_id": 28397}, {"birth_year": 1987, "country": "PCN", "currency": "YEN", "gender": "Male", "registration_date": "2023-07-15T14:38:13.653803", "user_id": 86035}, {"birth_year": 1961, "country": "POL", "currency": "USD", "gender": "Female", "registration_date": "2023-11-17T14:38:13.653806", "user_id": 79110}, {"birth_year": 1956, "country": "TUN", "currency": "USD", "gender": "Male", "registration_date": "2024-01-22T14:38:13.653809", "user_id": 86036}, {"birth_year": 1950, "country": "NIC", "currency": "USD", "gender": "Female", "registration_date": "2024-03-07T14:38:13.653811", "user_id": 40833}, {"birth_year": 1997, "country": "ALA", "currency": "EUR", "gender": "Male", "registration_date": "2023-09-27T14:38:13.653814", "user_id": 6252}, {"birth_year": 1951, "country": "ASM", "currency": "EUR", "gender": "Female", "registration_date": "2024-04-15T14:38:13.653817", "user_id": 18881}, {"birth_year": 2003, "country": "CPV", "currency": "YEN", "gender": "Male", "registration_date": "2023-05-10T14:38:13.653820", "user_id": 56836}, {"birth_year": 1950, "country": "GRC", "currency": "YEN", "gender": "Male", "registration_date": "2023-09-26T14:38:13.653822", "user_id": 7607}, {"birth_year": 1972, "country": "NCL", "currency": "YEN", "gender": "Male", "registration_date": "2023-12-23T14:38:13.653825", "user_id": 6108}, {"birth_year": 1986, "country": "ATA", "currency": "EUR", "gender": "Female", "registration_date": "2023-04-30T14:38:13.653828", "user_id": 79014}, {"birth_year": 1975, "country": "KHM", "currency": "USD", "gender": "Male", "registration_date": "2023-06-13T14:38:13.653831", "user_id": 96227}, {"birth_year": 1975, "country": "BLM", "currency": "EUR", "gender": "Male", "registration_date": "2024-01-10T14:38:13.653834", "user_id": 77988}, {"birth_year": 1993, "country": "KNA", "currency": "USD", "gender": "Male", "registration_date": "2024-03-05T14:38:13.653837", "user_id": 65297}, {"birth_year": 1959, "country": "PER", "currency": "USD", "gender": "Male", "registration_date": "2023-10-12T14:38:13.653840", "user_id": 51457}, {"birth_year": 1971, "country": "DNK", "currency": "USD", "gender": "Female", "registration_date": "2023-05-31T14:38:13.653843", "user_id": 11271}, {"birth_year": 1996, "country": "AUT", "currency": "EUR", "gender": "Male", "registration_date": "2023-06-11T14:38:13.653845", "user_id": 19112}, {"birth_year": 2003, "country": "TUV", "currency": "USD", "gender": "Female", "registration_date": "2023-08-15T14:38:13.653848", "user_id": 90225}, {"birth_year": 1987, "country": "CAN", "currency": "EUR", "gender": "Female", "registration_date": "2024-03-16T14:38:13.653851", "user_id": 810}, {"birth_year": 1994, "country": "NCL", "currency": "EUR", "gender": "Male", "registration_date": "2023-07-23T14:38:13.653853", "user_id": 79515}, {"birth_year": 1952, "country": "BTN", "currency": "USD", "gender": "Male", "registration_date": "2024-03-20T14:38:13.653856", "user_id": 18219}], "events": [{"begin_timestamp": "2023-05-04T14:38:13.653017", "end_timestamp": "2024-07-16T14:38:13.653032", "country": "ISL", "event_id": "8515", "league": "Six Nations", "participants": ["England", "South Africa"], "sport": "Rugby"}, {"begin_timestamp": "2023-06-13T14:38:13.653058", "end_timestamp": "2025-04-08T14:38:13.653061", "country": "IND", "event_id": "20824", "league": "VTB", "participants": ["Golden State Warriors", "Real Madrid"], "sport": "Basketball"}, {"begin_timestamp": "2023-10-10T14:38:13.653068", "end_timestamp": "2024-11-23T14:38:13.653070", "country": "QAT", "event_id": "57020", "league": "KHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-08-27T14:38:13.653076", "end_timestamp": "2024-11-06T14:38:13.653078", "country": "AZE", "event_id": "38116", "league": "PGA", "participants": ["Jordan Spieth", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2023-11-07T14:38:13.653082", "end_timestamp": "2025-01-12T14:38:13.653084", "country": "KIR", "event_id": "10935", "league": "WTA", "participants": ["Rafael Nadal", "Novak Djokovic"], "sport": "Tennis"}, {"begin_timestamp": "2023-06-08T14:38:13.653087", "end_timestamp": "2024-05-23T14:38:13.653088", "country": "SGS", "event_id": "75888", "league": "VTB", "participants": ["Golden State Warriors", "Los Angeles Lakers"], "sport": "Basketball"}, {"begin_timestamp": "2024-01-05T14:38:13.653092", "end_timestamp": "2024-04-23T14:38:13.653093", "country": "MMR", "event_id": "45678", "league": "KHL", "participants": ["Montreal Canadiens", "New York Rangers"], "sport": "Hockey"}, {"begin_timestamp": "2023-10-07T14:38:13.653096", "end_timestamp": "2025-01-28T14:38:13.653097", "country": "AFG", "event_id": "71791", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-12-09T14:38:13.653100", "end_timestamp": "2024-12-30T14:38:13.653101", "country": "ZWE", "event_id": "86712", "league": "European Tour", "participants": ["Rory McIlroy", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2024-01-29T14:38:13.653105", "end_timestamp": "2025-02-07T14:38:13.653106", "country": "TWN", "event_id": "18714", "league": "Serie A", "participants": ["Real Madrid", "Manchester United"], "sport": "Football"}, {"begin_timestamp": "2023-11-26T14:38:13.653109", "end_timestamp": "2024-05-12T14:38:13.653110", "country": "LKA", "event_id": "49957", "league": "Champions League", "participants": ["Trentino Volley", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-08-20T14:38:13.653114", "end_timestamp": "2024-04-21T14:38:13.653115", "country": "COG", "event_id": "56407", "league": "ACB", "participants": ["Real Madrid", "Golden State Warriors"], "sport": "Basketball"}, {"begin_timestamp": "2023-08-22T14:38:13.653118", "end_timestamp": "2025-02-01T14:38:13.653119", "country": "PRY", "event_id": "28540", "league": "Serie A", "participants": ["Barcelona", "Liverpool"], "sport": "Football"}, {"begin_timestamp": "2024-01-30T14:38:13.653123", "end_timestamp": "2025-01-27T14:38:13.653124", "country": "LBR", "event_id": "25732", "league": "European Tour", "participants": ["Tiger Woods", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2024-03-14T14:38:13.653127", "end_timestamp": "2024-11-29T14:38:13.653128", "country": "SGP", "event_id": "14933", "league": "WTA", "participants": ["Roger Federer", "Novak Djokovic"], "sport": "Tennis"}, {"begin_timestamp": "2024-03-17T14:38:13.653132", "end_timestamp": "2025-02-01T14:38:13.653133", "country": "BLM", "event_id": "34531", "league": "NHL", "participants": ["Montreal Canadiens", "Toronto Maple Leafs"], "sport": "Hockey"}, {"begin_timestamp": "2023-07-31T14:38:13.653136", "end_timestamp": "2025-01-06T14:38:13.653137", "country": "LUX", "event_id": "93499", "league": "Premier League", "participants": ["Real Madrid", "Manchester United"], "sport": "Football"}, {"begin_timestamp": "2024-04-07T14:38:13.653141", "end_timestamp": "2024-08-18T14:38:13.653142", "country": "TJK", "event_id": "49291", "league": "Champions League", "participants": ["Trentino Volley", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2023-06-09T14:38:13.653145", "end_timestamp": "2024-10-04T14:38:13.653146", "country": "SWZ", "event_id": "4057", "league": "KHL", "participants": ["Montreal Canadiens", "New York Rangers"], "sport": "Hockey"}, {"begin_timestamp": "2024-02-27T14:38:13.653150", "end_timestamp": "2024-11-03T14:38:13.653151", "country": "MNP", "event_id": "67589", "league": "European Tour", "participants": ["Rory McIlroy", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2023-07-07T14:38:13.653154", "end_timestamp": "2025-03-09T14:38:13.653155", "country": "CRI", "event_id": "69448", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-12-09T14:38:13.653158", "end_timestamp": "2024-06-15T14:38:13.653159", "country": "GGY", "event_id": "18752", "league": "WTA", "participants": ["Novak Djokovic", "Roger Federer"], "sport": "Tennis"}, {"begin_timestamp": "2024-04-05T14:38:13.653163", "end_timestamp": "2024-05-21T14:38:13.653164", "country": "DOM", "event_id": "35735", "league": "European Tour", "participants": ["Tiger Woods", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2023-10-30T14:38:13.653167", "end_timestamp": "2024-04-30T14:38:13.653168", "country": "NOR", "event_id": "95288", "league": "Champions League", "participants": ["Trentino Volley", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-10-18T14:38:13.653171", "end_timestamp": "2024-07-16T14:38:13.653172", "country": "EGY", "event_id": "38497", "league": "Serie A", "participants": ["Manchester United", "Liverpool"], "sport": "Football"}, {"begin_timestamp": "2023-10-26T14:38:13.653176", "end_timestamp": "2025-03-13T14:38:13.653177", "country": "AGO", "event_id": "6555", "league": "World League", "participants": ["Lube Civitanova", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2023-11-12T14:38:13.653180", "end_timestamp": "2025-02-23T14:38:13.653182", "country": "YEM", "event_id": "81890", "league": "Six Nations", "participants": ["South Africa", "England"], "sport": "Rugby"}, {"begin_timestamp": "2023-06-26T14:38:13.653185", "end_timestamp": "2025-03-01T14:38:13.653186", "country": "VUT", "event_id": "86062", "league": "KHL", "participants": ["Montreal Canadiens", "New York Rangers"], "sport": "Hockey"}, {"begin_timestamp": "2023-05-18T14:38:13.653190", "end_timestamp": "2025-04-03T14:38:13.653191", "country": "MDG", "event_id": "7601", "league": "Ligue 1", "participants": ["Real Madrid", "Barcelona"], "sport": "Football"}, {"begin_timestamp": "2023-05-06T14:38:13.653194", "end_timestamp": "2025-03-09T14:38:13.653195", "country": "ABW", "event_id": "58861", "league": "Champions League", "participants": ["Zenit Kazan", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2024-02-18T14:38:13.653198", "end_timestamp": "2024-10-27T14:38:13.653199", "country": "ATA", "event_id": "93266", "league": "ATP", "participants": ["Rafael Nadal", "Novak Djokovic"], "sport": "Tennis"}, {"begin_timestamp": "2023-11-02T14:38:13.653202", "end_timestamp": "2024-06-26T14:38:13.653203", "country": "BFA", "event_id": "96986", "league": "WTA", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2023-08-10T14:38:13.653207", "end_timestamp": "2025-02-21T14:38:13.653208", "country": "ARE", "event_id": "68862", "league": "World League", "participants": ["Zenit Kazan", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2023-10-27T14:38:13.653211", "end_timestamp": "2024-04-21T14:38:13.653212", "country": "BLZ", "event_id": "76871", "league": "Superliga", "participants": ["Zenit Kazan", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2023-08-02T14:38:13.653215", "end_timestamp": "2024-11-20T14:38:13.653216", "country": "HKG", "event_id": "44494", "league": "KHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2024-04-10T14:38:13.653219", "end_timestamp": "2024-09-23T14:38:13.653221", "country": "MCO", "event_id": "53388", "league": "VTB", "participants": ["Golden State Warriors", "Los Angeles Lakers"], "sport": "Basketball"}, {"begin_timestamp": "2023-06-30T14:38:13.653224", "end_timestamp": "2024-05-08T14:38:13.653225", "country": "SVN", "event_id": "4441", "league": "Superliga", "participants": ["Lube Civitanova", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-05-29T14:38:13.653228", "end_timestamp": "2025-01-23T14:38:13.653229", "country": "SGS", "event_id": "22046", "league": "Euroleague", "participants": ["Real Madrid", "Los Angeles Lakers"], "sport": "Basketball"}, {"begin_timestamp": "2023-06-10T14:38:13.653232", "end_timestamp": "2024-11-03T14:38:13.653233", "country": "ALB", "event_id": "43903", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-08-18T14:38:13.653236", "end_timestamp": "2024-07-12T14:38:13.653237", "country": "GUF", "event_id": "11851", "league": "Premier League", "participants": ["Barcelona", "Liverpool"], "sport": "Football"}, {"begin_timestamp": "2023-12-22T14:38:13.653240", "end_timestamp": "2024-12-14T14:38:13.653242", "country": "MCO", "event_id": "64746", "league": "Super Rugby", "participants": ["New Zealand", "South Africa"], "sport": "Rugby"}, {"begin_timestamp": "2023-04-29T14:38:13.653245", "end_timestamp": "2024-10-26T14:38:13.653246", "country": "VGB", "event_id": "86812", "league": "PGA", "participants": ["Tiger Woods", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2023-05-02T14:38:13.653249", "end_timestamp": "2024-10-17T14:38:13.653250", "country": "NCL", "event_id": "58348", "league": "Euroleague", "participants": ["Los Angeles Lakers", "Golden State Warriors"], "sport": "Basketball"}, {"begin_timestamp": "2024-02-13T14:38:13.653253", "end_timestamp": "2024-10-15T14:38:13.653254", "country": "MEX", "event_id": "16022", "league": "ATP", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2023-07-17T14:38:13.653257", "end_timestamp": "2024-10-17T14:38:13.653258", "country": "BWA", "event_id": "50415", "league": "A1", "participants": ["Trentino Volley", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-08-03T14:38:13.653261", "end_timestamp": "2024-10-09T14:38:13.653262", "country": "TON", "event_id": "20940", "league": "KHL", "participants": ["Montreal Canadiens", "Toronto Maple Leafs"], "sport": "Hockey"}, {"begin_timestamp": "2023-06-21T14:38:13.653266", "end_timestamp": "2024-12-26T14:38:13.653267", "country": "DMA", "event_id": "77251", "league": "NHL", "participants": ["Toronto Maple Leafs", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-11-01T14:38:13.653270", "end_timestamp": "2025-03-13T14:38:13.653271", "country": "CHE", "event_id": "81254", "league": "NHL", "participants": ["Montreal Canadiens", "New York Rangers"], "sport": "Hockey"}, {"begin_timestamp": "2023-11-30T14:38:13.653274", "end_timestamp": "2024-07-12T14:38:13.653276", "country": "JEY", "event_id": "37510", "league": "NHL", "participants": ["Toronto Maple Leafs", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2024-03-11T14:38:13.653279", "end_timestamp": "2025-02-10T14:38:13.653280", "country": "YEM", "event_id": "18540", "league": "KHL", "participants": ["New York Rangers", "Toronto Maple Leafs"], "sport": "Hockey"}, {"begin_timestamp": "2024-03-31T14:38:13.653283", "end_timestamp": "2025-04-06T14:38:13.653284", "country": "IND", "event_id": "50244", "league": "European Tour", "participants": ["Jordan Spieth", "Rory McIlroy"], "sport": "Golf"}, {"begin_timestamp": "2023-04-20T14:38:13.653287", "end_timestamp": "2024-07-10T14:38:13.653288", "country": "BLR", "event_id": "87547", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-10-31T14:38:13.653291", "end_timestamp": "2024-07-06T14:38:13.653292", "country": "SHN", "event_id": "88374", "league": "Six Nations", "participants": ["England", "South Africa"], "sport": "Rugby"}, {"begin_timestamp": "2023-12-12T14:38:13.653296", "end_timestamp": "2025-01-30T14:38:13.653297", "country": "ITA", "event_id": "10557", "league": "WTA", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2024-01-04T14:38:13.653300", "end_timestamp": "2024-06-26T14:38:13.653301", "country": "SEN", "event_id": "36142", "league": "PGA", "participants": ["Jordan Spieth", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2024-03-20T14:38:13.653304", "end_timestamp": "2024-12-06T14:38:13.653305", "country": "EST", "event_id": "7087", "league": "Superliga", "participants": ["Trentino Volley", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2023-08-27T14:38:13.653309", "end_timestamp": "2024-10-18T14:38:13.653310", "country": "ISL", "event_id": "45606", "league": "PGA", "participants": ["Tiger Woods", "Rory McIlroy"], "sport": "Golf"}, {"begin_timestamp": "2023-09-04T14:38:13.653313", "end_timestamp": "2025-02-03T14:38:13.653314", "country": "THA", "event_id": "35074", "league": "A1", "participants": ["Zenit Kazan", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2023-10-16T14:38:13.653317", "end_timestamp": "2024-10-18T14:38:13.653318", "country": "SGS", "event_id": "34170", "league": "Superliga", "participants": ["Lube Civitanova", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2023-08-05T14:38:13.653321", "end_timestamp": "2024-05-07T14:38:13.653322", "country": "IDN", "event_id": "15414", "league": "Premier League", "participants": ["Real Madrid", "Barcelona"], "sport": "Football"}, {"begin_timestamp": "2023-11-30T14:38:13.653326", "end_timestamp": "2024-10-17T14:38:13.653327", "country": "BGD", "event_id": "44884", "league": "Super Rugby", "participants": ["South Africa", "England"], "sport": "Rugby"}, {"begin_timestamp": "2023-06-26T14:38:13.653330", "end_timestamp": "2025-02-05T14:38:13.653331", "country": "CUW", "event_id": "57628", "league": "WTA", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2023-12-31T14:38:13.653334", "end_timestamp": "2024-05-09T14:38:13.653335", "country": "ASM", "event_id": "88446", "league": "European Tour", "participants": ["Rory McIlroy", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2023-11-08T14:38:13.653338", "end_timestamp": "2025-03-28T14:38:13.653339", "country": "TGO", "event_id": "48511", "league": "Premier League", "participants": ["Liverpool", "Real Madrid"], "sport": "Football"}, {"begin_timestamp": "2023-12-26T14:38:13.653343", "end_timestamp": "2024-11-10T14:38:13.653344", "country": "CHE", "event_id": "39951", "league": "WTA", "participants": ["Rafael Nadal", "Roger Federer"], "sport": "Tennis"}, {"begin_timestamp": "2024-04-17T14:38:13.653347", "end_timestamp": "2024-07-05T14:38:13.653348", "country": "EST", "event_id": "16702", "league": "European Tour", "participants": ["Jordan Spieth", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2024-01-06T14:38:13.653352", "end_timestamp": "2024-12-21T14:38:13.653353", "country": "NIC", "event_id": "4141", "league": "PGA", "participants": ["Tiger Woods", "Rory McIlroy"], "sport": "Golf"}, {"begin_timestamp": "2023-08-19T14:38:13.653356", "end_timestamp": "2025-04-13T14:38:13.653357", "country": "KOR", "event_id": "7307", "league": "PGA", "participants": ["Rory McIlroy", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2024-04-01T14:38:13.653360", "end_timestamp": "2024-11-05T14:38:13.653361", "country": "PSE", "event_id": "29847", "league": "Euroleague", "participants": ["Golden State Warriors", "Real Madrid"], "sport": "Basketball"}, {"begin_timestamp": "2024-03-21T14:38:13.653364", "end_timestamp": "2024-06-18T14:38:13.653365", "country": "UMI", "event_id": "39664", "league": "A1", "participants": ["Lube Civitanova", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2024-01-03T14:38:13.653368", "end_timestamp": "2024-05-06T14:38:13.653369", "country": "HMD", "event_id": "31789", "league": "Superliga", "participants": ["Zenit Kazan", "Trentino Volley"], "sport": "Volley"}, {"begin_timestamp": "2024-04-12T14:38:13.653373", "end_timestamp": "2025-02-24T14:38:13.653374", "country": "COG", "event_id": "62865", "league": "Super Rugby", "participants": ["South Africa", "New Zealand"], "sport": "Rugby"}, {"begin_timestamp": "2023-10-10T14:38:13.653377", "end_timestamp": "2024-07-07T14:38:13.653378", "country": "LBN", "event_id": "69354", "league": "World League", "participants": ["Trentino Volley", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2024-02-03T14:38:13.653381", "end_timestamp": "2024-04-24T14:38:13.653382", "country": "MAR", "event_id": "86320", "league": "Super Rugby", "participants": ["England", "New Zealand"], "sport": "Rugby"}, {"begin_timestamp": "2023-08-03T14:38:13.653386", "end_timestamp": "2024-07-17T14:38:13.653387", "country": "GUM", "event_id": "31979", "league": "World League", "participants": ["Zenit Kazan", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2024-04-17T14:38:13.653390", "end_timestamp": "2024-08-21T14:38:13.653391", "country": "HRV", "event_id": "95776", "league": "European Tour", "participants": ["Tiger Woods", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2024-03-31T14:38:13.653394", "end_timestamp": "2024-10-17T14:38:13.653395", "country": "GRD", "event_id": "95911", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-10-01T14:38:13.653399", "end_timestamp": "2025-01-04T14:38:13.653400", "country": "TUV", "event_id": "3313", "league": "ACB", "participants": ["Los Angeles Lakers", "Golden State Warriors"], "sport": "Basketball"}, {"begin_timestamp": "2024-03-22T14:38:13.653403", "end_timestamp": "2024-11-09T14:38:13.653404", "country": "GRD", "event_id": "58486", "league": "ATP", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2023-11-21T14:38:13.653407", "end_timestamp": "2024-06-15T14:38:13.653408", "country": "UZB", "event_id": "23649", "league": "World League", "participants": ["Trentino Volley", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-11-15T14:38:13.653412", "end_timestamp": "2024-10-20T14:38:13.653413", "country": "JAM", "event_id": "52123", "league": "KHL", "participants": ["Toronto Maple Leafs", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-07-11T14:38:13.653416", "end_timestamp": "2024-10-15T14:38:13.653417", "country": "BTN", "event_id": "45978", "league": "European Tour", "participants": ["Jordan Spieth", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2023-12-24T14:38:13.653420", "end_timestamp": "2024-08-04T14:38:13.653422", "country": "LCA", "event_id": "55452", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-04-25T14:38:13.653425", "end_timestamp": "2024-10-20T14:38:13.653426", "country": "LCA", "event_id": "21519", "league": "European Tour", "participants": ["Jordan Spieth", "Tiger Woods"], "sport": "Golf"}, {"begin_timestamp": "2023-09-06T14:38:13.653429", "end_timestamp": "2024-07-11T14:38:13.653430", "country": "GAB", "event_id": "53320", "league": "NHL", "participants": ["New York Rangers", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2024-02-05T14:38:13.653433", "end_timestamp": "2024-11-20T14:38:13.653434", "country": "GUY", "event_id": "15323", "league": "Super Rugby", "participants": ["New Zealand", "South Africa"], "sport": "Rugby"}, {"begin_timestamp": "2023-06-25T14:38:13.653438", "end_timestamp": "2025-01-22T14:38:13.653439", "country": "SYR", "event_id": "11286", "league": "NHL", "participants": ["Toronto Maple Leafs", "Montreal Canadiens"], "sport": "Hockey"}, {"begin_timestamp": "2023-12-10T14:38:13.653442", "end_timestamp": "2024-10-13T14:38:13.653443", "country": "MHL", "event_id": "66732", "league": "PGA", "participants": ["Rory McIlroy", "Jordan Spieth"], "sport": "Golf"}, {"begin_timestamp": "2023-09-18T14:38:13.653446", "end_timestamp": "2024-10-23T14:38:13.653447", "country": "JEY", "event_id": "28149", "league": "Super Rugby", "participants": ["England", "New Zealand"], "sport": "Rugby"}, {"begin_timestamp": "2023-06-01T14:38:13.653451", "end_timestamp": "2025-01-02T14:38:13.653452", "country": "GAB", "event_id": "9225", "league": "Bundesliga", "participants": ["Barcelona", "Manchester United"], "sport": "Football"}, {"begin_timestamp": "2023-06-03T14:38:13.653455", "end_timestamp": "2025-02-10T14:38:13.653456", "country": "ZMB", "event_id": "32288", "league": "KHL", "participants": ["Toronto Maple Leafs", "New York Rangers"], "sport": "Hockey"}, {"begin_timestamp": "2023-07-20T14:38:13.653459", "end_timestamp": "2024-09-29T14:38:13.653461", "country": "REU", "event_id": "35805", "league": "PGA", "participants": ["Jordan Spieth", "Rory McIlroy"], "sport": "Golf"}, {"begin_timestamp": "2023-07-21T14:38:13.653464", "end_timestamp": "2024-08-11T14:38:13.653465", "country": "MDV", "event_id": "22755", "league": "Superliga", "participants": ["Zenit Kazan", "Lube Civitanova"], "sport": "Volley"}, {"begin_timestamp": "2023-10-11T14:38:13.653468", "end_timestamp": "2025-03-19T14:38:13.653469", "country": "IRQ", "event_id": "82574", "league": "Super Rugby", "participants": ["England", "New Zealand"], "sport": "Rugby"}, {"begin_timestamp": "2024-02-26T14:38:13.653473", "end_timestamp": "2024-10-20T14:38:13.653474", "country": "MAF", "event_id": "64653", "league": "World League", "participants": ["Lube Civitanova", "Zenit Kazan"], "sport": "Volley"}, {"begin_timestamp": "2023-10-12T14:38:13.653477", "end_timestamp": "2025-02-25T14:38:13.653478", "country": "ALB", "event_id": "9221", "league": "Super Rugby", "participants": ["South Africa", "New Zealand"], "sport": "Rugby"}, {"begin_timestamp": "2024-04-15T14:38:13.653481", "end_timestamp": "2025-02-20T14:38:13.653482", "country": "GNQ", "event_id": "90031", "league": "WTA", "participants": ["Roger Federer", "Novak Djokovic"], "sport": "Tennis"}, {"begin_timestamp": "2023-10-12T14:38:13.653485", "end_timestamp": "2024-08-28T14:38:13.653486", "country": "NCL", "event_id": "8453", "league": "Super Rugby", "participants": ["South Africa", "England"], "sport": "Rugby"}, {"begin_timestamp": "2023-09-22T14:38:13.653490", "end_timestamp": "2024-09-13T14:38:13.653491", "country": "GAB", "event_id": "37196", "league": "ATP", "participants": ["Novak Djokovic", "Rafael Nadal"], "sport": "Tennis"}, {"begin_timestamp": "2023-10-26T14:38:13.653563", "end_timestamp": "2024-10-01T14:38:13.653564", "country": "VEN", "event_id": "5512", "league": "ACB", "participants": ["Los Angeles Lakers", "Real Madrid"], "sport": "Basketball"}], "coupons": [{"coupon_id": 69742, "selections": [{"event_id": "68862", "odds": 2.7325016468280277}, {"event_id": "68862", "odds": 2.597517241099148}, {"event_id": "8453", "odds": 2.8705210736660054}, {"event_id": "77251", "odds": 2.685898233237634}, {"event_id": "90031", "odds": 2.536565912003242}], "stake": 333.6794469007147, "timestamp": "2023-06-29T14:38:13.653870", "user_id": 52336}, {"coupon_id": 91175, "selections": [{"event_id": "77251", "odds": 2.251862367802266}], "stake": 978.2731651563951, "timestamp": "2023-10-02T14:38:13.653879", "user_id": 26878}, {"coupon_id": 66470, "selections": [{"event_id": "45978", "odds": 2.4544917976328664}, {"event_id": "39951", "odds": 1.5954832656370659}, {"event_id": "95776", "odds": 1.485241500283462}, {"event_id": "3313", "odds": 2.8444272331584584}], "stake": 357.6759517084555, "timestamp": "2023-05-16T14:38:13.653886", "user_id": 68244}, {"coupon_id": 73386, "selections": [{"event_id": "18540", "odds": 1.3928295511900326}, {"event_id": "57020", "odds": 2.192843013030474}], "stake": 351.43417053796935, "timestamp": "2023-06-01T14:38:13.653890", "user_id": 47375}, {"coupon_id": 91513, "selections": [{"event_id": "55452", "odds": 1.917807142640909}, {"event_id": "11851", "odds": 2.785367228179137}, {"event_id": "69448", "odds": 2.8862419690790757}], "stake": 378.7397478874613, "timestamp": "2024-01-05T14:38:13.653896", "user_id": 69870}, {"coupon_id": 94728, "selections": [{"event_id": "4441", "odds": 1.5023755249598068}, {"event_id": "10935", "odds": 1.6002829923119302}, {"event_id": "77251", "odds": 1.95114695125783}, {"event_id": "5512", "odds": 2.8137044984404325}, {"event_id": "14933", "odds": 2.4594895668851695}], "stake": 445.54211573919787, "timestamp": "2023-06-20T14:38:13.653902", "user_id": 45983}, {"coupon_id": 48622, "selections": [{"event_id": "29847", "odds": 2.4281259469692698}, {"event_id": "14933", "odds": 1.8758979389482358}, {"event_id": "58348", "odds": 2.212401222290927}, {"event_id": "90031", "odds": 1.0200247414634624}], "stake": 126.5317713112868, "timestamp": "2024-02-02T14:38:13.653908", "user_id": 40833}, {"coupon_id": 74719, "selections": [{"event_id": "44494", "odds": 1.2950780555443093}, {"event_id": "15414", "odds": 2.5590149038330163}, {"event_id": "44884", "odds": 1.6464701745997097}, {"event_id": "56407", "odds": 2.7851482455578624}, {"event_id": "55452", "odds": 2.988579233469006}], "stake": 876.2188969256372, "timestamp": "2023-06-15T14:38:13.653914", "user_id": 68244}, {"coupon_id": 62508, "selections": [{"event_id": "20940", "odds": 1.3756016128552435}], "stake": 743.7864798597471, "timestamp": "2023-06-25T14:38:13.653918", "user_id": 45983}, {"coupon_id": 37038, "selections": [{"event_id": "35074", "odds": 1.3022935444702952}], "stake": 261.22487218157926, "timestamp": "2023-07-24T14:38:13.653921", "user_id": 29363}, {"coupon_id": 15932, "selections": [{"event_id": "18540", "odds": 2.012410385545625}, {"event_id": "7307", "odds": 1.653782638928732}, {"event_id": "81254", "odds": 1.582353922417298}, {"event_id": "75888", "odds": 1.392071546673864}], "stake": 493.4224319133061, "timestamp": "2023-07-23T14:38:13.653929", "user_id": 18881}, {"coupon_id": 5862, "selections": [{"event_id": "48511", "odds": 2.6867210578049487}, {"event_id": "49291", "odds": 2.920563253337515}, {"event_id": "39951", "odds": 2.8048087842923892}, {"event_id": "14933", "odds": 1.0278548965453695}, {"event_id": "5512", "odds": 2.725772867824348}], "stake": 277.5730059313381, "timestamp": "2023-04-29T14:38:13.653935", "user_id": 2106}, {"coupon_id": 97443, "selections": [{"event_id": "7601", "odds": 1.9621452937183128}, {"event_id": "4057", "odds": 2.297935355064898}, {"event_id": "87547", "odds": 2.5353482126392293}, {"event_id": "75888", "odds": 2.3080925498702785}, {"event_id": "6555", "odds": 1.1339106371512073}], "stake": 747.7650075541809, "timestamp": "2023-06-01T14:38:13.653941", "user_id": 22575}, {"coupon_id": 47700, "selections": [{"event_id": "8515", "odds": 2.038940028762765}, {"event_id": "16702", "odds": 1.7661050733519446}, {"event_id": "57020", "odds": 2.918581567103056}], "stake": 828.5481329610881, "timestamp": "2023-09-24T14:38:13.653946", "user_id": 29857}, {"coupon_id": 18061, "selections": [{"event_id": "37510", "odds": 1.441907818731711}, {"event_id": "3313", "odds": 2.5220781247099495}, {"event_id": "88446", "odds": 1.9966883043464627}], "stake": 895.4206575094332, "timestamp": "2023-10-06T14:38:13.653951", "user_id": 88070}, {"coupon_id": 44429, "selections": [{"event_id": "32288", "odds": 1.2291353591873988}, {"event_id": "57628", "odds": 2.3646277065561123}, {"event_id": "64746", "odds": 1.00144139238732}, {"event_id": "69448", "odds": 1.211651133148191}], "stake": 880.5105903628744, "timestamp": "2024-04-06T14:38:13.653956", "user_id": 68244}, {"coupon_id": 81191, "selections": [{"event_id": "87547", "odds": 2.981766553946431}, {"event_id": "37510", "odds": 2.939516860760417}, {"event_id": "28540", "odds": 1.3092973283883442}], "stake": 969.1369723696979, "timestamp": "2023-07-17T14:38:13.653961", "user_id": 35045}, {"coupon_id": 53464, "selections": [{"event_id": "18714", "odds": 2.703980418322965}, {"event_id": "35805", "odds": 1.5393608186086307}], "stake": 318.832560709575, "timestamp": "2023-12-06T14:38:13.653967", "user_id": 78794}, {"coupon_id": 2164, "selections": [{"event_id": "62865", "odds": 2.420818086339362}, {"event_id": "14933", "odds": 2.435161535534879}], "stake": 255.8884217597158, "timestamp": "2024-04-16T14:38:13.653972", "user_id": 75725}, {"coupon_id": 96308, "selections": [{"event_id": "7307", "odds": 1.8081995616301252}, {"event_id": "44884", "odds": 1.5636638156573477}, {"event_id": "81890", "odds": 1.7415948513181414}, {"event_id": "37510", "odds": 2.326337569146393}], "stake": 316.81428610444027, "timestamp": "2023-05-22T14:38:13.653980", "user_id": 81263}, {"coupon_id": 33357, "selections": [{"event_id": "7601", "odds": 2.450031145748829}, {"event_id": "20940", "odds": 2.3689630396956196}, {"event_id": "18540", "odds": 1.2581715044451989}, {"event_id": "45978", "odds": 2.3242097926320637}], "stake": 792.2106847019678, "timestamp": "2023-05-17T14:38:13.653988", "user_id": 29857}, {"coupon_id": 15932, "selections": [{"event_id": "86712", "odds": 2.0599505998762178}, {"event_id": "4057", "odds": 2.3472560044588513}, {"event_id": "35805", "odds": 1.9495915772459511}], "stake": 694.3600836768788, "timestamp": "2023-09-19T14:38:13.653993", "user_id": 42624}, {"coupon_id": 56903, "selections": [{"event_id": "43903", "odds": 2.0549490140183804}, {"event_id": "6555", "odds": 2.6233319436914115}], "stake": 896.5605868632525, "timestamp": "2023-11-06T14:38:13.653998", "user_id": 7991}, {"coupon_id": 74543, "selections": [{"event_id": "96986", "odds": 2.425713981511477}, {"event_id": "18752", "odds": 1.4805773589716578}], "stake": 836.0873688981472, "timestamp": "2024-03-28T14:38:13.654002", "user_id": 79110}, {"coupon_id": 83922, "selections": [{"event_id": "45606", "odds": 2.2058053137944222}, {"event_id": "53388", "odds": 1.5986566603123744}], "stake": 225.05439630021422, "timestamp": "2024-01-13T14:38:13.654007", "user_id": 37923}, {"coupon_id": 88071, "selections": [{"event_id": "93499", "odds": 1.2432633281579066}, {"event_id": "86320", "odds": 1.366761400029529}, {"event_id": "11286", "odds": 1.588158107236676}, {"event_id": "34531", "odds": 2.2600883483883365}, {"event_id": "86812", "odds": 1.073160157977139}], "stake": 454.4286274030358, "timestamp": "2024-01-26T14:38:13.654013", "user_id": 52617}, {"coupon_id": 58199, "selections": [{"event_id": "88446", "odds": 1.9213385405411014}, {"event_id": "58486", "odds": 2.4605301687974763}, {"event_id": "37196", "odds": 2.240738589660012}], "stake": 548.5660233352243, "timestamp": "2024-03-01T14:38:13.654019", "user_id": 6252}, {"coupon_id": 39829, "selections": [{"event_id": "86712", "odds": 1.988405875727767}, {"event_id": "4441", "odds": 1.4886497779568308}, {"event_id": "22046", "odds": 2.488836842706781}, {"event_id": "3313", "odds": 2.7295141418742963}], "stake": 536.5147629769858, "timestamp": "2023-06-03T14:38:13.654026", "user_id": 81094}, {"coupon_id": 46257, "selections": [{"event_id": "9221", "odds": 2.7299337895541003}, {"event_id": "55452", "odds": 2.64458301354156}, {"event_id": "38116", "odds": 1.9234240986769962}], "stake": 792.2766300647155, "timestamp": "2023-06-26T14:38:13.654032", "user_id": 9467}, {"coupon_id": 73566, "selections": [{"event_id": "66732", "odds": 1.6770221124943365}, {"event_id": "45678", "odds": 1.191052311523333}, {"event_id": "50244", "odds": 2.8086772183424076}], "stake": 669.0358951470065, "timestamp": "2024-03-11T14:38:13.654037", "user_id": 79014}, {"coupon_id": 40383, "selections": [{"event_id": "9221", "odds": 2.581506290764359}], "stake": 578.7211476265172, "timestamp": "2024-01-22T14:38:13.654041", "user_id": 10756}, {"coupon_id": 69273, "selections": [{"event_id": "95911", "odds": 1.698553975101329}, {"event_id": "38497", "odds": 2.1584938691183133}], "stake": 344.193858399895, "timestamp": "2023-07-05T14:38:13.654070", "user_id": 9467}, {"coupon_id": 38175, "selections": [{"event_id": "82574", "odds": 2.72199605828851}, {"event_id": "93266", "odds": 2.9157554488525816}, {"event_id": "88446", "odds": 1.1176465258937005}, {"event_id": "66732", "odds": 1.320027315543561}], "stake": 60.23530029214142, "timestamp": "2023-07-24T14:38:13.654077", "user_id": 21530}, {"coupon_id": 32336, "selections": [{"event_id": "77251", "odds": 2.8807952966401604}], "stake": 382.5531204362609, "timestamp": "2023-06-18T14:38:13.654081", "user_id": 39302}, {"coupon_id": 98723, "selections": [{"event_id": "18752", "odds": 1.0177114979976978}], "stake": 952.4419777966255, "timestamp": "2024-04-01T14:38:13.654084", "user_id": 85952}, {"coupon_id": 49857, "selections": [{"event_id": "44884", "odds": 2.836788731339674}], "stake": 725.490120870644, "timestamp": "2023-11-16T14:38:13.654088", "user_id": 55100}, {"coupon_id": 10464, "selections": [{"event_id": "28540", "odds": 2.3796380567718396}, {"event_id": "25732", "odds": 2.252487376450059}, {"event_id": "16022", "odds": 1.0048331308906222}, {"event_id": "81254", "odds": 2.3572931355333893}, {"event_id": "71791", "odds": 1.3340452759109414}], "stake": 507.8164091596125, "timestamp": "2024-02-29T14:38:13.654094", "user_id": 90225}, {"coupon_id": 56009, "selections": [{"event_id": "22046", "odds": 2.014688620152487}, {"event_id": "10935", "odds": 1.7698019614145188}, {"event_id": "67589", "odds": 2.746949903264974}, {"event_id": "32288", "odds": 1.642186155018036}], "stake": 383.27041211271495, "timestamp": "2023-10-18T14:38:13.654101", "user_id": 37923}, {"coupon_id": 93393, "selections": [{"event_id": "50244", "odds": 2.8668355126142044}, {"event_id": "45678", "odds": 2.537652556039742}, {"event_id": "25732", "odds": 1.2980120647782627}], "stake": 160.97038768182063, "timestamp": "2024-01-20T14:38:13.654106", "user_id": 85952}, {"coupon_id": 22565, "selections": [{"event_id": "6555", "odds": 2.0631917824443606}, {"event_id": "45678", "odds": 2.6724756913599608}, {"event_id": "3313", "odds": 2.634951542187358}], "stake": 285.5091831651526, "timestamp": "2023-08-19T14:38:13.654111", "user_id": 29363}, {"coupon_id": 72601, "selections": [{"event_id": "20824", "odds": 2.70770817858826}, {"event_id": "16702", "odds": 2.148510279518095}, {"event_id": "39951", "odds": 1.2005532715288243}, {"event_id": "86712", "odds": 2.8516738511664843}], "stake": 952.7157231741505, "timestamp": "2023-12-25T14:38:13.654117", "user_id": 62006}, {"coupon_id": 40368, "selections": [{"event_id": "15414", "odds": 2.062074361814677}, {"event_id": "35735", "odds": 2.7416346735214825}, {"event_id": "62865", "odds": 1.9095149583309678}, {"event_id": "95776", "odds": 2.355602192993481}, {"event_id": "64746", "odds": 2.480119818495551}], "stake": 451.60532795936547, "timestamp": "2024-03-27T14:38:13.654124", "user_id": 82406}, {"coupon_id": 19351, "selections": [{"event_id": "3313", "odds": 1.4770822831240051}, {"event_id": "9225", "odds": 2.3870926751851185}], "stake": 246.11440621525273, "timestamp": "2024-03-06T14:38:13.654129", "user_id": 45983}, {"coupon_id": 7385, "selections": [{"event_id": "49957", "odds": 2.3797965386153956}, {"event_id": "9221", "odds": 2.371545390569408}], "stake": 877.140713822764, "timestamp": "2023-05-03T14:38:13.654133", "user_id": 79515}, {"coupon_id": 92002, "selections": [{"event_id": "11851", "odds": 2.698340706468218}, {"event_id": "76871", "odds": 1.49064748383691}, {"event_id": "37196", "odds": 1.539104187658953}, {"event_id": "68862", "odds": 2.5983984287141797}, {"event_id": "16022", "odds": 1.5069301255682586}], "stake": 495.69729720864814, "timestamp": "2024-03-05T14:38:13.654141", "user_id": 86035}, {"coupon_id": 9553, "selections": [{"event_id": "7601", "odds": 1.8990615150576295}, {"event_id": "14933", "odds": 1.5652684832035437}], "stake": 299.7098487616847, "timestamp": "2023-10-25T14:38:13.654146", "user_id": 68244}, {"coupon_id": 19209, "selections": [{"event_id": "36142", "odds": 1.8452722790320113}, {"event_id": "86712", "odds": 1.60769404601362}], "stake": 845.340240166676, "timestamp": "2023-08-28T14:38:13.654151", "user_id": 93870}, {"coupon_id": 26467, "selections": [{"event_id": "15414", "odds": 1.246963890782855}, {"event_id": "81254", "odds": 1.2685843565444155}], "stake": 254.0450355634012, "timestamp": "2023-06-20T14:38:13.654155", "user_id": 63795}, {"coupon_id": 32109, "selections": [{"event_id": "22046", "odds": 1.5288644714977262}, {"event_id": "37510", "odds": 1.2119342451297852}, {"event_id": "37196", "odds": 2.087690223520676}, {"event_id": "37510", "odds": 2.0280911625641136}, {"event_id": "16702", "odds": 1.5391654372200938}], "stake": 793.1185448421512, "timestamp": "2023-06-04T14:38:13.654162", "user_id": 18283}, {"coupon_id": 80224, "selections": [{"event_id": "64653", "odds": 1.5845755980056058}, {"event_id": "93266", "odds": 2.9511514580696065}], "stake": 812.3034217651915, "timestamp": "2023-07-28T14:38:13.654167", "user_id": 79110}, {"coupon_id": 62190, "selections": [{"event_id": "48511", "odds": 1.658366308977229}], "stake": 18.945519526477135, "timestamp": "2023-07-05T14:38:13.654170", "user_id": 39946}, {"coupon_id": 18381, "selections": [{"event_id": "82574", "odds": 1.9955035429259307}, {"event_id": "3313", "odds": 2.9432160939336662}, {"event_id": "67589", "odds": 2.9001756278094017}, {"event_id": "57628", "odds": 2.3907324544901147}], "stake": 144.62524281237822, "timestamp": "2023-10-15T14:38:13.654177", "user_id": 12107}, {"coupon_id": 86633, "selections": [{"event_id": "88374", "odds": 2.0090697606867653}, {"event_id": "45978", "odds": 1.734866081609032}], "stake": 18.493590870523363, "timestamp": "2023-08-26T14:38:13.654181", "user_id": 70216}, {"coupon_id": 41966, "selections": [{"event_id": "93499", "odds": 2.974647796959564}], "stake": 278.8046410996205, "timestamp": "2023-12-23T14:38:13.654185", "user_id": 18219}, {"coupon_id": 79386, "selections": [{"event_id": "35735", "odds": 1.158449142054533}, {"event_id": "16702", "odds": 1.2365758043047372}, {"event_id": "7601", "odds": 2.7345794961069165}], "stake": 940.133008911733, "timestamp": "2024-02-21T14:38:13.654190", "user_id": 47959}, {"coupon_id": 83946, "selections": [{"event_id": "77251", "odds": 2.58661532840111}, {"event_id": "55452", "odds": 2.2414716787785527}, {"event_id": "53388", "odds": 2.8011125313955842}, {"event_id": "14933", "odds": 1.0657364915115561}], "stake": 583.109852212293, "timestamp": "2024-01-03T14:38:13.654196", "user_id": 53014}, {"coupon_id": 98503, "selections": [{"event_id": "93499", "odds": 2.850562601576668}, {"event_id": "67589", "odds": 1.2264407373977102}, {"event_id": "66732", "odds": 2.2935242791298576}, {"event_id": "57020", "odds": 2.2909699041206055}], "stake": 19.329343988994516, "timestamp": "2024-04-10T14:38:13.654202", "user_id": 24276}, {"coupon_id": 19275, "selections": [{"event_id": "86812", "odds": 2.27790230197175}, {"event_id": "16022", "odds": 2.355304521918867}, {"event_id": "28149", "odds": 1.9172647826773235}], "stake": 306.9950924050676, "timestamp": "2023-12-05T14:38:13.654207", "user_id": 55107}, {"coupon_id": 13250, "selections": [{"event_id": "7307", "odds": 1.3510833881118975}, {"event_id": "38116", "odds": 2.366582758128658}, {"event_id": "18540", "odds": 2.917558595564735}], "stake": 229.8640901468423, "timestamp": "2023-11-25T14:38:13.654212", "user_id": 35640}, {"coupon_id": 66878, "selections": [{"event_id": "8515", "odds": 2.2849611595025756}, {"event_id": "38116", "odds": 1.655505170585709}, {"event_id": "86062", "odds": 1.108764132894837}, {"event_id": "38116", "odds": 2.5191441829989962}, {"event_id": "39951", "odds": 2.4198982134608578}], "stake": 229.32395308310342, "timestamp": "2024-03-12T14:38:13.654219", "user_id": 68244}, {"coupon_id": 22054, "selections": [{"event_id": "50415", "odds": 1.1330448036173868}], "stake": 612.0463460938994, "timestamp": "2023-12-27T14:38:13.654222", "user_id": 28397}, {"coupon_id": 1634, "selections": [{"event_id": "6555", "odds": 2.2724687589490786}, {"event_id": "50244", "odds": 2.4630644125339023}, {"event_id": "29847", "odds": 1.8640695996399101}, {"event_id": "68862", "odds": 1.424579395034508}], "stake": 21.161252939697125, "timestamp": "2023-08-07T14:38:13.654228", "user_id": 50059}, {"coupon_id": 94817, "selections": [{"event_id": "18540", "odds": 2.1247500375706116}], "stake": 792.756860937319, "timestamp": "2024-01-26T14:38:13.654232", "user_id": 23943}, {"coupon_id": 92813, "selections": [{"event_id": "16022", "odds": 1.3607212844594794}], "stake": 951.5737969692177, "timestamp": "2023-10-14T14:38:13.654236", "user_id": 63795}, {"coupon_id": 53509, "selections": [{"event_id": "45606", "odds": 2.591823341396985}, {"event_id": "45978", "odds": 2.3292253848373594}, {"event_id": "20824", "odds": 2.1473862417999827}, {"event_id": "57020", "odds": 1.9757349255604375}], "stake": 552.0715798656981, "timestamp": "2023-09-16T14:38:13.654241", "user_id": 73850}, {"coupon_id": 47903, "selections": [{"event_id": "31789", "odds": 1.7576909590506875}], "stake": 475.75770544300946, "timestamp": "2023-10-21T14:38:13.654246", "user_id": 39946}, {"coupon_id": 99669, "selections": [{"event_id": "10935", "odds": 2.9421644787625487}, {"event_id": "4441", "odds": 2.5336673523886004}, {"event_id": "69354", "odds": 1.2947709135562604}], "stake": 484.01211821115925, "timestamp": "2023-11-01T14:38:13.654251", "user_id": 51396}, {"coupon_id": 29030, "selections": [{"event_id": "3313", "odds": 2.298495839180409}, {"event_id": "34531", "odds": 1.8679620794371394}, {"event_id": "4441", "odds": 1.2232084946258632}], "stake": 736.773649681187, "timestamp": "2024-03-02T14:38:13.654256", "user_id": 42624}, {"coupon_id": 89123, "selections": [{"event_id": "44494", "odds": 2.351774715596287}, {"event_id": "38497", "odds": 1.5786362092120407}, {"event_id": "50244", "odds": 1.901420534176077}, {"event_id": "32288", "odds": 2.434913465008038}, {"event_id": "45678", "odds": 1.7553093158269513}], "stake": 545.2705590209645, "timestamp": "2023-11-10T14:38:13.654263", "user_id": 97777}, {"coupon_id": 64766, "selections": [{"event_id": "10935", "odds": 2.1132218143958728}, {"event_id": "95911", "odds": 1.8022324837704526}, {"event_id": "8453", "odds": 1.100672820690788}, {"event_id": "55452", "odds": 1.639484557424068}, {"event_id": "31789", "odds": 1.0106564607765594}], "stake": 757.2130752688613, "timestamp": "2023-07-27T14:38:13.654270", "user_id": 47474}, {"coupon_id": 32834, "selections": [{"event_id": "28149", "odds": 1.2272635672836814}, {"event_id": "64653", "odds": 2.7697262493876456}, {"event_id": "57020", "odds": 1.8488717104177885}, {"event_id": "53388", "odds": 1.6637695958446215}], "stake": 765.2020833989263, "timestamp": "2024-02-15T14:38:13.654276", "user_id": 95191}, {"coupon_id": 31306, "selections": [{"event_id": "9225", "odds": 2.8285339962630687}, {"event_id": "3313", "odds": 1.6788120920443217}, {"event_id": "35805", "odds": 1.2438063989603116}, {"event_id": "23649", "odds": 1.1008569509219355}, {"event_id": "11286", "odds": 2.0244441400014406}], "stake": 920.4782422142454, "timestamp": "2023-08-23T14:38:13.654282", "user_id": 75725}, {"coupon_id": 56372, "selections": [{"event_id": "76871", "odds": 2.218916236493334}, {"event_id": "22755", "odds": 2.732889738907338}, {"event_id": "22755", "odds": 2.261526276827429}, {"event_id": "28540", "odds": 2.304105726652953}, {"event_id": "7307", "odds": 2.5661037916255185}], "stake": 460.387475739014, "timestamp": "2023-11-07T14:38:13.654290", "user_id": 47474}, {"coupon_id": 52950, "selections": [{"event_id": "58348", "odds": 1.88594628246496}], "stake": 873.8955995997646, "timestamp": "2024-02-04T14:38:13.654293", "user_id": 35281}, {"coupon_id": 6784, "selections": [{"event_id": "18714", "odds": 2.7953585523824165}, {"event_id": "64653", "odds": 1.0752739151028496}], "stake": 93.22795710704685, "timestamp": "2023-04-26T14:38:13.654300", "user_id": 86035}, {"coupon_id": 35179, "selections": [{"event_id": "36142", "odds": 2.6583849072751846}, {"event_id": "44494", "odds": 1.3086085821510398}, {"event_id": "56407", "odds": 1.0653342306806401}], "stake": 884.3079306102601, "timestamp": "2023-06-16T14:38:13.654305", "user_id": 99951}, {"coupon_id": 64241, "selections": [{"event_id": "31979", "odds": 1.0586949107933752}, {"event_id": "18752", "odds": 1.7577206126082818}, {"event_id": "45978", "odds": 1.606696664153006}, {"event_id": "53388", "odds": 2.7234535188676343}], "stake": 776.204558818901, "timestamp": "2023-05-21T14:38:13.654312", "user_id": 73850}, {"coupon_id": 58857, "selections": [{"event_id": "95911", "odds": 2.917657766212522}, {"event_id": "64746", "odds": 2.283702953126019}, {"event_id": "28540", "odds": 2.1745846981975205}, {"event_id": "10935", "odds": 2.2268532994157937}, {"event_id": "3313", "odds": 1.3500078087119436}], "stake": 387.58290762480027, "timestamp": "2023-10-29T14:38:13.654319", "user_id": 86035}, {"coupon_id": 61311, "selections": [{"event_id": "93499", "odds": 1.310136821795016}, {"event_id": "44884", "odds": 2.2616497087143097}, {"event_id": "7601", "odds": 2.609453499928395}, {"event_id": "45606", "odds": 2.548346847705819}, {"event_id": "86712", "odds": 2.8533599491820834}], "stake": 134.58208398655336, "timestamp": "2023-12-12T14:38:13.654325", "user_id": 11271}, {"coupon_id": 72440, "selections": [{"event_id": "48511", "odds": 1.1500678623910616}], "stake": 143.987834981975, "timestamp": "2024-02-22T14:38:13.654329", "user_id": 56836}, {"coupon_id": 98747, "selections": [{"event_id": "86712", "odds": 1.1086313933294112}, {"event_id": "96986", "odds": 2.320185679119123}, {"event_id": "53320", "odds": 2.1018976857573373}, {"event_id": "53388", "odds": 1.7243112504675122}, {"event_id": "18540", "odds": 2.9544861682620516}], "stake": 767.7299466408036, "timestamp": "2023-05-23T14:38:13.654336", "user_id": 7364}, {"coupon_id": 98321, "selections": [{"event_id": "8515", "odds": 1.9047933064877325}, {"event_id": "45606", "odds": 1.6579662726806799}, {"event_id": "31979", "odds": 2.922299191039726}, {"event_id": "56407", "odds": 2.1224145410807838}], "stake": 410.14973784715005, "timestamp": "2023-05-23T14:38:13.654342", "user_id": 6108}, {"coupon_id": 64563, "selections": [{"event_id": "25732", "odds": 1.3809789930693537}, {"event_id": "15414", "odds": 1.8721748005276386}, {"event_id": "77251", "odds": 1.8417187003058777}, {"event_id": "95776", "odds": 2.7029735619669553}], "stake": 257.1642374093143, "timestamp": "2023-06-01T14:38:13.654348", "user_id": 88070}, {"coupon_id": 58848, "selections": [{"event_id": "28149", "odds": 1.2177554596557918}, {"event_id": "18540", "odds": 1.9070633846072436}, {"event_id": "62865", "odds": 1.82746255878845}, {"event_id": "23649", "odds": 1.868665406505073}], "stake": 179.82253457663828, "timestamp": "2023-06-18T14:38:13.654354", "user_id": 25877}, {"coupon_id": 77533, "selections": [{"event_id": "95776", "odds": 2.8642539300827505}], "stake": 581.5700923850236, "timestamp": "2023-09-12T14:38:13.654378", "user_id": 47375}, {"coupon_id": 38318, "selections": [{"event_id": "88446", "odds": 2.227373811470028}], "stake": 111.24072136665956, "timestamp": "2023-10-09T14:38:13.654382", "user_id": 42857}, {"coupon_id": 23510, "selections": [{"event_id": "8453", "odds": 2.269283314783259}], "stake": 893.5682080240838, "timestamp": "2023-04-29T14:38:13.654386", "user_id": 3098}, {"coupon_id": 34342, "selections": [{"event_id": "11851", "odds": 2.177380862278567}], "stake": 445.4425555969383, "timestamp": "2023-07-30T14:38:13.654390", "user_id": 37923}, {"coupon_id": 55178, "selections": [{"event_id": "15323", "odds": 2.678774524467921}, {"event_id": "86062", "odds": 2.3754368406531077}, {"event_id": "4141", "odds": 1.6408517425491418}, {"event_id": "6555", "odds": 2.433685250713692}, {"event_id": "64746", "odds": 2.6702405662722226}], "stake": 786.737967617985, "timestamp": "2023-05-09T14:38:13.654396", "user_id": 52617}, {"coupon_id": 84557, "selections": [{"event_id": "48511", "odds": 2.539373318878189}, {"event_id": "71791", "odds": 2.895680831410279}], "stake": 574.0957077018782, "timestamp": "2023-10-09T14:38:13.654401", "user_id": 21530}, {"coupon_id": 43717, "selections": [{"event_id": "56407", "odds": 1.7422257072860647}, {"event_id": "44884", "odds": 2.8161712180287384}, {"event_id": "50244", "odds": 2.039361237597418}, {"event_id": "64746", "odds": 2.386823654006335}, {"event_id": "66732", "odds": 2.181755266450846}], "stake": 142.1576850699687, "timestamp": "2023-08-12T14:38:13.654409", "user_id": 70216}, {"coupon_id": 23060, "selections": [{"event_id": "64746", "odds": 1.6689126444519022}, {"event_id": "31979", "odds": 2.8545709543515048}, {"event_id": "20940", "odds": 1.9922479881297608}, {"event_id": "81254", "odds": 2.13716542089835}, {"event_id": "96986", "odds": 1.124533700863788}], "stake": 194.522898538687, "timestamp": "2023-07-30T14:38:13.654415", "user_id": 9467}, {"coupon_id": 24761, "selections": [{"event_id": "95911", "odds": 1.2404903224740333}, {"event_id": "34170", "odds": 1.1368578703744379}], "stake": 730.210137092027, "timestamp": "2023-12-21T14:38:13.654420", "user_id": 12699}, {"coupon_id": 78098, "selections": [{"event_id": "34531", "odds": 1.1203385990308707}, {"event_id": "44884", "odds": 2.6070183913233373}, {"event_id": "62865", "odds": 2.204526149011068}, {"event_id": "21519", "odds": 1.0620097262363883}], "stake": 202.83834736210025, "timestamp": "2023-07-19T14:38:13.654426", "user_id": 86036}, {"coupon_id": 46202, "selections": [{"event_id": "87547", "odds": 2.963191695899667}, {"event_id": "52123", "odds": 1.1702520868540913}, {"event_id": "45978", "odds": 1.2003695028018864}, {"event_id": "11286", "odds": 1.2689603818163238}, {"event_id": "58861", "odds": 1.193498423364431}], "stake": 145.05007909232285, "timestamp": "2023-07-23T14:38:13.654432", "user_id": 68943}, {"coupon_id": 65118, "selections": [{"event_id": "37196", "odds": 2.901489342387115}, {"event_id": "8453", "odds": 2.2366413578105995}, {"event_id": "56407", "odds": 2.9090437592149443}, {"event_id": "95911", "odds": 1.84165534731876}], "stake": 41.83443154425541, "timestamp": "2023-05-05T14:38:13.654438", "user_id": 79515}, {"coupon_id": 8723, "selections": [{"event_id": "45678", "odds": 1.116788398951001}, {"event_id": "10935", "odds": 2.957704277001449}, {"event_id": "38116", "odds": 1.245160165773705}, {"event_id": "62865", "odds": 2.4720478328852504}], "stake": 815.577667145054, "timestamp": "2023-05-18T14:38:13.654444", "user_id": 7364}, {"coupon_id": 29004, "selections": [{"event_id": "11851", "odds": 1.5866677017751163}], "stake": 286.9743002872441, "timestamp": "2024-04-15T14:38:13.654447", "user_id": 88272}, {"coupon_id": 64033, "selections": [{"event_id": "44884", "odds": 2.224930001206269}, {"event_id": "86712", "odds": 2.1035524727966637}, {"event_id": "81254", "odds": 1.826886906148754}, {"event_id": "34531", "odds": 1.3386795025652267}], "stake": 402.3312828539591, "timestamp": "2024-02-15T14:38:13.654454", "user_id": 6252}, {"coupon_id": 15224, "selections": [{"event_id": "58486", "odds": 1.3731614283804674}, {"event_id": "93266", "odds": 1.7309148186024035}, {"event_id": "35735", "odds": 1.165528900964166}, {"event_id": "38497", "odds": 2.210765740474807}, {"event_id": "36142", "odds": 2.312066047524122}], "stake": 952.9873978264184, "timestamp": "2023-04-30T14:38:13.654462", "user_id": 40833}]}
+{
+  "users": [
+    {
+      "birth_year": 1970,
+      "country": "AL",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2024-04-01 20:48:20.438063",
+      "user_id": 79859
+    },
+    {
+      "birth_year": 1961,
+      "country": "IT",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2024-02-27 20:48:20.438071",
+      "user_id": 35861
+    },
+    {
+      "birth_year": 1953,
+      "country": "GR",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2024-04-06 20:48:20.438076",
+      "user_id": 43429
+    },
+    {
+      "birth_year": 1956,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2024-02-21 20:48:20.438080",
+      "user_id": 12146
+    },
+    {
+      "birth_year": 1986,
+      "country": "FR",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-09-08 20:48:20.438083",
+      "user_id": 79299
+    },
+    {
+      "birth_year": 1970,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-05-17 20:48:20.438087",
+      "user_id": 98638
+    },
+    {
+      "birth_year": 1954,
+      "country": "AL",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-11-29 20:48:20.438090",
+      "user_id": 82626
+    },
+    {
+      "birth_year": 1999,
+      "country": "AL",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-04-24 20:48:20.438094",
+      "user_id": 75223
+    },
+    {
+      "birth_year": 1959,
+      "country": "DE",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-08-07 20:48:20.438097",
+      "user_id": 15359
+    },
+    {
+      "birth_year": 1974,
+      "country": "ES",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-12-30 20:48:20.438101",
+      "user_id": 16323
+    },
+    {
+      "birth_year": 1980,
+      "country": "DE",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-10-04 20:48:20.438104",
+      "user_id": 1587
+    },
+    {
+      "birth_year": 1965,
+      "country": "US",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-10-09 20:48:20.438108",
+      "user_id": 63102
+    },
+    {
+      "birth_year": 2002,
+      "country": "AL",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2024-02-08 20:48:20.438111",
+      "user_id": 33487
+    },
+    {
+      "birth_year": 1966,
+      "country": "DE",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2023-09-13 20:48:20.438115",
+      "user_id": 99393
+    },
+    {
+      "birth_year": 1955,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-09-22 20:48:20.438118",
+      "user_id": 90033
+    },
+    {
+      "birth_year": 1980,
+      "country": "DE",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2024-03-23 20:48:20.438122",
+      "user_id": 72306
+    },
+    {
+      "birth_year": 1954,
+      "country": "UK",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-10-25 20:48:20.438126",
+      "user_id": 53186
+    },
+    {
+      "birth_year": 1958,
+      "country": "DE",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2023-08-01 20:48:20.438130",
+      "user_id": 80443
+    },
+    {
+      "birth_year": 1995,
+      "country": "ES",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-04-29 20:48:20.438134",
+      "user_id": 10336
+    },
+    {
+      "birth_year": 1996,
+      "country": "FR",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-07-14 20:48:20.438138",
+      "user_id": 2265
+    },
+    {
+      "birth_year": 1972,
+      "country": "ES",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-11-18 20:48:20.438143",
+      "user_id": 65123
+    },
+    {
+      "birth_year": 1992,
+      "country": "AL",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-09-15 20:48:20.438148",
+      "user_id": 85371
+    },
+    {
+      "birth_year": 1989,
+      "country": "ES",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2024-03-01 20:48:20.438152",
+      "user_id": 73637
+    },
+    {
+      "birth_year": 1962,
+      "country": "IT",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2023-09-25 20:48:20.438156",
+      "user_id": 43538
+    },
+    {
+      "birth_year": 1964,
+      "country": "GR",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-08-22 20:48:20.438160",
+      "user_id": 68571
+    },
+    {
+      "birth_year": 1972,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-10-13 20:48:20.438164",
+      "user_id": 42502
+    },
+    {
+      "birth_year": 1970,
+      "country": "US",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2024-02-10 20:48:20.438168",
+      "user_id": 77455
+    },
+    {
+      "birth_year": 1996,
+      "country": "AL",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-11-12 20:48:20.438172",
+      "user_id": 62079
+    },
+    {
+      "birth_year": 1957,
+      "country": "GR",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-11-09 20:48:20.438176",
+      "user_id": 48305
+    },
+    {
+      "birth_year": 1966,
+      "country": "FR",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2024-01-18 20:48:20.438179",
+      "user_id": 60449
+    },
+    {
+      "birth_year": 1987,
+      "country": "US",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2024-01-01 20:48:20.438183",
+      "user_id": 7705
+    },
+    {
+      "birth_year": 1972,
+      "country": "ES",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-09-07 20:48:20.438187",
+      "user_id": 58133
+    },
+    {
+      "birth_year": 2002,
+      "country": "GR",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-11-12 20:48:20.438191",
+      "user_id": 97758
+    },
+    {
+      "birth_year": 1973,
+      "country": "US",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-05-06 20:48:20.438195",
+      "user_id": 53536
+    },
+    {
+      "birth_year": 2000,
+      "country": "UK",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-10-31 20:48:20.438199",
+      "user_id": 30539
+    },
+    {
+      "birth_year": 1995,
+      "country": "GR",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-11-01 20:48:20.438202",
+      "user_id": 67427
+    },
+    {
+      "birth_year": 1981,
+      "country": "UK",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-07-10 20:48:20.438206",
+      "user_id": 1283
+    },
+    {
+      "birth_year": 1970,
+      "country": "US",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-12-11 20:48:20.438210",
+      "user_id": 73396
+    },
+    {
+      "birth_year": 1969,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-07-30 20:48:20.438213",
+      "user_id": 85514
+    },
+    {
+      "birth_year": 1977,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-05-27 20:48:20.438217",
+      "user_id": 16765
+    },
+    {
+      "birth_year": 1981,
+      "country": "UK",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-12-13 20:48:20.438221",
+      "user_id": 51648
+    },
+    {
+      "birth_year": 1986,
+      "country": "IT",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-04-24 20:48:20.438224",
+      "user_id": 45
+    },
+    {
+      "birth_year": 1994,
+      "country": "US",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-06-07 20:48:20.438228",
+      "user_id": 20515
+    },
+    {
+      "birth_year": 1954,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-10-18 20:48:20.438232",
+      "user_id": 6451
+    },
+    {
+      "birth_year": 1963,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2024-04-02 20:48:20.438236",
+      "user_id": 62401
+    },
+    {
+      "birth_year": 1953,
+      "country": "GR",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-10-29 20:48:20.438240",
+      "user_id": 35534
+    },
+    {
+      "birth_year": 1964,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-04-30 20:48:20.438243",
+      "user_id": 44245
+    },
+    {
+      "birth_year": 1992,
+      "country": "ES",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-05-27 20:48:20.438247",
+      "user_id": 37966
+    },
+    {
+      "birth_year": 1959,
+      "country": "AL",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-12-05 20:48:20.438251",
+      "user_id": 70947
+    },
+    {
+      "birth_year": 1969,
+      "country": "JPN",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-12-22 20:48:20.438255",
+      "user_id": 50268
+    },
+    {
+      "birth_year": 1981,
+      "country": "GR",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2024-04-16 20:48:20.438259",
+      "user_id": 11220
+    },
+    {
+      "birth_year": 1998,
+      "country": "FR",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-12-17 20:48:20.438262",
+      "user_id": 59335
+    },
+    {
+      "birth_year": 1973,
+      "country": "US",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2023-07-22 20:48:20.438266",
+      "user_id": 34238
+    },
+    {
+      "birth_year": 1996,
+      "country": "IT",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-07-21 20:48:20.438270",
+      "user_id": 2958
+    },
+    {
+      "birth_year": 1961,
+      "country": "DE",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-08-30 20:48:20.438274",
+      "user_id": 74590
+    },
+    {
+      "birth_year": 1979,
+      "country": "AL",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-05-20 20:48:20.438277",
+      "user_id": 47704
+    },
+    {
+      "birth_year": 1962,
+      "country": "ES",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-12-09 20:48:20.438281",
+      "user_id": 33930
+    },
+    {
+      "birth_year": 1994,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-05-13 20:48:20.438284",
+      "user_id": 7190
+    },
+    {
+      "birth_year": 1953,
+      "country": "AL",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2024-01-25 20:48:20.438288",
+      "user_id": 57429
+    },
+    {
+      "birth_year": 1993,
+      "country": "UK",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2023-07-11 20:48:20.438292",
+      "user_id": 73339
+    },
+    {
+      "birth_year": 1972,
+      "country": "IT",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2024-04-12 20:48:20.438296",
+      "user_id": 85601
+    },
+    {
+      "birth_year": 2002,
+      "country": "UK",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-07-08 20:48:20.438299",
+      "user_id": 91623
+    },
+    {
+      "birth_year": 1969,
+      "country": "IT",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-12-06 20:48:20.438303",
+      "user_id": 96395
+    },
+    {
+      "birth_year": 2002,
+      "country": "AL",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-08-10 20:48:20.438307",
+      "user_id": 6168
+    },
+    {
+      "birth_year": 1985,
+      "country": "ES",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-09-01 20:48:20.438310",
+      "user_id": 61034
+    },
+    {
+      "birth_year": 1977,
+      "country": "JPN",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2024-01-31 20:48:20.438314",
+      "user_id": 39679
+    },
+    {
+      "birth_year": 1990,
+      "country": "US",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-05-28 20:48:20.438318",
+      "user_id": 28165
+    },
+    {
+      "birth_year": 1975,
+      "country": "UK",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-09-29 20:48:20.438321",
+      "user_id": 99363
+    },
+    {
+      "birth_year": 1962,
+      "country": "JPN",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2024-03-06 20:48:20.438325",
+      "user_id": 56403
+    },
+    {
+      "birth_year": 1967,
+      "country": "GR",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-12-23 20:48:20.438328",
+      "user_id": 41828
+    },
+    {
+      "birth_year": 1993,
+      "country": "IT",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-12-16 20:48:20.438332",
+      "user_id": 63959
+    },
+    {
+      "birth_year": 1979,
+      "country": "US",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-05-12 20:48:20.438335",
+      "user_id": 41934
+    },
+    {
+      "birth_year": 1971,
+      "country": "ES",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-05-30 20:48:20.438339",
+      "user_id": 86061
+    },
+    {
+      "birth_year": 1961,
+      "country": "GR",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-09-26 20:48:20.438343",
+      "user_id": 14273
+    },
+    {
+      "birth_year": 2001,
+      "country": "US",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-12-14 20:48:20.438346",
+      "user_id": 21871
+    },
+    {
+      "birth_year": 1987,
+      "country": "JPN",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2024-02-25 20:48:20.438350",
+      "user_id": 18430
+    },
+    {
+      "birth_year": 1959,
+      "country": "UK",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-04-30 20:48:20.438353",
+      "user_id": 23748
+    },
+    {
+      "birth_year": 1977,
+      "country": "FR",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2024-04-01 20:48:20.438357",
+      "user_id": 45943
+    },
+    {
+      "birth_year": 1990,
+      "country": "ES",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2024-03-11 20:48:20.438361",
+      "user_id": 80919
+    },
+    {
+      "birth_year": 1986,
+      "country": "JPN",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-06-02 20:48:20.438364",
+      "user_id": 85847
+    },
+    {
+      "birth_year": 1956,
+      "country": "IT",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-09-30 20:48:20.438368",
+      "user_id": 85787
+    },
+    {
+      "birth_year": 1971,
+      "country": "IT",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-12-15 20:48:20.438372",
+      "user_id": 32955
+    },
+    {
+      "birth_year": 1960,
+      "country": "US",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-05-13 20:48:20.438375",
+      "user_id": 8902
+    },
+    {
+      "birth_year": 1996,
+      "country": "US",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-08-31 20:48:20.438379",
+      "user_id": 15049
+    },
+    {
+      "birth_year": 1973,
+      "country": "DE",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2024-02-12 20:48:20.438382",
+      "user_id": 10316
+    },
+    {
+      "birth_year": 1968,
+      "country": "UK",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2023-06-09 20:48:20.438386",
+      "user_id": 26143
+    },
+    {
+      "birth_year": 1951,
+      "country": "JPN",
+      "currency": "EUR",
+      "gender": "F",
+      "registration_date": "2024-04-08 20:48:20.438390",
+      "user_id": 38198
+    },
+    {
+      "birth_year": 1985,
+      "country": "GR",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-11-27 20:48:20.438393",
+      "user_id": 27108
+    },
+    {
+      "birth_year": 1993,
+      "country": "IT",
+      "currency": "GBP",
+      "gender": "M",
+      "registration_date": "2023-08-04 20:48:20.438397",
+      "user_id": 93592
+    },
+    {
+      "birth_year": 1991,
+      "country": "JPN",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-10-22 20:48:20.438400",
+      "user_id": 95506
+    },
+    {
+      "birth_year": 1966,
+      "country": "IT",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-10-24 20:48:20.438404",
+      "user_id": 54708
+    },
+    {
+      "birth_year": 1978,
+      "country": "FR",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-08-11 20:48:20.438407",
+      "user_id": 11979
+    },
+    {
+      "birth_year": 1998,
+      "country": "AL",
+      "currency": "USD",
+      "gender": "F",
+      "registration_date": "2023-06-16 20:48:20.438411",
+      "user_id": 70725
+    },
+    {
+      "birth_year": 1969,
+      "country": "FR",
+      "currency": "JPY",
+      "gender": "F",
+      "registration_date": "2024-02-28 20:48:20.438414",
+      "user_id": 98574
+    },
+    {
+      "birth_year": 1964,
+      "country": "ES",
+      "currency": "JPY",
+      "gender": "M",
+      "registration_date": "2023-09-03 20:48:20.438418",
+      "user_id": 37678
+    },
+    {
+      "birth_year": 2000,
+      "country": "GR",
+      "currency": "EUR",
+      "gender": "M",
+      "registration_date": "2023-11-22 20:48:20.438422",
+      "user_id": 91252
+    },
+    {
+      "birth_year": 1996,
+      "country": "AL",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-11-24 20:48:20.438425",
+      "user_id": 4119
+    },
+    {
+      "birth_year": 1964,
+      "country": "IT",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2023-05-06 20:48:20.438429",
+      "user_id": 1080
+    },
+    {
+      "birth_year": 1980,
+      "country": "AL",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-11-26 20:48:20.438433",
+      "user_id": 22286
+    },
+    {
+      "birth_year": 1966,
+      "country": "US",
+      "currency": "GBP",
+      "gender": "F",
+      "registration_date": "2023-10-25 20:48:20.438436",
+      "user_id": 96041
+    },
+    {
+      "birth_year": 1990,
+      "country": "US",
+      "currency": "USD",
+      "gender": "M",
+      "registration_date": "2021-01-01T00:00:00",
+      "user_id": 0
+    }
+  ],
+  "events": [
+    {
+      "begin_timestamp": "2023-10-10 20:48:20.437515",
+      "end_timestamp": "2024-08-22 20:48:20.437524",
+      "country": "DE",
+      "event_id": "55862",
+      "league": "Bundesliga",
+      "participants": [
+        "Barcelona",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-10-10 20:48:20.437515",
+      "end_timestamp": "2024-08-22 20:48:20.437524",
+      "country": "DE",
+      "event_id": "0",
+      "league": "Bundesliga",
+      "participants": [
+        "Barcelona",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-12-19 20:48:20.437543",
+      "end_timestamp": "2024-10-02 20:48:20.437545",
+      "country": "DE",
+      "event_id": "30285",
+      "league": "PGA",
+      "participants": [
+        "Rory McIlroy",
+        "Jordan Spieth"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-07-13 20:48:20.437552",
+      "end_timestamp": "2025-01-06 20:48:20.437554",
+      "country": "IT",
+      "event_id": "49774",
+      "league": "ATP",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-11-08 20:48:20.437559",
+      "end_timestamp": "2024-10-12 20:48:20.437560",
+      "country": "UK",
+      "event_id": "54098",
+      "league": "Champions League",
+      "participants": [
+        "Trentino Volley",
+        "Lube Civitanova"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-09-08 20:48:20.437564",
+      "end_timestamp": "2024-06-10 20:48:20.437566",
+      "country": "DE",
+      "event_id": "98469",
+      "league": "Super Rugby",
+      "participants": [
+        "England",
+        "New Zealand"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-11-23 20:48:20.437570",
+      "end_timestamp": "2025-03-02 20:48:20.437571",
+      "country": "AL",
+      "event_id": "25850",
+      "league": "PGA",
+      "participants": [
+        "Tiger Woods",
+        "Jordan Spieth"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2024-03-16 20:48:20.437575",
+      "end_timestamp": "2025-03-05 20:48:20.437576",
+      "country": "JPN",
+      "event_id": "4463",
+      "league": "Bundesliga",
+      "participants": [
+        "Real Madrid",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-04-24 20:48:20.437579",
+      "end_timestamp": "2024-04-25 20:48:20.437580",
+      "country": "JPN",
+      "event_id": "81959",
+      "league": "WTA",
+      "participants": [
+        "Novak Djokovic",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-04-24 20:48:20.437584",
+      "end_timestamp": "2025-02-26 20:48:20.437585",
+      "country": "IT",
+      "event_id": "40807",
+      "league": "PGA",
+      "participants": [
+        "Rory McIlroy",
+        "Tiger Woods"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-11-08 20:48:20.437589",
+      "end_timestamp": "2024-12-01 20:48:20.437590",
+      "country": "IT",
+      "event_id": "14450",
+      "league": "VTB",
+      "participants": [
+        "Golden State Warriors",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2024-01-25 20:48:20.437593",
+      "end_timestamp": "2024-11-20 20:48:20.437594",
+      "country": "ES",
+      "event_id": "93158",
+      "league": "European Tour",
+      "participants": [
+        "Rory McIlroy",
+        "Jordan Spieth"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-05-01 20:48:20.437598",
+      "end_timestamp": "2024-09-22 20:48:20.437599",
+      "country": "IT",
+      "event_id": "22066",
+      "league": "La Liga",
+      "participants": [
+        "Barcelona",
+        "Liverpool"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-11-02 20:48:20.437603",
+      "end_timestamp": "2024-07-20 20:48:20.437604",
+      "country": "IT",
+      "event_id": "94931",
+      "league": "NHL",
+      "participants": [
+        "Montreal Canadiens",
+        "New York Rangers"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-02-18 20:48:20.437607",
+      "end_timestamp": "2024-04-26 20:48:20.437608",
+      "country": "DE",
+      "event_id": "77327",
+      "league": "PGA",
+      "participants": [
+        "Rory McIlroy",
+        "Tiger Woods"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2024-01-24 20:48:20.437612",
+      "end_timestamp": "2025-04-15 20:48:20.437613",
+      "country": "ES",
+      "event_id": "79859",
+      "league": "ATP",
+      "participants": [
+        "Rafael Nadal",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-07-24 20:48:20.437616",
+      "end_timestamp": "2024-08-07 20:48:20.437617",
+      "country": "IT",
+      "event_id": "57386",
+      "league": "European Tour",
+      "participants": [
+        "Tiger Woods",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-11-21 20:48:20.437621",
+      "end_timestamp": "2024-11-12 20:48:20.437622",
+      "country": "UK",
+      "event_id": "768",
+      "league": "La Liga",
+      "participants": [
+        "Manchester United",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-06-03 20:48:20.437625",
+      "end_timestamp": "2024-09-19 20:48:20.437626",
+      "country": "FR",
+      "event_id": "41396",
+      "league": "KHL",
+      "participants": [
+        "New York Rangers",
+        "Montreal Canadiens"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-04-02 20:48:20.437630",
+      "end_timestamp": "2024-08-29 20:48:20.437631",
+      "country": "UK",
+      "event_id": "83819",
+      "league": "Six Nations",
+      "participants": [
+        "South Africa",
+        "New Zealand"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2024-02-01 20:48:20.437634",
+      "end_timestamp": "2024-06-07 20:48:20.437635",
+      "country": "GR",
+      "event_id": "47489",
+      "league": "Euroleague",
+      "participants": [
+        "Real Madrid",
+        "Golden State Warriors"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2024-03-31 20:48:20.437699",
+      "end_timestamp": "2024-07-01 20:48:20.437701",
+      "country": "AL",
+      "event_id": "241",
+      "league": "A1",
+      "participants": [
+        "Trentino Volley",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-10-17 20:48:20.437704",
+      "end_timestamp": "2024-08-22 20:48:20.437705",
+      "country": "JPN",
+      "event_id": "95440",
+      "league": "ATP",
+      "participants": [
+        "Rafael Nadal",
+        "Novak Djokovic"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-06-01 20:48:20.437708",
+      "end_timestamp": "2025-03-04 20:48:20.437710",
+      "country": "DE",
+      "event_id": "26380",
+      "league": "Super Rugby",
+      "participants": [
+        "South Africa",
+        "New Zealand"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-12-25 20:48:20.437713",
+      "end_timestamp": "2024-06-13 20:48:20.437714",
+      "country": "JPN",
+      "event_id": "15213",
+      "league": "European Tour",
+      "participants": [
+        "Tiger Woods",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-10-18 20:48:20.437718",
+      "end_timestamp": "2024-10-20 20:48:20.437719",
+      "country": "AL",
+      "event_id": "27684",
+      "league": "ACB",
+      "participants": [
+        "Los Angeles Lakers",
+        "Golden State Warriors"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-07-08 20:48:20.437722",
+      "end_timestamp": "2024-07-30 20:48:20.437723",
+      "country": "GR",
+      "event_id": "83342",
+      "league": "Ligue 1",
+      "participants": [
+        "Barcelona",
+        "Liverpool"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-07-31 20:48:20.437727",
+      "end_timestamp": "2024-07-19 20:48:20.437728",
+      "country": "JPN",
+      "event_id": "15076",
+      "league": "La Liga",
+      "participants": [
+        "Manchester United",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2024-02-15 20:48:20.437732",
+      "end_timestamp": "2025-01-15 20:48:20.437733",
+      "country": "DE",
+      "event_id": "77052",
+      "league": "Super Rugby",
+      "participants": [
+        "England",
+        "South Africa"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-10-07 20:48:20.437736",
+      "end_timestamp": "2024-06-27 20:48:20.437737",
+      "country": "UK",
+      "event_id": "50049",
+      "league": "Super Rugby",
+      "participants": [
+        "England",
+        "South Africa"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-11-06 20:48:20.437740",
+      "end_timestamp": "2025-02-02 20:48:20.437742",
+      "country": "UK",
+      "event_id": "64724",
+      "league": "NHL",
+      "participants": [
+        "New York Rangers",
+        "Montreal Canadiens"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-03-13 20:48:20.437745",
+      "end_timestamp": "2024-07-27 20:48:20.437746",
+      "country": "UK",
+      "event_id": "95277",
+      "league": "PGA",
+      "participants": [
+        "Tiger Woods",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-04-25 20:48:20.437749",
+      "end_timestamp": "2024-06-27 20:48:20.437750",
+      "country": "JPN",
+      "event_id": "30524",
+      "league": "Champions League",
+      "participants": [
+        "Lube Civitanova",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-05-21 20:48:20.437754",
+      "end_timestamp": "2024-08-07 20:48:20.437755",
+      "country": "IT",
+      "event_id": "44862",
+      "league": "European Tour",
+      "participants": [
+        "Tiger Woods",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-04-28 20:48:20.437758",
+      "end_timestamp": "2025-01-24 20:48:20.437759",
+      "country": "GR",
+      "event_id": "76037",
+      "league": "VTB",
+      "participants": [
+        "Real Madrid",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-05-22 20:48:20.437763",
+      "end_timestamp": "2025-02-27 20:48:20.437764",
+      "country": "AL",
+      "event_id": "65359",
+      "league": "Superliga",
+      "participants": [
+        "Lube Civitanova",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-06-24 20:48:20.437767",
+      "end_timestamp": "2024-05-25 20:48:20.437768",
+      "country": "JPN",
+      "event_id": "172",
+      "league": "Superliga",
+      "participants": [
+        "Lube Civitanova",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2024-01-07 20:48:20.437771",
+      "end_timestamp": "2025-01-30 20:48:20.437772",
+      "country": "US",
+      "event_id": "7968",
+      "league": "KHL",
+      "participants": [
+        "Montreal Canadiens",
+        "New York Rangers"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-01-25 20:48:20.437776",
+      "end_timestamp": "2024-12-29 20:48:20.437777",
+      "country": "JPN",
+      "event_id": "3019",
+      "league": "Super Rugby",
+      "participants": [
+        "South Africa",
+        "New Zealand"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-09-17 20:48:20.437781",
+      "end_timestamp": "2024-07-21 20:48:20.437782",
+      "country": "GR",
+      "event_id": "83515",
+      "league": "KHL",
+      "participants": [
+        "Montreal Canadiens",
+        "Toronto Maple Leafs"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-04-02 20:48:20.437785",
+      "end_timestamp": "2024-05-26 20:48:20.437786",
+      "country": "FR",
+      "event_id": "56257",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-09-02 20:48:20.437790",
+      "end_timestamp": "2024-10-26 20:48:20.437791",
+      "country": "US",
+      "event_id": "49768",
+      "league": "A1",
+      "participants": [
+        "Zenit Kazan",
+        "Lube Civitanova"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-06-02 20:48:20.437794",
+      "end_timestamp": "2024-08-21 20:48:20.437795",
+      "country": "DE",
+      "event_id": "6212",
+      "league": "World League",
+      "participants": [
+        "Trentino Volley",
+        "Lube Civitanova"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-10-29 20:48:20.437799",
+      "end_timestamp": "2024-06-05 20:48:20.437800",
+      "country": "AL",
+      "event_id": "92434",
+      "league": "KHL",
+      "participants": [
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-01-15 20:48:20.437803",
+      "end_timestamp": "2025-02-12 20:48:20.437804",
+      "country": "ES",
+      "event_id": "54181",
+      "league": "European Tour",
+      "participants": [
+        "Rory McIlroy",
+        "Jordan Spieth"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2024-03-28 20:48:20.437808",
+      "end_timestamp": "2024-07-28 20:48:20.437809",
+      "country": "IT",
+      "event_id": "37884",
+      "league": "ATP",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2024-01-15 20:48:20.437812",
+      "end_timestamp": "2025-04-20 20:48:20.437813",
+      "country": "IT",
+      "event_id": "37670",
+      "league": "PGA",
+      "participants": [
+        "Jordan Spieth",
+        "Tiger Woods"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-08-10 20:48:20.437817",
+      "end_timestamp": "2024-10-10 20:48:20.437818",
+      "country": "US",
+      "event_id": "86538",
+      "league": "ATP",
+      "participants": [
+        "Novak Djokovic",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2024-01-13 20:48:20.437821",
+      "end_timestamp": "2024-07-16 20:48:20.437822",
+      "country": "ES",
+      "event_id": "81929",
+      "league": "European Tour",
+      "participants": [
+        "Rory McIlroy",
+        "Tiger Woods"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-10-05 20:48:20.437826",
+      "end_timestamp": "2025-02-01 20:48:20.437827",
+      "country": "US",
+      "event_id": "29097",
+      "league": "ACB",
+      "participants": [
+        "Real Madrid",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-09-17 20:48:20.437831",
+      "end_timestamp": "2024-07-27 20:48:20.437832",
+      "country": "GR",
+      "event_id": "45042",
+      "league": "World League",
+      "participants": [
+        "Trentino Volley",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-05-11 20:48:20.437835",
+      "end_timestamp": "2025-02-05 20:48:20.437836",
+      "country": "GR",
+      "event_id": "22726",
+      "league": "ATP",
+      "participants": [
+        "Rafael Nadal",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-09-14 20:48:20.437839",
+      "end_timestamp": "2025-03-23 20:48:20.437840",
+      "country": "DE",
+      "event_id": "79394",
+      "league": "NHL",
+      "participants": [
+        "Montreal Canadiens",
+        "Toronto Maple Leafs"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2024-02-16 20:48:20.437844",
+      "end_timestamp": "2025-03-22 20:48:20.437845",
+      "country": "US",
+      "event_id": "17772",
+      "league": "WTA",
+      "participants": [
+        "Rafael Nadal",
+        "Novak Djokovic"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-10-07 20:48:20.437849",
+      "end_timestamp": "2024-07-07 20:48:20.437850",
+      "country": "UK",
+      "event_id": "3809",
+      "league": "Serie A",
+      "participants": [
+        "Liverpool",
+        "Real Madrid"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-05-13 20:48:20.437853",
+      "end_timestamp": "2025-04-10 20:48:20.437855",
+      "country": "JPN",
+      "event_id": "57247",
+      "league": "VTB",
+      "participants": [
+        "Real Madrid",
+        "Golden State Warriors"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-09-13 20:48:20.437859",
+      "end_timestamp": "2024-11-13 20:48:20.437860",
+      "country": "JPN",
+      "event_id": "20667",
+      "league": "KHL",
+      "participants": [
+        "Toronto Maple Leafs",
+        "Montreal Canadiens"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2023-09-23 20:48:20.437864",
+      "end_timestamp": "2024-11-22 20:48:20.437865",
+      "country": "GR",
+      "event_id": "42746",
+      "league": "Six Nations",
+      "participants": [
+        "South Africa",
+        "New Zealand"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-12-11 20:48:20.437869",
+      "end_timestamp": "2025-03-04 20:48:20.437870",
+      "country": "DE",
+      "event_id": "46812",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Novak Djokovic"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-05-28 20:48:20.437873",
+      "end_timestamp": "2024-06-21 20:48:20.437874",
+      "country": "ES",
+      "event_id": "64604",
+      "league": "ACB",
+      "participants": [
+        "Real Madrid",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2024-04-08 20:48:20.437878",
+      "end_timestamp": "2024-11-08 20:48:20.437879",
+      "country": "ES",
+      "event_id": "36542",
+      "league": "WTA",
+      "participants": [
+        "Novak Djokovic",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-07-06 20:48:20.437882",
+      "end_timestamp": "2024-06-26 20:48:20.437883",
+      "country": "AL",
+      "event_id": "4533",
+      "league": "Superliga",
+      "participants": [
+        "Lube Civitanova",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-06-09 20:48:20.437887",
+      "end_timestamp": "2024-09-13 20:48:20.437888",
+      "country": "AL",
+      "event_id": "18839",
+      "league": "Ligue 1",
+      "participants": [
+        "Real Madrid",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-07-18 20:48:20.437891",
+      "end_timestamp": "2024-07-18 20:48:20.437893",
+      "country": "AL",
+      "event_id": "6501",
+      "league": "A1",
+      "participants": [
+        "Trentino Volley",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-05-01 20:48:20.437896",
+      "end_timestamp": "2024-11-12 20:48:20.437897",
+      "country": "US",
+      "event_id": "27567",
+      "league": "Six Nations",
+      "participants": [
+        "New Zealand",
+        "England"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-11-15 20:48:20.437901",
+      "end_timestamp": "2025-01-27 20:48:20.437902",
+      "country": "DE",
+      "event_id": "32369",
+      "league": "WTA",
+      "participants": [
+        "Novak Djokovic",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2024-01-05 20:48:20.437905",
+      "end_timestamp": "2024-05-07 20:48:20.437906",
+      "country": "UK",
+      "event_id": "42458",
+      "league": "Ligue 1",
+      "participants": [
+        "Real Madrid",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-05-07 20:48:20.437910",
+      "end_timestamp": "2025-03-24 20:48:20.437911",
+      "country": "AL",
+      "event_id": "60779",
+      "league": "Super Rugby",
+      "participants": [
+        "New Zealand",
+        "South Africa"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-12-02 20:48:20.437915",
+      "end_timestamp": "2024-05-29 20:48:20.437916",
+      "country": "DE",
+      "event_id": "91370",
+      "league": "PGA",
+      "participants": [
+        "Jordan Spieth",
+        "Tiger Woods"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-06-03 20:48:20.437919",
+      "end_timestamp": "2024-08-01 20:48:20.437920",
+      "country": "AL",
+      "event_id": "19181",
+      "league": "World League",
+      "participants": [
+        "Trentino Volley",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-08-26 20:48:20.437924",
+      "end_timestamp": "2025-03-13 20:48:20.437925",
+      "country": "ES",
+      "event_id": "49518",
+      "league": "VTB",
+      "participants": [
+        "Real Madrid",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-08-04 20:48:20.437928",
+      "end_timestamp": "2024-05-06 20:48:20.437929",
+      "country": "JPN",
+      "event_id": "60656",
+      "league": "ATP",
+      "participants": [
+        "Rafael Nadal",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-10-11 20:48:20.437932",
+      "end_timestamp": "2024-07-30 20:48:20.437933",
+      "country": "JPN",
+      "event_id": "42814",
+      "league": "World League",
+      "participants": [
+        "Lube Civitanova",
+        "Trentino Volley"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2024-02-22 20:48:20.437937",
+      "end_timestamp": "2024-11-20 20:48:20.437938",
+      "country": "JPN",
+      "event_id": "37005",
+      "league": "ACB",
+      "participants": [
+        "Los Angeles Lakers",
+        "Real Madrid"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-10-01 20:48:20.437941",
+      "end_timestamp": "2025-02-26 20:48:20.437942",
+      "country": "FR",
+      "event_id": "35030",
+      "league": "Six Nations",
+      "participants": [
+        "England",
+        "South Africa"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2023-11-22 20:48:20.437946",
+      "end_timestamp": "2025-02-13 20:48:20.437947",
+      "country": "UK",
+      "event_id": "84446",
+      "league": "NBA",
+      "participants": [
+        "Golden State Warriors",
+        "Real Madrid"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2024-03-24 20:48:20.437950",
+      "end_timestamp": "2024-08-25 20:48:20.437951",
+      "country": "AL",
+      "event_id": "56690",
+      "league": "La Liga",
+      "participants": [
+        "Real Madrid",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2024-02-08 20:48:20.437955",
+      "end_timestamp": "2024-08-07 20:48:20.437956",
+      "country": "GR",
+      "event_id": "69623",
+      "league": "Ligue 1",
+      "participants": [
+        "Liverpool",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-08-31 20:48:20.437959",
+      "end_timestamp": "2024-12-02 20:48:20.437960",
+      "country": "UK",
+      "event_id": "30042",
+      "league": "European Tour",
+      "participants": [
+        "Jordan Spieth",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-11-28 20:48:20.437964",
+      "end_timestamp": "2024-12-28 20:48:20.437965",
+      "country": "IT",
+      "event_id": "37847",
+      "league": "PGA",
+      "participants": [
+        "Tiger Woods",
+        "Rory McIlroy"
+      ],
+      "sport": "Golf"
+    },
+    {
+      "begin_timestamp": "2023-12-06 20:48:20.437968",
+      "end_timestamp": "2025-02-23 20:48:20.437969",
+      "country": "ES",
+      "event_id": "56301",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-09-28 20:48:20.437973",
+      "end_timestamp": "2024-06-23 20:48:20.437974",
+      "country": "IT",
+      "event_id": "78034",
+      "league": "Ligue 1",
+      "participants": [
+        "Manchester United",
+        "Liverpool"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-10-14 20:48:20.437977",
+      "end_timestamp": "2025-01-18 20:48:20.437978",
+      "country": "UK",
+      "event_id": "30682",
+      "league": "La Liga",
+      "participants": [
+        "Liverpool",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-11-17 20:48:20.437982",
+      "end_timestamp": "2024-09-24 20:48:20.437983",
+      "country": "UK",
+      "event_id": "98781",
+      "league": "WTA",
+      "participants": [
+        "Novak Djokovic",
+        "Roger Federer"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-11-18 20:48:20.437986",
+      "end_timestamp": "2025-01-20 20:48:20.437987",
+      "country": "GR",
+      "event_id": "80279",
+      "league": "Superliga",
+      "participants": [
+        "Zenit Kazan",
+        "Lube Civitanova"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-06-15 20:48:20.437991",
+      "end_timestamp": "2025-01-20 20:48:20.437992",
+      "country": "AL",
+      "event_id": "5634",
+      "league": "NBA",
+      "participants": [
+        "Golden State Warriors",
+        "Real Madrid"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-10-04 20:48:20.437995",
+      "end_timestamp": "2024-10-09 20:48:20.437996",
+      "country": "ES",
+      "event_id": "60605",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-06-11 20:48:20.437999",
+      "end_timestamp": "2024-05-02 20:48:20.438000",
+      "country": "US",
+      "event_id": "9133",
+      "league": "Bundesliga",
+      "participants": [
+        "Barcelona",
+        "Manchester United"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-05-06 20:48:20.438004",
+      "end_timestamp": "2024-08-21 20:48:20.438005",
+      "country": "AL",
+      "event_id": "47096",
+      "league": "Super Rugby",
+      "participants": [
+        "South Africa",
+        "England"
+      ],
+      "sport": "Rugby"
+    },
+    {
+      "begin_timestamp": "2024-02-17 20:48:20.438008",
+      "end_timestamp": "2025-03-12 20:48:20.438009",
+      "country": "UK",
+      "event_id": "78676",
+      "league": "KHL",
+      "participants": [
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2023-10-17 20:48:20.438013",
+      "end_timestamp": "2025-01-27 20:48:20.438014",
+      "country": "GR",
+      "event_id": "69360",
+      "league": "World League",
+      "participants": [
+        "Zenit Kazan",
+        "Lube Civitanova"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-12-04 20:48:20.438017",
+      "end_timestamp": "2025-02-23 20:48:20.438018",
+      "country": "FR",
+      "event_id": "61936",
+      "league": "Premier League",
+      "participants": [
+        "Real Madrid",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2024-02-23 20:48:20.438022",
+      "end_timestamp": "2024-06-22 20:48:20.438023",
+      "country": "ES",
+      "event_id": "88855",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Novak Djokovic"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2023-10-17 20:48:20.438026",
+      "end_timestamp": "2024-05-25 20:48:20.438027",
+      "country": "JPN",
+      "event_id": "95249",
+      "league": "VTB",
+      "participants": [
+        "Real Madrid",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-11-21 20:48:20.438031",
+      "end_timestamp": "2024-07-31 20:48:20.438032",
+      "country": "GR",
+      "event_id": "74861",
+      "league": "Superliga",
+      "participants": [
+        "Trentino Volley",
+        "Zenit Kazan"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2024-01-11 20:48:20.438035",
+      "end_timestamp": "2024-08-29 20:48:20.438036",
+      "country": "ES",
+      "event_id": "11241",
+      "league": "WTA",
+      "participants": [
+        "Roger Federer",
+        "Rafael Nadal"
+      ],
+      "sport": "Tennis"
+    },
+    {
+      "begin_timestamp": "2024-04-09 20:48:20.438039",
+      "end_timestamp": "2025-03-20 20:48:20.438040",
+      "country": "US",
+      "event_id": "2449",
+      "league": "ACB",
+      "participants": [
+        "Golden State Warriors",
+        "Los Angeles Lakers"
+      ],
+      "sport": "Basketball"
+    },
+    {
+      "begin_timestamp": "2023-12-03 20:48:20.438044",
+      "end_timestamp": "2024-10-28 20:48:20.438045",
+      "country": "IT",
+      "event_id": "67797",
+      "league": "Superliga",
+      "participants": [
+        "Lube Civitanova",
+        "Trentino Volley"
+      ],
+      "sport": "Volley"
+    },
+    {
+      "begin_timestamp": "2023-11-20 20:48:20.438048",
+      "end_timestamp": "2024-12-30 20:48:20.438049",
+      "country": "DE",
+      "event_id": "76870",
+      "league": "KHL",
+      "participants": [
+        "Montreal Canadiens",
+        "New York Rangers"
+      ],
+      "sport": "Hockey"
+    },
+    {
+      "begin_timestamp": "2023-07-30 20:48:20.438052",
+      "end_timestamp": "2024-04-27 20:48:20.438053",
+      "country": "IT",
+      "event_id": "73923",
+      "league": "Bundesliga",
+      "participants": [
+        "Liverpool",
+        "Barcelona"
+      ],
+      "sport": "Football"
+    },
+    {
+      "begin_timestamp": "2023-04-27 20:48:20.438057",
+      "end_timestamp": "2024-07-23 20:48:20.438058",
+      "country": "DE",
+      "event_id": "81568",
+      "league": "ACB",
+      "participants": [
+        "Los Angeles Lakers",
+        "Golden State Warriors"
+      ],
+      "sport": "Basketball"
+    }
+  ],
+  "coupons": [
+    {
+      "coupon_id": 4587,
+      "selections": [
+        {
+          "event_id": "19181",
+          "odds": 2.198585851522301
+        },
+        {
+          "event_id": "30285",
+          "odds": 2.9882190464889105
+        },
+        {
+          "event_id": "41396",
+          "odds": 2.5342350733538392
+        }
+      ],
+      "stake": 536.6531056400804,
+      "timestamp": "2024-02-03 20:48:20.438447",
+      "user_id": 48305
+    },
+    {
+      "coupon_id": 0,
+      "selections": [
+        {
+          "event_id": "19181",
+          "odds": 2.198585851522301
+        },
+        {
+          "event_id": "30285",
+          "odds": 2.9882190464889105
+        },
+        {
+          "event_id": "41396",
+          "odds": 2.5342350733538392
+        }
+      ],
+      "stake": 536.6531056400804,
+      "timestamp": "2024-02-03 20:48:20.438447",
+      "user_id": 48305
+    },
+    {
+      "coupon_id": 30366,
+      "selections": [
+        {
+          "event_id": "47096",
+          "odds": 1.664607470730143
+        },
+        {
+          "event_id": "77327",
+          "odds": 2.5275164043021108
+        },
+        {
+          "event_id": "47096",
+          "odds": 2.9900518480673046
+        },
+        {
+          "event_id": "42814",
+          "odds": 1.0634211805865839
+        },
+        {
+          "event_id": "37005",
+          "odds": 1.654985920891654
+        }
+      ],
+      "stake": 954.6806904938074,
+      "timestamp": "2023-10-29 20:48:20.438457",
+      "user_id": 23748
+    },
+    {
+      "coupon_id": 72054,
+      "selections": [
+        {
+          "event_id": "81929",
+          "odds": 1.4889277755193477
+        },
+        {
+          "event_id": "50049",
+          "odds": 1.14768950248169
+        },
+        {
+          "event_id": "19181",
+          "odds": 1.4069277003735845
+        }
+      ],
+      "stake": 547.118293490775,
+      "timestamp": "2024-03-16 20:48:20.438463",
+      "user_id": 99393
+    },
+    {
+      "coupon_id": 86404,
+      "selections": [
+        {
+          "event_id": "2449",
+          "odds": 2.407869052739364
+        },
+        {
+          "event_id": "95277",
+          "odds": 2.471938631300649
+        },
+        {
+          "event_id": "91370",
+          "odds": 2.04542449932857
+        },
+        {
+          "event_id": "2449",
+          "odds": 2.4935296267166507
+        },
+        {
+          "event_id": "78676",
+          "odds": 1.764749198787167
+        }
+      ],
+      "stake": 952.9086780035216,
+      "timestamp": "2024-04-14 20:48:20.438470",
+      "user_id": 44245
+    },
+    {
+      "coupon_id": 13915,
+      "selections": [
+        {
+          "event_id": "79394",
+          "odds": 1.3603340535305997
+        },
+        {
+          "event_id": "78676",
+          "odds": 1.0604523480120562
+        }
+      ],
+      "stake": 164.16964942210248,
+      "timestamp": "2023-05-02 20:48:20.438475",
+      "user_id": 34238
+    },
+    {
+      "coupon_id": 7615,
+      "selections": [
+        {
+          "event_id": "83342",
+          "odds": 1.358616021844113
+        },
+        {
+          "event_id": "42746",
+          "odds": 1.2581408202782025
+        },
+        {
+          "event_id": "57386",
+          "odds": 2.5965513706412207
+        }
+      ],
+      "stake": 918.5704385329111,
+      "timestamp": "2024-02-08 20:48:20.438481",
+      "user_id": 95506
+    },
+    {
+      "coupon_id": 15883,
+      "selections": [
+        {
+          "event_id": "79394",
+          "odds": 2.3737871390480865
+        },
+        {
+          "event_id": "54098",
+          "odds": 2.097158737260426
+        },
+        {
+          "event_id": "30524",
+          "odds": 1.9887485336473485
+        },
+        {
+          "event_id": "17772",
+          "odds": 1.31975600937158
+        },
+        {
+          "event_id": "2449",
+          "odds": 1.9717651042440134
+        }
+      ],
+      "stake": 730.0472268835716,
+      "timestamp": "2024-03-10 20:48:20.438487",
+      "user_id": 16323
+    },
+    {
+      "coupon_id": 42299,
+      "selections": [
+        {
+          "event_id": "78034",
+          "odds": 1.9075474667463088
+        },
+        {
+          "event_id": "20667",
+          "odds": 2.0749523659134317
+        },
+        {
+          "event_id": "95440",
+          "odds": 2.7983051709378453
+        }
+      ],
+      "stake": 341.0779447312298,
+      "timestamp": "2023-12-08 20:48:20.438493",
+      "user_id": 79299
+    },
+    {
+      "coupon_id": 85775,
+      "selections": [
+        {
+          "event_id": "42814",
+          "odds": 1.441444719360247
+        },
+        {
+          "event_id": "78676",
+          "odds": 1.7285311957887384
+        },
+        {
+          "event_id": "4463",
+          "odds": 2.918056554385566
+        },
+        {
+          "event_id": "60779",
+          "odds": 1.2595801551706203
+        },
+        {
+          "event_id": "49518",
+          "odds": 1.7559175297564287
+        }
+      ],
+      "stake": 789.6030633090382,
+      "timestamp": "2024-02-22 20:48:20.438499",
+      "user_id": 61034
+    },
+    {
+      "coupon_id": 95822,
+      "selections": [
+        {
+          "event_id": "86538",
+          "odds": 1.177269720249858
+        },
+        {
+          "event_id": "83515",
+          "odds": 1.6462771751869734
+        }
+      ],
+      "stake": 43.64963331068861,
+      "timestamp": "2023-09-11 20:48:20.438504",
+      "user_id": 97758
+    },
+    {
+      "coupon_id": 82841,
+      "selections": [
+        {
+          "event_id": "17772",
+          "odds": 2.5525312504697046
+        },
+        {
+          "event_id": "17772",
+          "odds": 2.6096536149382725
+        },
+        {
+          "event_id": "4463",
+          "odds": 1.7354421560421245
+        },
+        {
+          "event_id": "95249",
+          "odds": 2.9768581442930078
+        }
+      ],
+      "stake": 586.4963822506091,
+      "timestamp": "2024-02-03 20:48:20.438537",
+      "user_id": 2958
+    },
+    {
+      "coupon_id": 60462,
+      "selections": [
+        {
+          "event_id": "4533",
+          "odds": 2.9065362961373262
+        },
+        {
+          "event_id": "88855",
+          "odds": 1.3011498292453898
+        }
+      ],
+      "stake": 169.1583741392882,
+      "timestamp": "2023-09-10 20:48:20.438542",
+      "user_id": 6451
+    },
+    {
+      "coupon_id": 2594,
+      "selections": [
+        {
+          "event_id": "4533",
+          "odds": 2.0472124272525187
+        },
+        {
+          "event_id": "37884",
+          "odds": 1.3197531466166217
+        },
+        {
+          "event_id": "69623",
+          "odds": 1.7182759823959781
+        }
+      ],
+      "stake": 535.066860075695,
+      "timestamp": "2023-06-29 20:48:20.438548",
+      "user_id": 79859
+    },
+    {
+      "coupon_id": 53252,
+      "selections": [
+        {
+          "event_id": "241",
+          "odds": 1.458415489758768
+        },
+        {
+          "event_id": "67797",
+          "odds": 1.9546417534985943
+        },
+        {
+          "event_id": "56690",
+          "odds": 2.9063922230011174
+        }
+      ],
+      "stake": 90.74853608970201,
+      "timestamp": "2023-10-08 20:48:20.438553",
+      "user_id": 10336
+    },
+    {
+      "coupon_id": 42299,
+      "selections": [
+        {
+          "event_id": "83819",
+          "odds": 2.6452827226074396
+        },
+        {
+          "event_id": "36542",
+          "odds": 1.5190114290208165
+        }
+      ],
+      "stake": 331.63124462903517,
+      "timestamp": "2024-03-18 20:48:20.438557",
+      "user_id": 73396
+    },
+    {
+      "coupon_id": 79897,
+      "selections": [
+        {
+          "event_id": "41396",
+          "odds": 1.8293723071947432
+        },
+        {
+          "event_id": "11241",
+          "odds": 2.4926429941207155
+        },
+        {
+          "event_id": "88855",
+          "odds": 1.6050649965710564
+        },
+        {
+          "event_id": "69623",
+          "odds": 2.32969306099835
+        }
+      ],
+      "stake": 811.8994310188939,
+      "timestamp": "2023-10-02 20:48:20.438564",
+      "user_id": 59335
+    },
+    {
+      "coupon_id": 78826,
+      "selections": [
+        {
+          "event_id": "54181",
+          "odds": 1.701793411348562
+        }
+      ],
+      "stake": 688.9283546940258,
+      "timestamp": "2023-09-15 20:48:20.438567",
+      "user_id": 85514
+    },
+    {
+      "coupon_id": 9617,
+      "selections": [
+        {
+          "event_id": "15076",
+          "odds": 1.9848274414873024
+        },
+        {
+          "event_id": "54181",
+          "odds": 1.8784862251514858
+        },
+        {
+          "event_id": "60605",
+          "odds": 2.101894125292235
+        }
+      ],
+      "stake": 655.167504994333,
+      "timestamp": "2023-07-27 20:48:20.438572",
+      "user_id": 74590
+    },
+    {
+      "coupon_id": 3692,
+      "selections": [
+        {
+          "event_id": "60656",
+          "odds": 1.3236406686280717
+        },
+        {
+          "event_id": "64724",
+          "odds": 1.158079209467037
+        },
+        {
+          "event_id": "14450",
+          "odds": 1.6183229511884551
+        },
+        {
+          "event_id": "76870",
+          "odds": 1.0201135395662617
+        }
+      ],
+      "stake": 692.0994680207059,
+      "timestamp": "2024-01-17 20:48:20.438578",
+      "user_id": 1080
+    },
+    {
+      "coupon_id": 74367,
+      "selections": [
+        {
+          "event_id": "83342",
+          "odds": 2.8703521720143397
+        },
+        {
+          "event_id": "30285",
+          "odds": 2.3218062571962426
+        }
+      ],
+      "stake": 793.6784410056481,
+      "timestamp": "2023-10-12 20:48:20.438583",
+      "user_id": 6168
+    },
+    {
+      "coupon_id": 48949,
+      "selections": [
+        {
+          "event_id": "27567",
+          "odds": 1.587262571106325
+        },
+        {
+          "event_id": "5634",
+          "odds": 2.293584561247357
+        }
+      ],
+      "stake": 603.24702841714,
+      "timestamp": "2024-01-13 20:48:20.438588",
+      "user_id": 14273
+    },
+    {
+      "coupon_id": 88088,
+      "selections": [
+        {
+          "event_id": "3019",
+          "odds": 2.5917389463863465
+        },
+        {
+          "event_id": "30285",
+          "odds": 2.6698775979399483
+        },
+        {
+          "event_id": "27567",
+          "odds": 1.4998412956551561
+        },
+        {
+          "event_id": "22726",
+          "odds": 1.1469911866895046
+        },
+        {
+          "event_id": "17772",
+          "odds": 2.6599872113448972
+        }
+      ],
+      "stake": 13.013814243851467,
+      "timestamp": "2023-05-07 20:48:20.438594",
+      "user_id": 2265
+    },
+    {
+      "coupon_id": 42782,
+      "selections": [
+        {
+          "event_id": "5634",
+          "odds": 1.3856098518375657
+        },
+        {
+          "event_id": "64604",
+          "odds": 1.5086569368669864
+        },
+        {
+          "event_id": "77052",
+          "odds": 2.8931039292591336
+        },
+        {
+          "event_id": "37005",
+          "odds": 1.8052136927444866
+        }
+      ],
+      "stake": 579.1406826397786,
+      "timestamp": "2024-02-05 20:48:20.438600",
+      "user_id": 79859
+    },
+    {
+      "coupon_id": 79753,
+      "selections": [
+        {
+          "event_id": "81959",
+          "odds": 2.008312636778836
+        },
+        {
+          "event_id": "768",
+          "odds": 2.101054317411958
+        },
+        {
+          "event_id": "15076",
+          "odds": 2.4955579046031935
+        }
+      ],
+      "stake": 145.74249254726737,
+      "timestamp": "2023-05-04 20:48:20.438605",
+      "user_id": 98638
+    },
+    {
+      "coupon_id": 86909,
+      "selections": [
+        {
+          "event_id": "6212",
+          "odds": 2.693622449654085
+        },
+        {
+          "event_id": "77052",
+          "odds": 1.1564411409077662
+        },
+        {
+          "event_id": "30682",
+          "odds": 2.965178313610103
+        },
+        {
+          "event_id": "86538",
+          "odds": 1.8592948533718419
+        },
+        {
+          "event_id": "54181",
+          "odds": 1.8155000410790436
+        }
+      ],
+      "stake": 432.03892023535184,
+      "timestamp": "2023-12-29 20:48:20.438611",
+      "user_id": 26143
+    },
+    {
+      "coupon_id": 99689,
+      "selections": [
+        {
+          "event_id": "56690",
+          "odds": 1.747836168602208
+        },
+        {
+          "event_id": "61936",
+          "odds": 1.8251739843749968
+        }
+      ],
+      "stake": 199.5670758784487,
+      "timestamp": "2023-04-27 20:48:20.438616",
+      "user_id": 45
+    },
+    {
+      "coupon_id": 88006,
+      "selections": [
+        {
+          "event_id": "81929",
+          "odds": 1.249072323731595
+        },
+        {
+          "event_id": "77052",
+          "odds": 2.5353070556991244
+        }
+      ],
+      "stake": 143.16711796490125,
+      "timestamp": "2024-03-19 20:48:20.438621",
+      "user_id": 32955
+    },
+    {
+      "coupon_id": 23542,
+      "selections": [
+        {
+          "event_id": "91370",
+          "odds": 1.9753479765883946
+        },
+        {
+          "event_id": "46812",
+          "odds": 2.663779433998255
+        }
+      ],
+      "stake": 292.26202977139377,
+      "timestamp": "2023-12-14 20:48:20.438625",
+      "user_id": 48305
+    },
+    {
+      "coupon_id": 81490,
+      "selections": [
+        {
+          "event_id": "22066",
+          "odds": 2.9969705603572336
+        },
+        {
+          "event_id": "6501",
+          "odds": 2.4007803858593837
+        },
+        {
+          "event_id": "27684",
+          "odds": 2.535889265680072
+        },
+        {
+          "event_id": "37670",
+          "odds": 2.0390268345537983
+        },
+        {
+          "event_id": "79859",
+          "odds": 2.369554056817641
+        }
+      ],
+      "stake": 224.40751508731756,
+      "timestamp": "2024-04-09 20:48:20.438632",
+      "user_id": 62401
+    },
+    {
+      "coupon_id": 35490,
+      "selections": [
+        {
+          "event_id": "54098",
+          "odds": 2.2292335970185873
+        },
+        {
+          "event_id": "76037",
+          "odds": 1.2762223492632985
+        },
+        {
+          "event_id": "83819",
+          "odds": 2.5677474238798776
+        }
+      ],
+      "stake": 570.9920138467673,
+      "timestamp": "2024-03-26 20:48:20.438637",
+      "user_id": 32955
+    },
+    {
+      "coupon_id": 12947,
+      "selections": [
+        {
+          "event_id": "37005",
+          "odds": 1.1655065095234152
+        },
+        {
+          "event_id": "27684",
+          "odds": 1.374957290827739
+        },
+        {
+          "event_id": "69623",
+          "odds": 2.883214731383215
+        },
+        {
+          "event_id": "17772",
+          "odds": 1.0522917612203164
+        }
+      ],
+      "stake": 647.0313159402677,
+      "timestamp": "2024-01-25 20:48:20.438643",
+      "user_id": 39679
+    },
+    {
+      "coupon_id": 37249,
+      "selections": [
+        {
+          "event_id": "15213",
+          "odds": 2.342786243058158
+        },
+        {
+          "event_id": "44862",
+          "odds": 1.8537492355863956
+        },
+        {
+          "event_id": "49768",
+          "odds": 1.2495790095583397
+        }
+      ],
+      "stake": 994.2636474988117,
+      "timestamp": "2023-07-07 20:48:20.438648",
+      "user_id": 73637
+    },
+    {
+      "coupon_id": 6642,
+      "selections": [
+        {
+          "event_id": "56301",
+          "odds": 1.104140409918036
+        },
+        {
+          "event_id": "32369",
+          "odds": 1.7897089840925025
+        },
+        {
+          "event_id": "50049",
+          "odds": 1.8929931916359282
+        }
+      ],
+      "stake": 861.9642317398883,
+      "timestamp": "2024-03-31 20:48:20.438653",
+      "user_id": 96041
+    },
+    {
+      "coupon_id": 99956,
+      "selections": [
+        {
+          "event_id": "91370",
+          "odds": 2.330846758930952
+        },
+        {
+          "event_id": "42814",
+          "odds": 1.7194285214446219
+        },
+        {
+          "event_id": "49768",
+          "odds": 1.258550891968065
+        },
+        {
+          "event_id": "77327",
+          "odds": 2.7685965050151253
+        }
+      ],
+      "stake": 387.35447347696254,
+      "timestamp": "2023-05-11 20:48:20.438659",
+      "user_id": 28165
+    },
+    {
+      "coupon_id": 80861,
+      "selections": [
+        {
+          "event_id": "3019",
+          "odds": 2.7968293702882514
+        }
+      ],
+      "stake": 723.6125340868956,
+      "timestamp": "2024-01-12 20:48:20.438662",
+      "user_id": 10316
+    },
+    {
+      "coupon_id": 31489,
+      "selections": [
+        {
+          "event_id": "93158",
+          "odds": 2.985263876158947
+        },
+        {
+          "event_id": "65359",
+          "odds": 1.665706740362206
+        },
+        {
+          "event_id": "14450",
+          "odds": 1.9179946345343748
+        },
+        {
+          "event_id": "47096",
+          "odds": 2.113616580399194
+        }
+      ],
+      "stake": 338.104023076153,
+      "timestamp": "2023-11-21 20:48:20.438668",
+      "user_id": 14273
+    },
+    {
+      "coupon_id": 39583,
+      "selections": [
+        {
+          "event_id": "98469",
+          "odds": 1.954881586023459
+        },
+        {
+          "event_id": "19181",
+          "odds": 2.115758432949854
+        },
+        {
+          "event_id": "77052",
+          "odds": 2.3164217658130672
+        },
+        {
+          "event_id": "11241",
+          "odds": 2.909366769076756
+        },
+        {
+          "event_id": "42746",
+          "odds": 2.2186638053263135
+        }
+      ],
+      "stake": 164.00066263874731,
+      "timestamp": "2024-04-17 20:48:20.438675",
+      "user_id": 60449
+    },
+    {
+      "coupon_id": 47957,
+      "selections": [
+        {
+          "event_id": "30285",
+          "odds": 1.9225774395476312
+        },
+        {
+          "event_id": "4463",
+          "odds": 2.396272397456481
+        },
+        {
+          "event_id": "37847",
+          "odds": 2.7325830430924167
+        }
+      ],
+      "stake": 766.010054384859,
+      "timestamp": "2023-04-22 20:48:20.438680",
+      "user_id": 47704
+    },
+    {
+      "coupon_id": 74309,
+      "selections": [
+        {
+          "event_id": "57386",
+          "odds": 2.2347464439434175
+        },
+        {
+          "event_id": "17772",
+          "odds": 1.211729030218114
+        },
+        {
+          "event_id": "65359",
+          "odds": 1.1535533406603857
+        },
+        {
+          "event_id": "44862",
+          "odds": 1.3738415389455811
+        }
+      ],
+      "stake": 358.13238723192495,
+      "timestamp": "2024-04-17 20:48:20.438685",
+      "user_id": 2265
+    },
+    {
+      "coupon_id": 51181,
+      "selections": [
+        {
+          "event_id": "86538",
+          "odds": 1.3752385679349213
+        }
+      ],
+      "stake": 400.0055673921008,
+      "timestamp": "2023-10-03 20:48:20.438689",
+      "user_id": 73396
+    },
+    {
+      "coupon_id": 58835,
+      "selections": [
+        {
+          "event_id": "81959",
+          "odds": 1.5766389630551583
+        }
+      ],
+      "stake": 946.7787491579046,
+      "timestamp": "2024-03-16 20:48:20.438693",
+      "user_id": 57429
+    },
+    {
+      "coupon_id": 11485,
+      "selections": [
+        {
+          "event_id": "98781",
+          "odds": 2.7102541285149497
+        },
+        {
+          "event_id": "49768",
+          "odds": 1.1789041775602098
+        },
+        {
+          "event_id": "76870",
+          "odds": 1.9878961805063133
+        }
+      ],
+      "stake": 752.2347974789376,
+      "timestamp": "2023-06-19 20:48:20.438698",
+      "user_id": 45
+    },
+    {
+      "coupon_id": 53762,
+      "selections": [
+        {
+          "event_id": "77327",
+          "odds": 1.1387372304948038
+        },
+        {
+          "event_id": "44862",
+          "odds": 2.2983277806472016
+        },
+        {
+          "event_id": "64604",
+          "odds": 1.9299962847427672
+        },
+        {
+          "event_id": "37847",
+          "odds": 1.6004909753881054
+        }
+      ],
+      "stake": 19.511489421129202,
+      "timestamp": "2023-11-26 20:48:20.438704",
+      "user_id": 14273
+    },
+    {
+      "coupon_id": 57210,
+      "selections": [
+        {
+          "event_id": "7968",
+          "odds": 1.1091672820992489
+        },
+        {
+          "event_id": "56690",
+          "odds": 2.123169843041887
+        }
+      ],
+      "stake": 693.4547201783155,
+      "timestamp": "2024-01-01 20:48:20.438708",
+      "user_id": 98638
+    },
+    {
+      "coupon_id": 95300,
+      "selections": [
+        {
+          "event_id": "92434",
+          "odds": 2.8804788483505983
+        },
+        {
+          "event_id": "15213",
+          "odds": 2.616713009361133
+        },
+        {
+          "event_id": "78034",
+          "odds": 1.4907043494752152
+        },
+        {
+          "event_id": "37884",
+          "odds": 1.7386103013896073
+        }
+      ],
+      "stake": 749.6478453075954,
+      "timestamp": "2024-01-16 20:48:20.438714",
+      "user_id": 93592
+    },
+    {
+      "coupon_id": 78285,
+      "selections": [
+        {
+          "event_id": "22066",
+          "odds": 2.3781751382748673
+        },
+        {
+          "event_id": "54181",
+          "odds": 2.047153856280901
+        }
+      ],
+      "stake": 269.7138271384824,
+      "timestamp": "2024-04-01 20:48:20.438719",
+      "user_id": 7190
+    },
+    {
+      "coupon_id": 26589,
+      "selections": [
+        {
+          "event_id": "79394",
+          "odds": 1.7311836386997816
+        },
+        {
+          "event_id": "11241",
+          "odds": 2.8269673614578146
+        },
+        {
+          "event_id": "83819",
+          "odds": 1.8045396254241082
+        }
+      ],
+      "stake": 365.30246551776867,
+      "timestamp": "2023-11-14 20:48:20.438723",
+      "user_id": 12146
+    },
+    {
+      "coupon_id": 33640,
+      "selections": [
+        {
+          "event_id": "76870",
+          "odds": 2.6476623800492085
+        },
+        {
+          "event_id": "15213",
+          "odds": 1.74982835079221
+        },
+        {
+          "event_id": "76870",
+          "odds": 2.0616216619998333
+        },
+        {
+          "event_id": "3809",
+          "odds": 1.7689465298292883
+        },
+        {
+          "event_id": "54181",
+          "odds": 1.1684776342985705
+        }
+      ],
+      "stake": 353.61980725467004,
+      "timestamp": "2023-07-21 20:48:20.438730",
+      "user_id": 60449
+    },
+    {
+      "coupon_id": 79779,
+      "selections": [
+        {
+          "event_id": "36542",
+          "odds": 1.601176660089805
+        }
+      ],
+      "stake": 427.8796897930249,
+      "timestamp": "2023-05-18 20:48:20.438734",
+      "user_id": 99393
+    },
+    {
+      "coupon_id": 57222,
+      "selections": [
+        {
+          "event_id": "37670",
+          "odds": 2.2224830236421136
+        },
+        {
+          "event_id": "35030",
+          "odds": 2.4506920193149386
+        },
+        {
+          "event_id": "15213",
+          "odds": 1.0078643176632855
+        }
+      ],
+      "stake": 63.797318742209406,
+      "timestamp": "2024-02-20 20:48:20.438739",
+      "user_id": 95506
+    },
+    {
+      "coupon_id": 42287,
+      "selections": [
+        {
+          "event_id": "36542",
+          "odds": 1.201571521078091
+        },
+        {
+          "event_id": "92434",
+          "odds": 2.125894804940499
+        },
+        {
+          "event_id": "73923",
+          "odds": 2.5571109794932876
+        },
+        {
+          "event_id": "49774",
+          "odds": 1.4879616065720493
+        },
+        {
+          "event_id": "73923",
+          "odds": 2.2628110153228085
+        }
+      ],
+      "stake": 519.9814581300504,
+      "timestamp": "2024-02-28 20:48:20.438745",
+      "user_id": 51648
+    },
+    {
+      "coupon_id": 71228,
+      "selections": [
+        {
+          "event_id": "15213",
+          "odds": 1.8046890630984107
+        },
+        {
+          "event_id": "17772",
+          "odds": 2.198991833570121
+        },
+        {
+          "event_id": "29097",
+          "odds": 1.5393376470538838
+        }
+      ],
+      "stake": 596.6586615330634,
+      "timestamp": "2023-06-28 20:48:20.438751",
+      "user_id": 39679
+    },
+    {
+      "coupon_id": 72447,
+      "selections": [
+        {
+          "event_id": "22066",
+          "odds": 1.220391877981968
+        },
+        {
+          "event_id": "56301",
+          "odds": 2.6416526228879995
+        },
+        {
+          "event_id": "2449",
+          "odds": 2.4307769376283916
+        },
+        {
+          "event_id": "60605",
+          "odds": 2.0088547376192047
+        }
+      ],
+      "stake": 75.19085734876067,
+      "timestamp": "2024-04-01 20:48:20.438757",
+      "user_id": 10336
+    },
+    {
+      "coupon_id": 94321,
+      "selections": [
+        {
+          "event_id": "30682",
+          "odds": 2.1083599436332072
+        }
+      ],
+      "stake": 453.78776896225133,
+      "timestamp": "2023-06-07 20:48:20.438761",
+      "user_id": 54708
+    },
+    {
+      "coupon_id": 9156,
+      "selections": [
+        {
+          "event_id": "73923",
+          "odds": 1.5165143032831727
+        },
+        {
+          "event_id": "4463",
+          "odds": 2.8917810907749746
+        }
+      ],
+      "stake": 374.5918195617567,
+      "timestamp": "2023-07-10 20:48:20.438765",
+      "user_id": 43429
+    },
+    {
+      "coupon_id": 31040,
+      "selections": [
+        {
+          "event_id": "98781",
+          "odds": 1.2166383962151035
+        },
+        {
+          "event_id": "14450",
+          "odds": 1.6904243283086653
+        },
+        {
+          "event_id": "3019",
+          "odds": 1.3653159909130719
+        },
+        {
+          "event_id": "22726",
+          "odds": 1.1679626745294343
+        },
+        {
+          "event_id": "37884",
+          "odds": 1.165100326152997
+        }
+      ],
+      "stake": 556.9798315965462,
+      "timestamp": "2023-08-26 20:48:20.438772",
+      "user_id": 73339
+    },
+    {
+      "coupon_id": 87277,
+      "selections": [
+        {
+          "event_id": "74861",
+          "odds": 1.423524086454303
+        },
+        {
+          "event_id": "83515",
+          "odds": 1.225370329350798
+        },
+        {
+          "event_id": "30285",
+          "odds": 2.612570164613481
+        }
+      ],
+      "stake": 415.0466667153761,
+      "timestamp": "2023-09-06 20:48:20.438777",
+      "user_id": 51648
+    },
+    {
+      "coupon_id": 59256,
+      "selections": [
+        {
+          "event_id": "54098",
+          "odds": 1.967941213135803
+        },
+        {
+          "event_id": "80279",
+          "odds": 2.128092372484159
+        },
+        {
+          "event_id": "37847",
+          "odds": 1.6452366123951612
+        },
+        {
+          "event_id": "42814",
+          "odds": 2.067431804293636
+        },
+        {
+          "event_id": "46812",
+          "odds": 2.4946955682777467
+        }
+      ],
+      "stake": 566.3430677318789,
+      "timestamp": "2024-02-25 20:48:20.438783",
+      "user_id": 59335
+    },
+    {
+      "coupon_id": 43425,
+      "selections": [
+        {
+          "event_id": "6212",
+          "odds": 2.4388599689389068
+        }
+      ],
+      "stake": 221.90323929613658,
+      "timestamp": "2023-07-18 20:48:20.438787",
+      "user_id": 39679
+    },
+    {
+      "coupon_id": 24617,
+      "selections": [
+        {
+          "event_id": "88855",
+          "odds": 1.4373052149557244
+        },
+        {
+          "event_id": "69623",
+          "odds": 1.383322088307995
+        },
+        {
+          "event_id": "81959",
+          "odds": 1.6388395416801749
+        }
+      ],
+      "stake": 41.697389793298576,
+      "timestamp": "2023-08-13 20:48:20.438793",
+      "user_id": 65123
+    },
+    {
+      "coupon_id": 2844,
+      "selections": [
+        {
+          "event_id": "26380",
+          "odds": 2.2813645973817667
+        },
+        {
+          "event_id": "49518",
+          "odds": 2.1836417373889976
+        },
+        {
+          "event_id": "78676",
+          "odds": 1.6557494679223634
+        },
+        {
+          "event_id": "78034",
+          "odds": 2.100714445261413
+        },
+        {
+          "event_id": "80279",
+          "odds": 1.1534080572891332
+        }
+      ],
+      "stake": 267.4431860099566,
+      "timestamp": "2023-07-13 20:48:20.438799",
+      "user_id": 77455
+    },
+    {
+      "coupon_id": 72252,
+      "selections": [
+        {
+          "event_id": "2449",
+          "odds": 2.2416164469792417
+        }
+      ],
+      "stake": 445.6303636212676,
+      "timestamp": "2023-11-30 20:48:20.438803",
+      "user_id": 4119
+    },
+    {
+      "coupon_id": 36909,
+      "selections": [
+        {
+          "event_id": "241",
+          "odds": 1.3250493704219655
+        }
+      ],
+      "stake": 25.189076095287867,
+      "timestamp": "2024-03-20 20:48:20.438806",
+      "user_id": 1283
+    },
+    {
+      "coupon_id": 83858,
+      "selections": [
+        {
+          "event_id": "81929",
+          "odds": 2.4931302635970356
+        },
+        {
+          "event_id": "17772",
+          "odds": 1.9082777570704634
+        },
+        {
+          "event_id": "6501",
+          "odds": 2.1715533485724032
+        }
+      ],
+      "stake": 547.994902530183,
+      "timestamp": "2023-11-28 20:48:20.438811",
+      "user_id": 54708
+    },
+    {
+      "coupon_id": 90269,
+      "selections": [
+        {
+          "event_id": "78676",
+          "odds": 2.7791497511486916
+        },
+        {
+          "event_id": "65359",
+          "odds": 2.6400887825058943
+        },
+        {
+          "event_id": "42814",
+          "odds": 1.8826695286013428
+        }
+      ],
+      "stake": 369.7558040117285,
+      "timestamp": "2024-04-13 20:48:20.438835",
+      "user_id": 33930
+    },
+    {
+      "coupon_id": 33736,
+      "selections": [
+        {
+          "event_id": "22066",
+          "odds": 2.1113088983178008
+        }
+      ],
+      "stake": 689.2120215492571,
+      "timestamp": "2023-11-24 20:48:20.438839",
+      "user_id": 67427
+    },
+    {
+      "coupon_id": 44213,
+      "selections": [
+        {
+          "event_id": "79394",
+          "odds": 1.9283444663439189
+        },
+        {
+          "event_id": "768",
+          "odds": 2.716576149320055
+        },
+        {
+          "event_id": "98781",
+          "odds": 1.9927151629242523
+        },
+        {
+          "event_id": "69360",
+          "odds": 1.1054067691463247
+        },
+        {
+          "event_id": "30682",
+          "odds": 1.959459569248388
+        }
+      ],
+      "stake": 53.71219418077093,
+      "timestamp": "2023-08-02 20:48:20.438845",
+      "user_id": 98638
+    },
+    {
+      "coupon_id": 83200,
+      "selections": [
+        {
+          "event_id": "47096",
+          "odds": 1.0032885871448545
+        }
+      ],
+      "stake": 832.4935451616967,
+      "timestamp": "2023-09-04 20:48:20.438849",
+      "user_id": 7190
+    },
+    {
+      "coupon_id": 88496,
+      "selections": [
+        {
+          "event_id": "94931",
+          "odds": 2.173379296984917
+        },
+        {
+          "event_id": "15213",
+          "odds": 1.542790933059208
+        },
+        {
+          "event_id": "6501",
+          "odds": 2.6674827501671636
+        },
+        {
+          "event_id": "60656",
+          "odds": 1.840748380561487
+        }
+      ],
+      "stake": 824.8395993584121,
+      "timestamp": "2023-05-06 20:48:20.438855",
+      "user_id": 86061
+    },
+    {
+      "coupon_id": 40175,
+      "selections": [
+        {
+          "event_id": "37005",
+          "odds": 2.1549369627259454
+        },
+        {
+          "event_id": "56690",
+          "odds": 1.3693887247463712
+        }
+      ],
+      "stake": 461.6979098829359,
+      "timestamp": "2024-03-16 20:48:20.438859",
+      "user_id": 21871
+    },
+    {
+      "coupon_id": 8117,
+      "selections": [
+        {
+          "event_id": "54098",
+          "odds": 1.341782874743098
+        },
+        {
+          "event_id": "241",
+          "odds": 2.0668281865199774
+        }
+      ],
+      "stake": 302.2897711594349,
+      "timestamp": "2023-08-20 20:48:20.438863",
+      "user_id": 43538
+    },
+    {
+      "coupon_id": 94700,
+      "selections": [
+        {
+          "event_id": "241",
+          "odds": 2.921654061799779
+        },
+        {
+          "event_id": "22066",
+          "odds": 1.0205176353061518
+        }
+      ],
+      "stake": 32.192807214085725,
+      "timestamp": "2023-10-02 20:48:20.438868",
+      "user_id": 35861
+    },
+    {
+      "coupon_id": 5801,
+      "selections": [
+        {
+          "event_id": "11241",
+          "odds": 1.511423596983917
+        },
+        {
+          "event_id": "32369",
+          "odds": 1.8258832313947728
+        }
+      ],
+      "stake": 390.44180316722503,
+      "timestamp": "2024-01-16 20:48:20.438872",
+      "user_id": 37678
+    },
+    {
+      "coupon_id": 87217,
+      "selections": [
+        {
+          "event_id": "26380",
+          "odds": 1.334303795066641
+        },
+        {
+          "event_id": "78034",
+          "odds": 2.996098532558838
+        },
+        {
+          "event_id": "9133",
+          "odds": 1.911687920136674
+        },
+        {
+          "event_id": "46812",
+          "odds": 1.1348351129035497
+        },
+        {
+          "event_id": "42814",
+          "odds": 1.1942056761291393
+        }
+      ],
+      "stake": 29.023772099864196,
+      "timestamp": "2024-02-25 20:48:20.438879",
+      "user_id": 35534
+    },
+    {
+      "coupon_id": 18017,
+      "selections": [
+        {
+          "event_id": "2449",
+          "odds": 2.2458019086274614
+        },
+        {
+          "event_id": "98781",
+          "odds": 2.3146223771066357
+        }
+      ],
+      "stake": 776.1757338476348,
+      "timestamp": "2023-07-24 20:48:20.438884",
+      "user_id": 96395
+    },
+    {
+      "coupon_id": 5985,
+      "selections": [
+        {
+          "event_id": "11241",
+          "odds": 1.5449126774630757
+        },
+        {
+          "event_id": "11241",
+          "odds": 1.9796535373894184
+        },
+        {
+          "event_id": "98781",
+          "odds": 2.197871090831202
+        },
+        {
+          "event_id": "79859",
+          "odds": 2.4193908459121096
+        }
+      ],
+      "stake": 331.3977571054296,
+      "timestamp": "2024-03-20 20:48:20.438890",
+      "user_id": 53536
+    },
+    {
+      "coupon_id": 1298,
+      "selections": [
+        {
+          "event_id": "98469",
+          "odds": 1.5018385081354813
+        }
+      ],
+      "stake": 22.46154357137587,
+      "timestamp": "2023-12-10 20:48:20.438893",
+      "user_id": 22286
+    },
+    {
+      "coupon_id": 89203,
+      "selections": [
+        {
+          "event_id": "27684",
+          "odds": 1.5616294232950036
+        },
+        {
+          "event_id": "14450",
+          "odds": 1.8231396088557998
+        },
+        {
+          "event_id": "56301",
+          "odds": 1.3767122552141704
+        },
+        {
+          "event_id": "60656",
+          "odds": 1.1133670300672867
+        },
+        {
+          "event_id": "88855",
+          "odds": 1.4548538980211088
+        }
+      ],
+      "stake": 995.7860629427879,
+      "timestamp": "2023-06-11 20:48:20.438900",
+      "user_id": 41934
+    },
+    {
+      "coupon_id": 92093,
+      "selections": [
+        {
+          "event_id": "45042",
+          "odds": 1.1549991155210522
+        },
+        {
+          "event_id": "81929",
+          "odds": 1.3827504728424076
+        },
+        {
+          "event_id": "64724",
+          "odds": 1.3685765444986997
+        },
+        {
+          "event_id": "19181",
+          "odds": 1.1234120822976434
+        }
+      ],
+      "stake": 337.38626449964653,
+      "timestamp": "2024-03-12 20:48:20.438906",
+      "user_id": 56403
+    },
+    {
+      "coupon_id": 89595,
+      "selections": [
+        {
+          "event_id": "17772",
+          "odds": 2.465783860967176
+        },
+        {
+          "event_id": "64604",
+          "odds": 1.4083611853575608
+        },
+        {
+          "event_id": "93158",
+          "odds": 1.7467279274942944
+        },
+        {
+          "event_id": "37005",
+          "odds": 2.8983544350196815
+        },
+        {
+          "event_id": "25850",
+          "odds": 1.3512193184816121
+        }
+      ],
+      "stake": 251.49599664103928,
+      "timestamp": "2023-08-15 20:48:20.438913",
+      "user_id": 79859
+    },
+    {
+      "coupon_id": 41518,
+      "selections": [
+        {
+          "event_id": "30285",
+          "odds": 2.0121041536418502
+        },
+        {
+          "event_id": "76870",
+          "odds": 1.2060123335422668
+        }
+      ],
+      "stake": 643.9091043348274,
+      "timestamp": "2024-01-18 20:48:20.438918",
+      "user_id": 85847
+    },
+    {
+      "coupon_id": 3070,
+      "selections": [
+        {
+          "event_id": "73923",
+          "odds": 1.691915984346668
+        },
+        {
+          "event_id": "60605",
+          "odds": 1.5817791675478219
+        },
+        {
+          "event_id": "37884",
+          "odds": 2.831983985513668
+        }
+      ],
+      "stake": 572.9095049682621,
+      "timestamp": "2023-11-20 20:48:20.438923",
+      "user_id": 48305
+    },
+    {
+      "coupon_id": 22431,
+      "selections": [
+        {
+          "event_id": "69360",
+          "odds": 1.7508019214532258
+        },
+        {
+          "event_id": "64724",
+          "odds": 1.1648539497197186
+        },
+        {
+          "event_id": "37005",
+          "odds": 1.7755833869958546
+        },
+        {
+          "event_id": "17772",
+          "odds": 2.4562107266455264
+        }
+      ],
+      "stake": 275.9974084390671,
+      "timestamp": "2023-10-23 20:48:20.438929",
+      "user_id": 65123
+    },
+    {
+      "coupon_id": 76560,
+      "selections": [
+        {
+          "event_id": "46812",
+          "odds": 2.3315897720879812
+        },
+        {
+          "event_id": "61936",
+          "odds": 2.3463356921440193
+        },
+        {
+          "event_id": "49768",
+          "odds": 2.8908593032270433
+        },
+        {
+          "event_id": "18839",
+          "odds": 2.9749458009538565
+        }
+      ],
+      "stake": 197.18637134902022,
+      "timestamp": "2023-05-14 20:48:20.438935",
+      "user_id": 37678
+    },
+    {
+      "coupon_id": 53892,
+      "selections": [
+        {
+          "event_id": "77052",
+          "odds": 1.2988882962955555
+        },
+        {
+          "event_id": "42458",
+          "odds": 2.53630655737219
+        },
+        {
+          "event_id": "77327",
+          "odds": 1.1805570410049813
+        },
+        {
+          "event_id": "81959",
+          "odds": 2.912979991899758
+        },
+        {
+          "event_id": "22726",
+          "odds": 2.5535092014802485
+        }
+      ],
+      "stake": 736.9568600800744,
+      "timestamp": "2024-02-12 20:48:20.438941",
+      "user_id": 16765
+    },
+    {
+      "coupon_id": 6494,
+      "selections": [
+        {
+          "event_id": "84446",
+          "odds": 1.9660250912450332
+        },
+        {
+          "event_id": "98781",
+          "odds": 1.609572522740639
+        },
+        {
+          "event_id": "27567",
+          "odds": 2.7417917166207815
+        }
+      ],
+      "stake": 353.41875350210705,
+      "timestamp": "2023-08-30 20:48:20.438947",
+      "user_id": 95506
+    },
+    {
+      "coupon_id": 69465,
+      "selections": [
+        {
+          "event_id": "65359",
+          "odds": 2.7121330405838147
+        },
+        {
+          "event_id": "65359",
+          "odds": 1.6756284754112332
+        },
+        {
+          "event_id": "81568",
+          "odds": 1.3002447156722141
+        }
+      ],
+      "stake": 345.0192320943935,
+      "timestamp": "2023-09-26 20:48:20.438952",
+      "user_id": 43538
+    },
+    {
+      "coupon_id": 57720,
+      "selections": [
+        {
+          "event_id": "60656",
+          "odds": 1.0027343308651446
+        }
+      ],
+      "stake": 333.0870959515035,
+      "timestamp": "2023-10-28 20:48:20.438957",
+      "user_id": 74590
+    },
+    {
+      "coupon_id": 55952,
+      "selections": [
+        {
+          "event_id": "76037",
+          "odds": 1.5656985760317539
+        },
+        {
+          "event_id": "98469",
+          "odds": 1.7565722347664896
+        },
+        {
+          "event_id": "27567",
+          "odds": 1.0878277340070375
+        },
+        {
+          "event_id": "83515",
+          "odds": 1.667628300903654
+        },
+        {
+          "event_id": "3809",
+          "odds": 2.654407577333453
+        }
+      ],
+      "stake": 953.6471181744216,
+      "timestamp": "2023-11-18 20:48:20.438965",
+      "user_id": 99393
+    },
+    {
+      "coupon_id": 17926,
+      "selections": [
+        {
+          "event_id": "42814",
+          "odds": 1.9468733190192036
+        },
+        {
+          "event_id": "78034",
+          "odds": 2.766920421941131
+        }
+      ],
+      "stake": 441.82017177092575,
+      "timestamp": "2023-11-12 20:48:20.438971",
+      "user_id": 59335
+    },
+    {
+      "coupon_id": 10339,
+      "selections": [
+        {
+          "event_id": "26380",
+          "odds": 2.886704184189687
+        },
+        {
+          "event_id": "77327",
+          "odds": 2.3656236685497474
+        }
+      ],
+      "stake": 232.56092070681828,
+      "timestamp": "2023-04-21 20:48:20.438976",
+      "user_id": 45943
+    },
+    {
+      "coupon_id": 21763,
+      "selections": [
+        {
+          "event_id": "5634",
+          "odds": 2.9966582276660754
+        },
+        {
+          "event_id": "56690",
+          "odds": 2.1638152993386353
+        },
+        {
+          "event_id": "49768",
+          "odds": 2.5441089245361876
+        }
+      ],
+      "stake": 903.4246708832504,
+      "timestamp": "2023-12-07 20:48:20.438982",
+      "user_id": 73637
+    },
+    {
+      "coupon_id": 53715,
+      "selections": [
+        {
+          "event_id": "3019",
+          "odds": 2.655781491905999
+        },
+        {
+          "event_id": "27567",
+          "odds": 1.0990928506136572
+        }
+      ],
+      "stake": 799.7661096315389,
+      "timestamp": "2023-07-22 20:48:20.438986",
+      "user_id": 14273
+    },
+    {
+      "coupon_id": 87272,
+      "selections": [
+        {
+          "event_id": "76870",
+          "odds": 1.8697465793747394
+        },
+        {
+          "event_id": "6501",
+          "odds": 1.0917064977514246
+        },
+        {
+          "event_id": "11241",
+          "odds": 1.6660876624035075
+        }
+      ],
+      "stake": 815.5383247642187,
+      "timestamp": "2024-02-13 20:48:20.438992",
+      "user_id": 41828
+    },
+    {
+      "coupon_id": 237,
+      "selections": [
+        {
+          "event_id": "6501",
+          "odds": 1.086386434858955
+        }
+      ],
+      "stake": 75.49205696809327,
+      "timestamp": "2023-06-12 20:48:20.438996",
+      "user_id": 33487
+    },
+    {
+      "coupon_id": 16615,
+      "selections": [
+        {
+          "event_id": "95249",
+          "odds": 1.9265601792149207
+        },
+        {
+          "event_id": "95249",
+          "odds": 1.165156811355484
+        }
+      ],
+      "stake": 310.59222268072256,
+      "timestamp": "2024-03-25 20:48:20.439000",
+      "user_id": 75223
+    },
+    {
+      "coupon_id": 77141,
+      "selections": [
+        {
+          "event_id": "32369",
+          "odds": 2.7140052938423462
+        },
+        {
+          "event_id": "81929",
+          "odds": 2.5503597293864226
+        }
+      ],
+      "stake": 773.7540797579805,
+      "timestamp": "2023-11-08 20:48:20.439005",
+      "user_id": 70947
+    },
+    {
+      "coupon_id": 60921,
+      "selections": [
+        {
+          "event_id": "14450",
+          "odds": 2.1791849428828094
+        },
+        {
+          "event_id": "98469",
+          "odds": 2.661487654190122
+        },
+        {
+          "event_id": "41396",
+          "odds": 1.0217517600318835
+        },
+        {
+          "event_id": "37847",
+          "odds": 1.8040157992514956
+        }
+      ],
+      "stake": 219.35007677375927,
+      "timestamp": "2023-11-11 20:48:20.439010",
+      "user_id": 20515
+    },
+    {
+      "coupon_id": 62289,
+      "selections": [
+        {
+          "event_id": "47096",
+          "odds": 2.192583396508086
+        },
+        {
+          "event_id": "76870",
+          "odds": 1.3211922660542936
+        },
+        {
+          "event_id": "42746",
+          "odds": 2.8486877952794982
+        },
+        {
+          "event_id": "57247",
+          "odds": 1.2550847865325852
+        }
+      ],
+      "stake": 329.0423021034606,
+      "timestamp": "2023-12-17 20:48:20.439016",
+      "user_id": 99363
+    },
+    {
+      "coupon_id": 83464,
+      "selections": [
+        {
+          "event_id": "30285",
+          "odds": 1.7956185812687924
+        },
+        {
+          "event_id": "4533",
+          "odds": 2.191921307191942
+        }
+      ],
+      "stake": 38.818399228486825,
+      "timestamp": "2023-07-24 20:48:20.439020",
+      "user_id": 80919
+    }
+  ]
+}
