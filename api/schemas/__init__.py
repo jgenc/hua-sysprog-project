@@ -1,6 +1,6 @@
 from .coupon import Coupon, Selection
 from .event import Event
-from .user import User
+from .user import User, NewUser
 from .recommendations import Recommendations
 
 __all__ = [
@@ -8,5 +8,6 @@ __all__ = [
     "Selection",
     "Event",
     "User",
+    "NewUser",
     "Recommendations",
 ]
