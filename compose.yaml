@@ -1,0 +1,11 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    container_name: hua-sysprog-api
+    environment:
+      PORT: 8098
+    ports:
+      - '8098:8098'
+    restart: "no"
