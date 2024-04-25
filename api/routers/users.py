@@ -7,7 +7,7 @@ from api.data.betting import BettingData
 from pandas import DataFrame, concat
 
 from api.schemas.user import User, NewUser
-from api.dependencies.get_data_df import get_df
+from api.dependencies.get_betting_data_df import get_df
 
 router = APIRouter(
     prefix="/user",
@@ -25,7 +25,13 @@ def get_user_random(df: BettingData = Depends(get_df)) -> User:
 
 @router.get("/{user_id}", response_model=User)
 def read_user(user_id: int, df: BettingData = Depends(get_df)) -> User:
-    return User(**df.users[df.users["user_id"] == user_id].to_dict(orient="records")[0])
+    try:
+        user = User(
+            **df.users[df.users["user_id"] == user_id].to_dict(orient="records")[0]
+        )
+    except IndexError:
+        raise HTTPException(status_code=404, detail="User not found")
+    return user
 
 
 @router.post("", response_model=User)
