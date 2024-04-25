@@ -3,16 +3,19 @@ from datetime import datetime
 import random
 import logging
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 import pandas as pd
 
+from .routers import users
 from .data.betting import BettingData
 from .schemas import Coupon, Event, User, Selection, Recommendations, NewUser
 from .recommendations import most_bet_sport_recommenedation
 
-app = FastAPI()
 logger = logging.getLogger("api")
 # logger.disabled = True
+
+app = FastAPI()
+app.include_router(users.router, prefix="/user")
 
 df = BettingData("./api/data/dummy.json")
 
@@ -20,42 +23,6 @@ df = BettingData("./api/data/dummy.json")
 @app.get("/")
 def read_root():
     return {"msg": "Hello World"}
-
-
-@app.get("/user/random", response_model=User)
-def get_user_random() -> User:
-    x = df.users.sample(1).to_dict(orient="records")[0]
-    return User(**x)
-
-
-@app.get("/user/{user_id}", response_model=User)
-def get_user(user_id: int) -> User:
-    return User(**df.users[df.users["user_id"] == user_id].to_dict(orient="records")[0])
-
-
-@app.post("/user/", response_model=User)
-def create_user(new_user: NewUser) -> User:
-    # TODO: When we have a real database, check if the user already exists and if the id is already in use
-
-    # TODO: Create a standard for timestamps and use this system-wide
-    current_date = datetime.now()
-    # TODO: When we have a real database, we should get the user_id from there
-    user_id = random.randint(1000, 9999)
-
-    new_user = User(
-        **new_user.model_dump(),
-        registration_date=current_date,
-        user_id=user_id,
-    )
-
-    # FIXME: This is here just for testing purposes
-    df.users = pd.concat(
-        [df.users, pd.DataFrame([new_user.model_dump()])], ignore_index=True
-    )
-    logger.debug(f"Newly added DF user:\n{df.users.tail(1)}")
-    # logger.debug(f"Series of user:\n{pd.Series(new_user.model_dump())}")
-
-    return new_user
 
 
 @app.get("/event/random", response_model=Event)
@@ -77,13 +44,22 @@ def get_coupon_random() -> Coupon:
 
 @app.get("/coupon/{coupon_id}", response_model=Coupon)
 def get_coupon(coupon_id: int) -> Coupon:
-    return Coupon(
-        **df.coupons[df.coupons["coupon_id"] == coupon_id].to_dict(orient="records")[0]
-    )
+    try:
+        coupon = df.coupons[df.coupons["coupon_id"] == coupon_id].to_dict(
+            orient="records"
+        )[0]
+    except IndexError:
+        raise HTTPException(status_code=404, detail="Coupon not found")
+
+    return Coupon(**coupon)
 
 
 @app.get("/coupons/{user_id}", response_model=list[Coupon])
-def get_coupons(user_id: int) -> list[Coupon]:
+def get_coupon_userid(user_id: int) -> list[Coupon]:
+    user_id_exists = df.users["user_id"].isin([user_id]).any()
+    if not user_id_exists:
+        raise HTTPException(status_code=404, detail="User not found")
+
     return [
         Coupon(**x)
         for x in df.coupons[df.coupons["user_id"] == user_id].to_dict(orient="records")
