@@ -1,6 +1,6 @@
 import pytest
 
-from fastapi import FastAPI
+from fastapi import HTTPException
 from fastapi.testclient import TestClient
 
 from pydantic import ValidationError
@@ -25,10 +25,11 @@ def test_get_user_api():
     assert User(**response.json())
 
 
-def test_create_user_api_flawed():
-    # TODO: Is this good practice?
-    with pytest.raises(ValidationError) as excinfo:
-        assert NewUser(birth_year=2002, country="US", currency="KL", gender="M")
+def test_get_user_api_not_found():
+    with pytest.raises(HTTPException) as err:
+        client.get("/user/9999")
+
+    assert err.value.status_code == 404
 
 
 def test_create_user_api():
@@ -38,3 +39,9 @@ def test_create_user_api():
     )
     assert response.status_code == 200
     assert User(**response.json())
+
+
+def test_create_user_api_flawed():
+    # TODO: Is this good practice?
+    with pytest.raises(ValidationError) as excinfo:
+        assert NewUser(birth_year=2002, country="US", currency="KL", gender="M")
