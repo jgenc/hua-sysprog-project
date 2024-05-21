@@ -3,15 +3,19 @@ import random
 import logging
 
 from fastapi import APIRouter, Depends, HTTPException
-from api.data.dataframe import BettingDataDataframe
-from pandas import DataFrame, concat
+from sqlmodel import Session
 
-from api.schemas.user import User, NewUser
+from api.data.dataframe import BettingDataDataframe
+
 from api.dependencies.get_betting_data_df import get_df
+
+from api.models.user import User, UserCreate, UserCreateWeb
+from api.database import get_session
 
 router = APIRouter(
     prefix="/user",
     tags=["users"],
+    dependencies=[Depends(get_session)],
 )
 
 logger = logging.getLogger("api")
@@ -35,25 +39,39 @@ def read_user(user_id: int, df: BettingDataDataframe = Depends(get_df)) -> User:
 
 
 @router.post("", response_model=User)
-def create_user(new_user: NewUser, df: BettingDataDataframe = Depends(get_df)) -> User:
-    # TODO: When we have a real database, check if the user already exists and if the id is already in use
+# def create_user(new_user: NewUser, df: BettingDataDataframe = Depends(get_df)) -> User:
+def create_user(
+    new_user: UserCreateWeb, session: Session = Depends(get_session)
+) -> User:
+    # NOTE: Porting from Pydantic to sqlmodel
+    # # TODO: When we have a real database, check if the user already exists and if the id is already in use
 
-    # TODO: Create a standard for timestamps and use this system-wide
-    current_date = str(datetime.now())
-    # TODO: When we have a real database, we should get the user_id from there
-    user_id = random.randint(1000, 9999)
+    # # TODO: Create a standard for timestamps and use this system-wide
+    # current_date = str(datetime.now())
+    # # TODO: When we have a real database, we should get the user_id from there
+    # user_id = random.randint(1000, 9999)
 
-    new_user = User(
-        **new_user.model_dump(),
-        registration_date=current_date,
-        user_id=user_id,
-    )
+    # new_user = User(
+    #     **new_user.model_dump(),
+    #     registration_date=current_date,
+    #     # user_id=user_id,
+    # )
 
-    # FIXME: This is here just for testing purposes
-    df._users = concat(
-        [df._users, DataFrame([new_user.model_dump()])], ignore_index=True
-    )
-    logger.debug(f"Newly added DF user:\n{df._users.tail(1)}")
+    # Dataframe database
+    # df._users = concat(
+    #     [df._users, DataFrame([new_user.model_dump()])], ignore_index=True
+    # )
+    # logger.debug(f"Newly added DF user:\n{df._users.tail(1)}")
     # logger.debug(f"Series of user:\n{pd.Series(new_user.model_dump())}")
 
-    return new_user
+    # NOTE
+    # sqlmodel
+    new_user = UserCreate(
+        **new_user.model_dump(), registration_date="Temp Stupid Date 1"
+    )
+    db_user = User.model_validate(new_user)
+    session.add(db_user)
+    session.commit()
+    session.refresh(db_user)
+
+    return db_user
