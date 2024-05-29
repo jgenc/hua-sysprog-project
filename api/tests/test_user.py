@@ -24,7 +24,7 @@ def test_get_user_api_not_found(client):
     assert res.status_code == 404
 
 
-def test_create_user_api():
+def test_create_user_api(client):
     response = client.post(
         "/user/",
         json={"birth_year": 2002, "country": "US", "currency": "USD", "gender": "F"},
@@ -33,14 +33,15 @@ def test_create_user_api():
     assert user.User().model_validate(response.json())
 
 
-def test_create_user_api_flawed():
-    with pytest.raises(RequestValidationError) as excinfo:
-        response = client.post(
-            "/user/",
-            json={
-                "birth_year": 1992,
-                "country": "US",
-                "currency": "KL",
-                "gender": "FM",
-            },
-        )
+def test_create_user_api_flawed(client):
+    response = client.post(
+        "/user/",
+        json={
+            "birth_year": 1992,
+            "country": "US",
+            "currency": "KL",
+            "gender": "FM",
+        },
+    )
+
+    assert response.status_code == 422
