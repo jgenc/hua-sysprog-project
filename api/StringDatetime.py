@@ -10,3 +10,7 @@ def check_timestamp(timestamp: str) -> str:
 
 
 StringDatetime = Annotated[str, AfterValidator(check_timestamp)]
+
+
+def get_time():
+    return str(datetime.now())

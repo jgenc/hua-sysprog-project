@@ -28,14 +28,19 @@ class Selection(SQLModel, table=True):
     )
 
 
+class SelectionWeb(BaseModel):
+    event_id: int
+    odds: float
+
+
 class CouponBase(SQLModel):
     user_id: int = Field(default=None, foreign_key="user.id")
     stake: float
-    timestamp: StringDatetime
 
 
 class Coupon(CouponBase, table=True):
     id: int = Field(default=None, primary_key=True)
+    timestamp: StringDatetime
 
     selections: list["Selection"] = Relationship(
         back_populates="coupons", link_model=SelectionCouponLink
@@ -48,3 +53,9 @@ class CouponWithSelections(BaseModel):
     stake: float
     timestamp: StringDatetime
     selections: list
+
+
+class CouponWeb(BaseModel):
+    user_id: int
+    stake: float
+    selections: list[SelectionWeb]

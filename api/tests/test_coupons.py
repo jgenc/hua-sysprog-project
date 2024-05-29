@@ -36,3 +36,14 @@ def test_get_coupon_id_api_flawed(client):
     result = client.get("/coupon/-1")
 
     assert result.status_code == 404
+
+
+def test_post_coupon(client):
+    response = client.post(
+        "/coupon",
+        json={"user_id": 0, "stake": 42.2, "selections": [{"event_id": 0, "odds": 30}]},
+    )
+
+    print(f"[\x1b[1;31mDEBUG\x1b[0m] {response.json()}")
+
+    assert response.status_code == 200
