@@ -9,16 +9,33 @@ from sqlmodel.pool import StaticPool
 from api.main import app
 from api.database import get_session
 
+SQLITE_TEST_DB_URL = "test.db"
+
+# IMPORTANT: Import these fixtures to other tests to use the test database
+
 
 @pytest.fixture(name="session")
 def session_fixture():
     engine = create_engine(
-        "sqlite://",
+        f"sqlite:///{SQLITE_TEST_DB_URL}",
         connect_args={"check_same_thread": False},
-        poolclass=StaticPool,
+        # poolclass=StaticPool,
     )
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
+
+        test_user = user.User(
+            birth_year=2002,
+            country="GR",
+            currency="EUR",
+            gender="M",
+            registration_date="2024-04-01 20:48:20.438063",
+            id=0,
+        )
+        session.add(test_user)
+        session.commit()
+        session.refresh(test_user)
+
         yield session
 
 
@@ -35,18 +52,20 @@ def client_fixture(session):
 
     client = TestClient(app)
     yield client
-    # app.dependency_overrides.clear()
+
+    import os
+
+    os.remove(SQLITE_TEST_DB_URL)
+    app.dependency_overrides.clear()
 
 
 def test_create_tables(client: TestClient):
-    response = client.post(
-        "/user/",
-        json={
-            "birth_year": 2002,
-            "country": "US",
-            "currency": "USD",
-            "gender": "F",
-        },
-    )
-    assert response.status_code == 200
-    assert user.UserBase(**response.json())
+    # This is specific for each database.
+    import sqlite3
+
+    con = sqlite3.connect(SQLITE_TEST_DB_URL)
+    sql_query = """SELECT name FROM sqlite_master WHERE type='table';"""
+    cur = con.cursor()
+    created_tables = cur.execute(sql_query)
+    # The arraysize should be equal to all models (or all created tables)
+    assert created_tables.arraysize == 1

@@ -1,6 +1,6 @@
 from typing import Annotated, Literal
 from datetime import datetime
-from .StringDatetime import StringDatetime
+from ..StringDatetime import StringDatetime
 
 from pydantic import BaseModel
 from pydantic.functional_validators import AfterValidator
@@ -48,4 +48,4 @@ class User(BaseModel):
     gender: Gender
     registration_date: StringDatetime
     # TODO: Make this UUID
-    user_id: int
+    # user_id: int
