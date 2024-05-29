@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from api.models import user
+from api.models import user, event
 
 from sqlmodel import Session, SQLModel, create_engine
 from sqlmodel.pool import StaticPool
@@ -36,6 +36,24 @@ def session_fixture():
         session.commit()
         session.refresh(test_user)
 
+        test_participants = event.Participants(id=0, a="Panathinaikos", b="Real Madrid")
+        session.add(test_participants)
+        session.commit()
+        session.refresh(test_participants)
+
+        test_event = event.Event(
+            begin_timestamp="2024-05-29 13:18:00.060583",
+            end_timestamp="2024-05-29 13:18:17.512332",
+            country="US",
+            league="EuroLeague",
+            sport="Basketball",
+            id=0,
+            participants_id=test_participants.id,
+        )
+        session.add(test_event)
+        session.commit()
+        session.refresh(test_event)
+
         yield session
 
 
@@ -66,6 +84,6 @@ def test_create_tables(client: TestClient):
     con = sqlite3.connect(SQLITE_TEST_DB_URL)
     sql_query = """SELECT name FROM sqlite_master WHERE type='table';"""
     cur = con.cursor()
-    created_tables = cur.execute(sql_query)
+    created_tables = cur.execute(sql_query).fetchall()
     # The arraysize should be equal to all models (or all created tables)
-    assert created_tables.arraysize == 1
+    assert len(created_tables) == 3

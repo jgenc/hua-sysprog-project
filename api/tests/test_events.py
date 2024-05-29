@@ -5,47 +5,62 @@ from fastapi.testclient import TestClient
 
 from pydantic import ValidationError
 
-from ..schemas import Event
-from ..routers import events
+from api.routers import events
+from api.models import event
+
+from .test_dataset import session_fixture, client_fixture
+
 
 client = TestClient(events.router)
 
 
-def test_get_random_event():
-    response = client.get("/event/random")
-
-    assert response.status_code == 200
-    assert Event(**response.json())
-
-
-def test_get_event():
+def test_get_event(client):
     response = client.get("/event/0")
 
     assert response.status_code == 200
-    assert Event(**response.json())
+    assert event.Event().model_validate(response.json())
 
 
-def test_read_event_not_found():
-    with pytest.raises(HTTPException) as err:
-        client.get("/event/-1")
+def test_read_event_not_found(client):
+    response = client.get("/event/-1")
 
-    assert err.value.status_code == 404
+    assert response.status_code == 404
 
 
-def test_create_event():
+def test_create_event(client):
     event = {
         "begin_timestamp": "2021-01-01T00:00:00",
         "end_timestamp": "2021-01-01T01:00:00",
         "country": "US",
-        "event_id": "32",
         "league": "NBA",
         "participants": ["Lakers", "Warriors"],
         "sport": "Basketball",
     }
 
-    # FIXME: Why do I have to do this this way? In Coupons testing I don't need
-    # to wrap the response in a pytest.raises() block
-    with pytest.raises(HTTPException) as err:
-        client.post("/event/", json=event)
+    result = client.post("/event/", json=event)
+    assert result.status_code == 200
 
-    assert err.value.status_code == 501
+
+def test_create_event_same_participants(client):
+    event = {
+        "begin_timestamp": "2021-01-01T00:00:00",
+        "end_timestamp": "2021-01-01T01:00:00",
+        "country": "GR",
+        "league": "LG",
+        "participants": ["Panathinaikos", "AEK"],
+        "sport": "Basketball",
+    }
+
+    result = client.post("/event/", json=event)
+    assert result.status_code == 200
+    result_one_participant_id = result.json()["participants_id"]
+    result_one_event_id = result.json()["id"]
+
+    result = client.post("/event/", json=event)
+    assert result.status_code == 200
+    result_two_participant_id = result.json()["participants_id"]
+    result_two_event_id = result.json()["id"]
+
+    assert (
+        result_one_event_id != result_two_event_id
+    ) and result_one_participant_id == result_two_participant_id
