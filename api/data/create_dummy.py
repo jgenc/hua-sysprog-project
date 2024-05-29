@@ -1,4 +1,3 @@
-from ..schemas import User, Event, Coupon, Selection, Recommendations
 import random
 import string
 import json

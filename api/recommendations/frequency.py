@@ -1,4 +1,3 @@
-from ..schemas import Event
 from .utils import get_user_events, get_all_events
 from .random import random_recommendation
 from pprint import pprint

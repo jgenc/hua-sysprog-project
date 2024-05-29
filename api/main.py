@@ -7,7 +7,9 @@ from .routers import users, events, coupons, recommendations
 from .data.dataframe import BettingDataDataframe
 
 # The order matters here. More at https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/#sqlmodel-metadata-order-matters
-from .database import create_db_and_tables
+from .dependencies.database import create_db_and_tables
+
+from aiokafka import AIOKafkaConsumer, AIOKafkaProducer
 
 logger = logging.getLogger("api")
 # logger.disabled = True

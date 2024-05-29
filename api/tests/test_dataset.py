@@ -1,13 +1,13 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from api.models import user
+from api.models import user, event, coupon, recommendations
 
 from sqlmodel import Session, SQLModel, create_engine
 from sqlmodel.pool import StaticPool
 
 from api.main import app
-from api.database import get_session
+from api.dependencies.database import get_session
 
 SQLITE_TEST_DB_URL = "test.db"
 
@@ -35,6 +35,59 @@ def session_fixture():
         session.add(test_user)
         session.commit()
         session.refresh(test_user)
+
+        test_participants = event.Participants(id=0, a="Panathinaikos", b="Real Madrid")
+        session.add(test_participants)
+        session.commit()
+        session.refresh(test_participants)
+
+        test_event = event.Event(
+            begin_timestamp="2024-05-29 13:18:00.060583",
+            end_timestamp="2024-05-29 13:18:17.512332",
+            country="US",
+            league="EuroLeague",
+            sport="Basketball",
+            id=0,
+            participants_id=test_participants.id,
+        )
+        session.add(test_event)
+        session.commit()
+        session.refresh(test_event)
+
+        test_selection_1 = coupon.Selection(id=0, event_id=0, odds=2.3)
+        test_selection_2 = coupon.Selection(id=1, event_id=0, odds=5.9)
+        test_selection_3 = coupon.Selection(id=2, event_id=0, odds=0.5)
+
+        session.add(test_selection_1)
+        session.add(test_selection_2)
+        session.add(test_selection_3)
+
+        session.commit()
+
+        session.refresh(test_selection_1)
+        session.refresh(test_selection_2)
+        session.refresh(test_selection_3)
+
+        test_coupon_1 = coupon.Coupon(
+            id=0,
+            selections=[test_selection_1, test_selection_3],
+            stake=10.2,
+            timestamp="2024-05-29 18:13:20.852628",
+            user_id=0,
+        )
+
+        session.add(test_coupon_1)
+
+        session.commit()
+        session.refresh(test_coupon_1)
+
+        test_recommendation_1 = recommendations.Recommendation(
+            id=0, user_id=0, events=[test_event]
+        )
+
+        session.add(test_recommendation_1)
+        session.commit()
+        session.refresh(test_recommendation_1)
 
         yield session
 
@@ -66,6 +119,6 @@ def test_create_tables(client: TestClient):
     con = sqlite3.connect(SQLITE_TEST_DB_URL)
     sql_query = """SELECT name FROM sqlite_master WHERE type='table';"""
     cur = con.cursor()
-    created_tables = cur.execute(sql_query)
+    created_tables = cur.execute(sql_query).fetchall()
     # The arraysize should be equal to all models (or all created tables)
-    assert created_tables.arraysize == 1
+    assert len(created_tables) == 8

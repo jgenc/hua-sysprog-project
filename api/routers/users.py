@@ -11,7 +11,7 @@ from api.data.dataframe import BettingDataDataframe
 from api.dependencies.get_betting_data_df import get_df
 
 from api.models.user import User, UserCreate, UserCreateWeb, UserPublic
-from api.database import get_session
+from api.dependencies.database import get_session
 
 router = APIRouter(
     prefix="/user",
