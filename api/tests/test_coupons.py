@@ -3,45 +3,36 @@ from fastapi.testclient import TestClient
 
 import pytest
 
-from ..schemas import Coupon
-
-from ..routers import coupons
+from api.models import coupon
+from api.routers import coupons
+from api.tests.test_dataset import session_fixture, client_fixture
 
 client = TestClient(coupons.router)
 
 
-def test_get_coupon_random_api():
-    response = client.get("/coupon/random")
-
-    assert response.status_code == 200
-    assert Coupon(**response.json())
-
-
-def test_get_coupon_userid_api():
+def test_get_coupon_userid_api(client):
     # Added user has no coupons, response should be an empty list
     response = client.get("/coupon/user/0")
 
     assert response.status_code == 200
-    assert response.json() == []
+    assert len(response.json()[0]["selections"]) == 2
 
 
-def test_get_coupon_userid_api_flawed():
-    # Non-existant user
-    with pytest.raises(HTTPException) as err:
-        client.get("/coupon/user/-10")
+def test_get_coupon_userid_api_flawed(client):
+    response = client.get("/coupon/user/-10")
 
-    assert err.value.status_code == 404
+    assert response.status_code == 404
+    assert response.json()["detail"] == "User not found"
 
 
-def test_get_coupon_id_api():
+def test_get_coupon_id_api(client):
     result = client.get("/coupon/0")
 
     assert result.status_code == 200
-    assert Coupon(**result.json())
+    assert coupon.Coupon(**result.json())
 
 
-def test_get_coupon_id_api_flawed():
-    with pytest.raises(HTTPException) as err:
-        client.get("/coupon/-1")
+def test_get_coupon_id_api_flawed(client):
+    result = client.get("/coupon/-1")
 
-    assert err.value.status_code == 404
+    assert result.status_code == 404

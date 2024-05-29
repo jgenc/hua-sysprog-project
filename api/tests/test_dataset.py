@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from api.models import user, event
+from api.models import user, event, coupon
 
 from sqlmodel import Session, SQLModel, create_engine
 from sqlmodel.pool import StaticPool
@@ -54,6 +54,33 @@ def session_fixture():
         session.commit()
         session.refresh(test_event)
 
+        test_selection_1 = coupon.Selection(id=0, event_id=0, odds=2.3)
+        test_selection_2 = coupon.Selection(id=1, event_id=0, odds=5.9)
+        test_selection_3 = coupon.Selection(id=2, event_id=0, odds=0.5)
+
+        session.add(test_selection_1)
+        session.add(test_selection_2)
+        session.add(test_selection_3)
+
+        session.commit()
+
+        session.refresh(test_selection_1)
+        session.refresh(test_selection_2)
+        session.refresh(test_selection_3)
+
+        test_coupon_1 = coupon.Coupon(
+            id=0,
+            selections=[test_selection_1, test_selection_3],
+            stake=10.2,
+            timestamp="2024-05-29 18:13:20.852628",
+            user_id=0,
+        )
+
+        session.add(test_coupon_1)
+
+        session.commit()
+        session.refresh(test_coupon_1)
+
         yield session
 
 
@@ -86,4 +113,4 @@ def test_create_tables(client: TestClient):
     cur = con.cursor()
     created_tables = cur.execute(sql_query).fetchall()
     # The arraysize should be equal to all models (or all created tables)
-    assert len(created_tables) == 3
+    assert len(created_tables) == 6
