@@ -1,13 +1,13 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from api.models import user, event, coupon
+from api.models import user, event, coupon, recommendations
 
 from sqlmodel import Session, SQLModel, create_engine
 from sqlmodel.pool import StaticPool
 
 from api.main import app
-from api.database import get_session
+from api.dependencies.database import get_session
 
 SQLITE_TEST_DB_URL = "test.db"
 
@@ -81,6 +81,14 @@ def session_fixture():
         session.commit()
         session.refresh(test_coupon_1)
 
+        test_recommendation_1 = recommendations.Recommendation(
+            id=0, user_id=0, events=[test_event]
+        )
+
+        session.add(test_recommendation_1)
+        session.commit()
+        session.refresh(test_recommendation_1)
+
         yield session
 
 
@@ -113,4 +121,4 @@ def test_create_tables(client: TestClient):
     cur = con.cursor()
     created_tables = cur.execute(sql_query).fetchall()
     # The arraysize should be equal to all models (or all created tables)
-    assert len(created_tables) == 6
+    assert len(created_tables) == 8

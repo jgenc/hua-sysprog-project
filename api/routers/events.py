@@ -13,7 +13,7 @@ from api.models.event import (
 )
 
 # from api.dependencies.get_betting_data_df import get_df
-from api.database import get_session
+from api.dependencies.database import get_session
 
 
 router = APIRouter(

@@ -3,7 +3,7 @@ import logging
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import select
 
-from api.database import get_session, Session
+from api.dependencies.database import get_session, Session
 from api.models.coupon import Coupon, CouponWithSelections
 from api.models.user import User
 from api.dependencies.get_betting_data_df import get_df
