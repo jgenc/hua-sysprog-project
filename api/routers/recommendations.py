@@ -6,7 +6,7 @@ from sqlmodel import select
 from api.models.recommendations import Recommendation, RecommendationWithEvents
 from api.models.user import User
 
-# from api.recommendations import most_bet_sport_recommenedation
+from api.recommendations import most_bet_sport_recommenedation
 from api.dependencies.database import get_session, Session
 
 router = APIRouter(
@@ -44,3 +44,8 @@ def get_recommendation(
     ).all()
 
     return get_populated_recommendations(results)
+
+
+@router.post("/generate")
+def generate_recommendations(session: Session = Depends(get_session)) -> str:
+    pass
