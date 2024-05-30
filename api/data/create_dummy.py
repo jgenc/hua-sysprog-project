@@ -3,6 +3,10 @@ import string
 import json
 from datetime import datetime, timedelta
 
+from api.models.event import EventCreate as Event
+from api.models.coupon import CouponWithSelections as Coupon
+from api.models.user import User
+
 countries = ["US", "UK", "DE", "FR", "GR", "AL", "IT", "ES", "JPN"]
 currencies = ["USD", "EUR", "JPY", "GBP"]
 sports = ["Football", "Basketball", "Volley", "Tennis", "Golf", "Rugby", "Hockey"]
@@ -86,16 +90,9 @@ def create_event(event_id: str) -> Event:
     )
 
 
-def create_selection(event_id: str) -> Selection:
-    return Selection(
-        event_id=event_id,
-        odds=random.uniform(1.0, 3.0),
-    )
-
-
 events = []
 for i in range(100):
-    events.append(create_event(str(random.randint(1, 100_000))))
+    events.append(create_event(i))
 
 
 def random_event() -> Event:
@@ -104,9 +101,9 @@ def random_event() -> Event:
 
 def create_coupon(user_id: int, coupon_id: int) -> Coupon:
     return Coupon(
-        coupon_id=coupon_id,
+        id=coupon_id,
         selections=[
-            Selection(event_id=random_event().event_id, odds=random.uniform(1.0, 3.0))
+            {"event_id": random.randint(1, 100), "odds": random.uniform(1.0, 3.0)}
             for _ in range(random.randint(1, 5))
         ],
         stake=random.uniform(10.0, 1000.0),
@@ -117,14 +114,12 @@ def create_coupon(user_id: int, coupon_id: int) -> Coupon:
 
 users = []
 for i in range(100):
-    users.append(create_user(random.randint(1, 100_000)))
+    users.append(create_user(i))
 
 
 coupons = []
 for i in range(100):
-    coupons.append(
-        create_coupon(random.choice(users).user_id, random.randint(1, 100_000))
-    )
+    coupons.append(create_coupon(random.randint(1, 100), i))
 
 # Appending a user with id 0 to the list of users for testing
 users.append(
@@ -143,10 +138,10 @@ users.append(
 with open("./api/data/dummy.json", "w") as f:
     json.dump(
         {
-            "users": [user.dict() for user in users],
-            "events": [event.dict() for event in events],
+            "users": [user.model_dump() for user in users],
+            "events": [event.model_dump() for event in events],
             # "recommendations": [rec.dict() for rec in recommendations],
-            "coupons": [coupon.dict() for coupon in coupons],
+            "coupons": [coupon.model_dump() for coupon in coupons],
         },
         f,
     )
