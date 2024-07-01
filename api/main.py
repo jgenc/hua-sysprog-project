@@ -1,20 +1,21 @@
-from contextlib import asynccontextmanager
+import os
 import logging
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from .routers import users, events, coupons, recommendations
 from .data.dataframe import BettingDataDataframe
 
 # The order matters here. More at https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/#sqlmodel-metadata-order-matters
 from .dependencies.database import create_db_and_tables
-
-from aiokafka import AIOKafkaConsumer, AIOKafkaProducer
+from .routers import coupons, events, recommendations, users
 
 logger = logging.getLogger("api")
+PORT = os.getenv("PORT", 8098)
+PORT = int(PORT)
+
+
 # logger.disabled = True
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     create_db_and_tables()
@@ -37,12 +38,13 @@ def read_root():
 
 if __name__ == "__main__":
     import uvicorn
+
     from .log_conf import LOGGING_CONFIG
 
     uvicorn.run(
         "api.main:app",
         host="0.0.0.0",
-        port=8098,
+        port=PORT,
         log_config=LOGGING_CONFIG,
         reload=True,
     )

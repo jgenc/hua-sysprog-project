@@ -41,6 +41,43 @@ Fill in
 
 ### Containers
 
+> Keep in mind that if you do not want to use the docker-compose solution you will have to
+> manually start a kafka server and point the the producer and consumer containers
+> to the correct IP and port using the `BOOTSTRAP_SERVER` environemnt variable available
+> in both containers.
+
+---
+
+#### `api`
+
+##### Environment variables
+
+- `PORT`: Indicates the port that the container will expose. Should be a string. Defaults to `"8098"`. **Required**
+
+##### Usage
+
+Build the container without a tag:
+
+```bash
+docker build . -f api/api.Dockerfile
+```
+
+or additionally provide a tag
+
+```bash
+docker build -t hua-sysprog-project-api . -f api/api.Dockerfile
+```
+
+Run the container using the following
+
+```bash
+docker run \
+    -e PORT="8098" \
+    hua-sysprog-project-api:latest
+```
+
+---
+
 #### `consumer`
 
 ##### Environment variables
@@ -71,9 +108,7 @@ docker run \
     hua-sysprog-project-consumer:latest
 ```
 
-> Keep in mind that if you do not want to use the docker-compose solution you will have to
-> manually start a kafka server and point the consumer to the correct IP and port
-> using the `BOOTSTRAP_SERVER` environemnt variable
+---
 
 #### `producer`
 
@@ -102,7 +137,3 @@ docker run \
     -e BOOTSTRAP_SERVER="0.0.0.0:2994" \
     hua-sysprog-project-producer:latest
 ```
-
-> Keep in mind that if you do not want to use the docker-compose solution you will have to
-> manually start a kafka server and point the producer to the correct IP and port
-> using the `BOOTSTRAP_SERVER` environemnt variable

@@ -1,4 +1,6 @@
 .idea/
+**/*.DS_Store
+.vscode/
 
 # Testing files
 df_testing.ipynb
