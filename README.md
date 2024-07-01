@@ -71,8 +71,9 @@ docker run \
     hua-sysprog-project-consumer:latest
 ```
 
-> Keep in mind that if you want to not use the docker-compose solution you will have to
-> manually start a kafka server and point the consumer to the correct IP and port.
+> Keep in mind that if you do not want to use the docker-compose solution you will have to
+> manually start a kafka server and point the consumer to the correct IP and port
+> using the `BOOTSTRAP_SERVER` environemnt variable
 
 #### `producer`
 
@@ -93,3 +94,15 @@ or additionally provide a tag
 ```bash
 docker build -t hua-sysprog-project-consumers . -f consumers/consumer.Dockerfile
 ```
+
+Run the container using the following
+
+```bash
+docker run \
+    -e BOOTSTRAP_SERVER="0.0.0.0:2994" \
+    hua-sysprog-project-producer:latest
+```
+
+> Keep in mind that if you do not want to use the docker-compose solution you will have to
+> manually start a kafka server and point the producer to the correct IP and port
+> using the `BOOTSTRAP_SERVER` environemnt variable
