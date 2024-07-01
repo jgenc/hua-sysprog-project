@@ -6,17 +6,17 @@ import json
 import os
 
 bootstrap_server = environ.get("BOOTSTRAP_SERVER", "kafka:9092")
-TOPIC = os.environ.get("TOPIC")
+TOPICS = os.environ.get("TOPIC")
 
-async def consumer(topic: str):
+async def consumer(topics: str):
     try:
         consumer = AIOKafkaConsumer(
-            topic,
+            topics,
             bootstrap_servers=bootstrap_server,
         )
         await consumer.start()
         print(
-            f"[\x1b[1;31mDEBUG\x1b[0m] Consumer started on topic {topic}.", flush=True
+            f"[\x1b[1;31mDEBUG\x1b[0m] Consumer started on topic {topics}.", flush=True
         )
 
         async for msg in consumer:
@@ -35,7 +35,7 @@ async def consumer(topic: str):
 
 
 if __name__ == "__main__":
-    assert TOPIC, "TOPIC environment variable is required for the Consumer to work"
+    assert TOPICS != "", "TOPICS environment variable is required for the Consumer to work"
 
     # print("[\x1b[1;31mDEBUG\x1b[0m] Consumer started.", flush=True)
-    asyncio.run(consumer(topic=TOPIC))
+    asyncio.run(consumer(topics=TOPICS))

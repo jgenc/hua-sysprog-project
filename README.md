@@ -45,7 +45,8 @@ Fill in
 
 ##### Environment variables
 
-- `TOPICS`: Either a single string or a list of comma separated strings of topics
+- `BOOTSTRAP_SERVER`: The kafka server that the producer should be listening to. Defaults to `localhost:9094`. **Required**
+- `TOPICS`: Either a single string or a list of comma separated strings of topics. No default value. **Required**
 
 ##### Usage
 
@@ -58,5 +59,37 @@ docker build . -f consumers/consumer.Dockerfile
 or additionally provide a tag
 
 ```bash
-docker build -t hua-sysprog-consumers . -f consumers/consumer.Dockerfile
+docker build -t hua-sysprog-project-consumers . -f consumers/consumer.Dockerfile
+```
+
+Run the container using the following
+
+```bash
+docker run \
+    -e TOPICS="test_topic" \
+    -e BOOTSTRAP_SERVER="0.0.0.0:2994" \
+    hua-sysprog-project-consumer:latest
+```
+
+> Keep in mind that if you want to not use the docker-compose solution you will have to
+> manually start a kafka server and point the consumer to the correct IP and port.
+
+#### `producer`
+
+##### Environment variables
+
+- `BOOTSTRAP_SERVER`: The kafka server that the producer should be listening to. Defaults to `localhost:9094`. **Required**
+
+##### Usage
+
+Build the container without a tag:
+
+```bash
+docker build . -f consumers/consumer.Dockerfile
+```
+
+or additionally provide a tag
+
+```bash
+docker build -t hua-sysprog-project-consumers . -f consumers/consumer.Dockerfile
 ```
