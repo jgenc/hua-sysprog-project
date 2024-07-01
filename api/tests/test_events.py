@@ -15,14 +15,14 @@ client = TestClient(events.router)
 
 
 def test_get_event(client):
-    response = client.get("/event/0")
+    response = client.get("/events/0")
 
     assert response.status_code == 200
     assert event.Event().model_validate(response.json())
 
 
 def test_read_event_not_found(client):
-    response = client.get("/event/-1")
+    response = client.get("/events/-1")
 
     assert response.status_code == 404
 
@@ -37,7 +37,7 @@ def test_create_event(client):
         "sport": "Basketball",
     }
 
-    result = client.post("/event/", json=event)
+    result = client.post("/events/", json=event)
     assert result.status_code == 200
 
 
@@ -51,12 +51,12 @@ def test_create_event_same_participants(client):
         "sport": "Basketball",
     }
 
-    result = client.post("/event/", json=event)
+    result = client.post("/events/", json=event)
     assert result.status_code == 200
     result_one_participant_id = result.json()["participants_id"]
     result_one_event_id = result.json()["id"]
 
-    result = client.post("/event/", json=event)
+    result = client.post("/events/", json=event)
     assert result.status_code == 200
     result_two_participant_id = result.json()["participants_id"]
     result_two_event_id = result.json()["id"]

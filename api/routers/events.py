@@ -17,7 +17,7 @@ from api.dependencies.database import get_session
 
 
 router = APIRouter(
-    prefix="/event", tags=["events"], dependencies=[Depends(get_session)]
+    prefix="/events", tags=["events"], dependencies=[Depends(get_session)]
 )
 
 logger = logging.getLogger("api")

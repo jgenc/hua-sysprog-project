@@ -6,11 +6,12 @@ from sqlmodel import select
 from api.dependencies.database import get_session, Session
 from api.models.coupon import Coupon, CouponWithSelections, CouponWeb, Selection
 from api.models.user import User
+from api.models.event import Event
 from api.dependencies.get_betting_data_df import get_df
 from api.StringDatetime import get_time
 
 router = APIRouter(
-    prefix="/coupon", tags=["coupons"], dependencies=[Depends(get_session)]
+    prefix="/coupons", tags=["coupons"], dependencies=[Depends(get_session)]
 )
 
 logger = logging.getLogger("api")
@@ -55,13 +56,19 @@ def read_coupon_userid(
     return get_populated_coupons(results)
 
 
-@router.post("/")
+@router.post("")
 def create_coupon(new_coupon: CouponWeb, session: Session = Depends(get_session)):
     user_results = session.exec(select(User).where(User.id == new_coupon.user_id)).all()
     if not user_results:
         raise HTTPException(status_code=404, detail="User not found")
 
     # TODO: Add a check to see if a coupon for the user exists with exact same stake and selections
+    event_ids = []
+    for selection in new_coupon.selections:
+        event_ids.append(selection.event_id)
+    event_results = session.exec(select(Event).where(Event.id.in_(event_ids))).all()
+    if len(event_results) != len(event_ids):
+        raise HTTPException(status_code=422, detail="Check if Events exist")
 
     new_coupon_db = Coupon(
         user_id=new_coupon.user_id,

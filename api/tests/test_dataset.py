@@ -22,8 +22,8 @@ def session_fixture():
         # poolclass=StaticPool,
     )
     SQLModel.metadata.create_all(engine)
-    with Session(engine) as session:
 
+    with Session(engine) as session:
         test_user = user.User(
             birth_year=2002,
             country="GR",

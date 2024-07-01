@@ -14,7 +14,7 @@ from api.models.user import User, UserCreate, UserCreateWeb, UserPublic
 from api.dependencies.database import get_session
 
 router = APIRouter(
-    prefix="/user",
+    prefix="/users",
     tags=["users"],
     dependencies=[Depends(get_session)],
 )
