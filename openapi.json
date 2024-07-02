@@ -1,0 +1,751 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/users/{user_id}": {
+      "get": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Read User",
+        "operationId": "read_user_users__user_id__get",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "User Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserPublic"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users": {
+      "post": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Create User",
+        "operationId": "create_user_users_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateWeb"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events/{event_id}": {
+      "get": {
+        "tags": [
+          "events"
+        ],
+        "summary": "Read Event",
+        "operationId": "read_event_events__event_id__get",
+        "parameters": [
+          {
+            "name": "event_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Event Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Event"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events": {
+      "post": {
+        "tags": [
+          "events"
+        ],
+        "summary": "Create Event",
+        "operationId": "create_event_events_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EventCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Event"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/coupons/{coupon_id}": {
+      "get": {
+        "tags": [
+          "coupons"
+        ],
+        "summary": "Read Coupon",
+        "operationId": "read_coupon_coupons__coupon_id__get",
+        "parameters": [
+          {
+            "name": "coupon_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Coupon Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Coupon"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/coupons/user/{user_id}": {
+      "get": {
+        "tags": [
+          "coupons"
+        ],
+        "summary": "Read Coupon Userid",
+        "operationId": "read_coupon_userid_coupons_user__user_id__get",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "User Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/CouponWithSelections"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/CouponWithSelections"
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Response Read Coupon Userid Coupons User  User Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/coupons": {
+      "post": {
+        "tags": [
+          "coupons"
+        ],
+        "summary": "Create Coupon",
+        "operationId": "create_coupon_coupons_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CouponWeb"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recommendation/{user_id}": {
+      "get": {
+        "tags": [
+          "recommendation"
+        ],
+        "summary": "Get Recommendation",
+        "operationId": "get_recommendation_recommendation__user_id__get",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "User Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RecommendationWithEvents"
+                  },
+                  "title": "Response Get Recommendation Recommendation  User Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recommendation/generate": {
+      "post": {
+        "tags": [
+          "recommendation"
+        ],
+        "summary": "Generate Recommendations",
+        "operationId": "generate_recommendations_recommendation_generate_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "title": "Response Generate Recommendations Recommendation Generate Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "summary": "Read Root",
+        "operationId": "read_root__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Coupon": {
+        "properties": {
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "stake": {
+            "type": "number",
+            "title": "Stake"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "timestamp": {
+            "type": "string",
+            "title": "Timestamp"
+          }
+        },
+        "type": "object",
+        "required": [
+          "stake",
+          "timestamp"
+        ],
+        "title": "Coupon"
+      },
+      "CouponWeb": {
+        "properties": {
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "stake": {
+            "type": "number",
+            "title": "Stake"
+          },
+          "selections": {
+            "items": {
+              "$ref": "#/components/schemas/SelectionWeb"
+            },
+            "type": "array",
+            "title": "Selections"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_id",
+          "stake",
+          "selections"
+        ],
+        "title": "CouponWeb"
+      },
+      "CouponWithSelections": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "stake": {
+            "type": "number",
+            "title": "Stake"
+          },
+          "timestamp": {
+            "type": "string",
+            "title": "Timestamp"
+          },
+          "selections": {
+            "items": {},
+            "type": "array",
+            "title": "Selections"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "user_id",
+          "stake",
+          "timestamp",
+          "selections"
+        ],
+        "title": "CouponWithSelections"
+      },
+      "Event": {
+        "properties": {
+          "begin_timestamp": {
+            "type": "string",
+            "title": "Begin Timestamp"
+          },
+          "end_timestamp": {
+            "type": "string",
+            "title": "End Timestamp"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "league": {
+            "type": "string",
+            "title": "League"
+          },
+          "sport": {
+            "type": "string",
+            "title": "Sport"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "participants_id": {
+            "type": "integer",
+            "title": "Participants Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "begin_timestamp",
+          "end_timestamp",
+          "country",
+          "league",
+          "sport"
+        ],
+        "title": "Event"
+      },
+      "EventCreate": {
+        "properties": {
+          "begin_timestamp": {
+            "type": "string",
+            "title": "Begin Timestamp"
+          },
+          "end_timestamp": {
+            "type": "string",
+            "title": "End Timestamp"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "league": {
+            "type": "string",
+            "title": "League"
+          },
+          "sport": {
+            "type": "string",
+            "title": "Sport"
+          },
+          "participants": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Participants"
+          }
+        },
+        "type": "object",
+        "required": [
+          "begin_timestamp",
+          "end_timestamp",
+          "country",
+          "league",
+          "sport",
+          "participants"
+        ],
+        "title": "EventCreate"
+      },
+      "GenderEnum": {
+        "type": "string",
+        "enum": [
+          "M",
+          "F"
+        ],
+        "title": "GenderEnum"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "RecommendationWithEvents": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "events": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Events"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "user_id",
+          "events"
+        ],
+        "title": "RecommendationWithEvents"
+      },
+      "SelectionWeb": {
+        "properties": {
+          "event_id": {
+            "type": "integer",
+            "title": "Event Id"
+          },
+          "odds": {
+            "type": "number",
+            "title": "Odds"
+          }
+        },
+        "type": "object",
+        "required": [
+          "event_id",
+          "odds"
+        ],
+        "title": "SelectionWeb"
+      },
+      "User": {
+        "properties": {
+          "birth_year": {
+            "type": "integer",
+            "title": "Birth Year"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "currency": {
+            "type": "string",
+            "title": "Currency"
+          },
+          "gender": {
+            "$ref": "#/components/schemas/GenderEnum"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "birth_year",
+          "country",
+          "currency",
+          "gender"
+        ],
+        "title": "User"
+      },
+      "UserCreateWeb": {
+        "properties": {
+          "birth_year": {
+            "type": "integer",
+            "title": "Birth Year"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "currency": {
+            "type": "string",
+            "title": "Currency"
+          },
+          "gender": {
+            "$ref": "#/components/schemas/GenderEnum"
+          }
+        },
+        "type": "object",
+        "required": [
+          "birth_year",
+          "country",
+          "currency",
+          "gender"
+        ],
+        "title": "UserCreateWeb"
+      },
+      "UserPublic": {
+        "properties": {
+          "birth_year": {
+            "type": "integer",
+            "title": "Birth Year"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "currency": {
+            "type": "string",
+            "title": "Currency"
+          },
+          "gender": {
+            "$ref": "#/components/schemas/GenderEnum"
+          }
+        },
+        "type": "object",
+        "required": [
+          "birth_year",
+          "country",
+          "currency",
+          "gender"
+        ],
+        "title": "UserPublic"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
