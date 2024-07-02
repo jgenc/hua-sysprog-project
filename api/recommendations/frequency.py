@@ -65,4 +65,4 @@ def most_bet_sport_recommenedation(user_id: int):
 
 
 if __name__ == "__main__":
-    most_bet_sport_recommenedation(20)
+    print(most_bet_sport_recommenedation(20))

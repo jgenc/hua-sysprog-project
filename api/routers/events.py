@@ -15,6 +15,8 @@ from api.models.event import (
 # from api.dependencies.get_betting_data_df import get_df
 from api.dependencies.database import get_session
 
+from api.routers.recommendations import generate_recommendations
+
 
 router = APIRouter(
     prefix="/events", tags=["events"], dependencies=[Depends(get_session)]
@@ -70,5 +72,8 @@ def create_event(
     session.add(new_event)
     session.commit()
     session.refresh(new_event)
+
+    # Generate new recommendations
+    generate_recommendations(session=session)
 
     return new_event

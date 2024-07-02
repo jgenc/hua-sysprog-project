@@ -6,7 +6,7 @@ from sqlmodel import select
 from api.models.recommendations import Recommendation, RecommendationWithEvents
 from api.models.user import User
 
-from api.recommendations import most_bet_sport_recommenedation
+from api.recommendations.frequency import most_bet_sport_recommenedation
 from api.dependencies.database import get_session, Session
 
 router = APIRouter(
@@ -48,4 +48,15 @@ def get_recommendation(
 
 @router.post("/generate")
 def generate_recommendations(session: Session = Depends(get_session)) -> str:
-    pass
+    all_user_ids = session.exec(select(User.id)).all()
+
+    for user_id in all_user_ids:
+        # This is the part that can be substituted with a different recommendation algorithm
+        # The recommendation algorithm should just return a list of events
+        results = most_bet_sport_recommenedation(user_id)
+        new_recommendation = Recommendation(user_id=user_id, events=results)
+        session.add(new_recommendation)
+        session.commit()
+        session.refresh(new_recommendation)
+
+    return f"Recommendations generated for {len(all_user_ids)} users."
