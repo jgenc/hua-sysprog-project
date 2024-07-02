@@ -40,7 +40,7 @@ def read_event(event_id: str, session: Session = Depends(get_session)) -> Event:
 
 @router.post("", response_model=Event)
 def create_event(
-    new_event: EventCreate, session: Session = Depends(get_session)
+    new_event: EventCreate, gen_recommendations: bool = True, session: Session = Depends(get_session)
 ) -> Event:
     new_participants = ParticipantsBase(
         a=new_event.participants[0], b=new_event.participants[1]
@@ -74,6 +74,7 @@ def create_event(
     session.refresh(new_event)
 
     # Generate new recommendations
-    generate_recommendations(session=session)
+    if gen_recommendations:
+        generate_recommendations(session=session)
 
     return new_event

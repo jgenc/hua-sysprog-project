@@ -37,7 +37,7 @@ def test_create_event(client):
         "sport": "Basketball",
     }
 
-    result = client.post("/events/", json=event)
+    result = client.post("/events/?gen_recommendations=False", json=event)
     assert result.status_code == 200
 
 
@@ -51,12 +51,12 @@ def test_create_event_same_participants(client):
         "sport": "Basketball",
     }
 
-    result = client.post("/events/", json=event)
+    result = client.post("/events/?gen_recommendations=False", json=event)
     assert result.status_code == 200
     result_one_participant_id = result.json()["participants_id"]
     result_one_event_id = result.json()["id"]
 
-    result = client.post("/events/", json=event)
+    result = client.post("/events/?gen_recommendations=False", json=event)
     assert result.status_code == 200
     result_two_participant_id = result.json()["participants_id"]
     result_two_event_id = result.json()["id"]

@@ -48,6 +48,7 @@ def get_recommendation(
 
 @router.post("/generate")
 def generate_recommendations(session: Session = Depends(get_session)) -> str:
+    print(f"[\x1b[1;31mDEBUG\x1b[0m] {session.info}")
     all_user_ids = session.exec(select(User.id)).all()
 
     for user_id in all_user_ids:
