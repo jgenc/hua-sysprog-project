@@ -10,27 +10,31 @@ This repository houses the code for the project of the "Systems Programming" Lec
 
 - [Architecture](#architecture)
   - [Summary](#summary)
+  - [Data processing](#data-processing)
+  - [Recommendation algorithm](#recommendation-algorithm)
   - [Notes](#notes)
-- [Usage](#usage)
+- [Endpoints](#endpoints)
+  - [Main API](#main-api)
+  - [Producers](#producers)
 - [Performance](#performance)
   - [Dummy uploads](#dummy-uploads)
 - [Installation](#installation)
   - [Local installation](#local-installation)
     - [`conda` environemnt](#conda-environemnt)
     - [Run the API](#run-the-api)
-    - [Populate the dummy data file](#populate-the-dummy-data-file)
+    - [Create dummy data](#create-dummy-data)
   - [Docker](#docker)
     - [`docker-compose` installation and usage](#docker-compose-installation-and-usage)
     - [Containers](#containers)
       - [`api`](#api)
         - [Environment variables](#environment-variables)
-        - [Usage](#usage-1)
+        - [Usage](#usage)
       - [`consumer`](#consumer)
         - [Environment variables](#environment-variables-1)
-        - [Usage](#usage-2)
+        - [Usage](#usage-1)
       - [`producer`](#producer)
         - [Environment variables](#environment-variables-2)
-        - [Usage](#usage-3)
+        - [Usage](#usage-2)
 - [Development](#development)
 
 ## Architecture
@@ -39,17 +43,51 @@ This repository houses the code for the project of the "Systems Programming" Lec
 
 ### Summary
 
-A list of clients (in this case, just one) send the user, coupon and event data to the system using a kafka producer (or multiple, depending on the configuration). Each class of data is produced in its own topic. The default configuration of the system will create one kafka consumer for each topic. The consumers send the data to the corresponding endpoint of the API. That data is stored in a datastore, in this case it's an sqlite database. The recommendation generator algorithm produces recommendations based on the frequency of the betting sport of each user. The generation process is executed every time an event is uploaded to the system *or*, additionally, it can be executed manually, using the corresponding endpoint. The consumers/end-users of the system can access their recommendations by providing their Id to the /recommendations/{user_id} endpoint.
+A list of clients (in this case, just one) send the user, coupon and event data to the system using a kafka producer (or multiple, depending on the configuration). Each class of data is produced in its own topic. The default configuration of the system will create one kafka consumer for each topic. The consumers send the data to the corresponding endpoint of the API. That data is stored in a datastore, in this case it's an sqlite database. The recommendation generator algorithm produces recommendations based on the frequency of the betting sport of each user. The generation process is executed every time an event is uploaded to the system *or*, additionally, it can be executed manually, using the corresponding endpoint. The end-users of the system can access their recommendations by providing their Id to the /recommendations/{user_id} endpoint.
+
+### Data processing
+
+The data processing pipeline is handled in the following fashion:
+
+1. A Kafka setup with 1 producer per client and 1 consumer per topic
+2. Each kafka producer is a FastAPI server that supports 3 endpoints: `POST /copupons`, `POST /events` and `POST /users` ([producers/main.py](./producers/main.py)). No validation is done at this level.
+3. Each kafka consumer makes use of the `httpx` library ([consumers/main.py](consumers/main.py)) to send the produced data to the corresponding endpoint at the main API ([api/main.py](api/main.py)). No validation is done at this level.
+4. Each POST request made to the main API is validated based on the models found in `api/models/`. If the validation succeeds, then the data is added to the database and commited.
+
+Retrieval of data other than recommendation is supported through the main API, however the use cases of the project do not require to make use of this functionality.
+
+### Recommendation algorithm
+
+The recommendations are generated using a simple frequency-based algorithm. The modularity of the system, however, allows for the use of any type of algorithm.
 
 ### Notes
 
 - There is **one** database which is indicated by the gray color. Different "database icons" have been used to indicate different tables of the database.
-- Producers and consumers are made using the [AIOKafka](https://github.com/aio-libs/aiokafka) Python library.
+- Producers and consumers are developed using the [AIOKafka](https://github.com/aio-libs/aiokafka) Python library.
 - The SQL database can be easily changed in [/api/dependencies/database.py](./api/dependencies/database.py) by modifying the URL used in `create_engine`. [sqlmodel](https://sqlmodel.tiangolo.com/) is used to handle model files and the ORM of the whole project, which works great with [FastAPI](https://fastapi.tiangolo.com/) -- the framework used to develop the system's API.
 
-## Usage
+## Endpoints
 
-API usage, endpoints, etc.
+### Main API
+
+> [!TIP]
+> Take a look at the main API's endpoints in [api/openapi.json](api/openapi.json). Additionally, if you run the docker-compose setup of the system you can visit the following page for a more interactive look (model schemas, example requests, etc.) at the endpoints: `0.0.0.0:8098/docs`. Change the IP or the port of the URL in case the default parameters have been changed.
+
+- `GET /users/{user_id}`
+- `POST /users`
+- `GET /events/{event_id}`
+- `POST /events`
+- `GET /coupons/{user_id}`
+- `GET /coupons/user/{user_id}`
+- `POST /coupons`
+- `GET /recommendation/{user_id}`
+- `POST /recommendation/generate`
+
+### Producers
+
+- `POST /users`
+- `POST /events`
+- `POST /coupons`
 
 ## Performance
 
@@ -89,7 +127,7 @@ conda activate sys_prog
 python -m api.main
 ```
 
-#### Populate the dummy data file
+#### Create dummy data
 
 To upload some dummy data in the dummy database, please run the following lines while the API is running:
 
